@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 092203601
+  m_EditorClassIdentifier: 
+  questionCode: 092203601
+  question: Apakah pelajaran yang dapat diambil dari perumpamaan matahari dan bulan
+    dalam Surah Yaasin?
+  answers:
+  - Allah menunjukkan kekuasaan-Nya dalam mengatur alam semesta dengan sempurna
+  - Keteraturan alam semesta adalah hasil dari kebetulan semata-mata
+  - Keberadaan matahari dan bulan tidak memiliki keterkaitan yang signifikan
+  - Perubahan cuaca dan peristiwa alam tidak dipengaruhi oleh pergerakan matahari
+    dan bulan

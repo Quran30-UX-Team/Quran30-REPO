@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 062705601
+  m_EditorClassIdentifier: 
+  questionCode: 062705601
+  question: Bagaimana reaksi penghuni syurga terhadap arak yang mereka minum?
+  answers:
+  - ' Mereka tidak merasa pening kepala dan tidak mabuk'
+  - ' Mereka merasa pening kepala'
+  - ' Mereka merasa mabuk'
+  - ' Mereka mengalami gangguan pencernaan'

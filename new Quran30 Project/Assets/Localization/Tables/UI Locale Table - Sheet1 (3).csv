@@ -1,0 +1,21 @@
+Key,Id,English(en),Malay(ms),Chinese (Simplified)(zh),Arabic(ar)
+Key_Example,1,Example,Contoh,例子,مثال
+Key_EnterUsername,2,Enter Username..,Masukkan Nama Pengguna..,输入用户名..,ادخل اسم المستخدم..
+Key_T&A,3,Do you agree with our terms and agreement?,Adakah anda bersetuju dengan terma dan perjanjian kami?,您同意我们的条款和协议吗？,هل توافق على شروطنا واتفاقنا؟
+Key_Proceed,4,PROCEED,TERUSKAN,继续,يتابع
+Key_Play,5,PLAY,MAIN,玩,يلعب
+Key_Achievements,6,ACHIEVEMENTS,PENCAPAIAN,成就,الإنجازات
+Key_MoreApps,7,MORE APPS,APPLIKASI LAIN,更多应用程序,تطبيقات أكثر
+Key_Profile,8,PROFILE,PROFIL,轮廓,حساب تعريفي
+Key_AboutUS,9,ABOUT US,TENTANG KAMI,关于我们,معلومات عنا
+Key_Confirm,10,CONFIRM,SAHKAN,确认,يتأكد
+Key_Rank,11,RANK,PANGKAT,秩,رتبة
+Key_Deeds,12,DEEDS,KEBAIKAN,行为,الأفعال
+Key_Settings,13,SETTINGS,TETAPAN,设置,إعدادات
+Key_Practice,14,PRACTICE,BERLATIH,实践,يمارس
+Key_Quiz,15,QUIZ,KUIZ,测验,اختبار
+Key_PickSurah,16,Pick a Surah to start,Pilih Surah untuk memulakan,选择古兰经开始,اختر سورة للبدء
+Key_Paused,17,PAUSED,DIJEDA,暂停,متوقف مؤقتًا
+Key_Retry,18,RETRY,CUBA SEMULA,重试,إعادة المحاولة
+Key_BackToMainMenu,19,BACK TO MAIN MENU,KEMBALI KE MENU UTAMA,返回主菜单,العودة إلى القائمة الرئيسية
+Key_Congratulation,20,CONGRATULATION,TAHNIAH,恭喜,تهنئة

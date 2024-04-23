@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 042203501
+  m_EditorClassIdentifier: 
+  questionCode: 042203501
+  question: Golongan manakah yang dinyatakan sebagai penerima ampunan dan pahala
+    yang besar?
+  answers:
+  - Golongan yang beriman dan mengerjakan amal soleh
+  - Golongan yang melakukan perbuatan buruk tetapi dijadikan menganggap baik perbuatan
+    mereka dan mempercayainya sebagai baik
+  - Golongan yang menyertai syaitan dan mengikuti bisikannya tanpa disedari
+  - '"Golongan yang menunjukkan kebaikan secara lahiriah tetapi dalam hati mereka
+    dipenuhi dengan kedurhakaan"'

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 021702101
+  m_EditorClassIdentifier: 
+  questionCode: 021702101
+  question: '"""Dan apakah orang-orang yang kafir tidak mengetahui bahawasanya langit
+    dan bumi itu keduanya dahulu adalah suatu yang padu'
+  answers:
+  - " kemudian Kami pisahkan antara keduanya Dan dari air Kami jadikan segala sesuatu
+    yang hidup Maka mengapakah mereka tiada juga beriman?\u201DMengapa Allah menegur
+    orang-orang kafir dalam ayat 30 Surah Al-Anbiyaa'?\""
+  - Kerana mereka tidak beriman kepada Allah walaupun melihat kebesaranNya dalam
+    ciptaanNya
+  - Kerana mereka tidak mengetahui bahawa langit dan bumi itu asalnya bersatu
+  - Kerana mereka mengatakan bahawa mereka adalah ilah selain daripada Allah

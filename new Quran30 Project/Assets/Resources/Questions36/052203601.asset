@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 052203601
+  m_EditorClassIdentifier: 
+  questionCode: 052203601
+  question: Apakah kesan yang dialami oleh orang-orang yang tidak mahu menerima hidayah?
+  answers:
+  - Mereka akan mengalami kegelapan dan terhalang daripada menerima hidayah
+  - Mereka akan mendapat keampunan dan pahala yang besar
+  - Allah akan membuka pintu hidayah bagi mereka
+  - Mereka akan dimasukkan ke dalam syurga

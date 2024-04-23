@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 041601901
+  m_EditorClassIdentifier: 
+  questionCode: 041601901
+  question: Mengapakah Nabi Zakaria as memohon doa untuk mendapatkan anak lelaki?
+  answers:
+  - '"Kerana baginda bimbang tentang siapa yang akan meneruskan tugas-tugas ugama
+    selepas kewafatan baginda"'
+  - Kerana baginda ingin memiliki waris yang akan mewarisi harta benda daripadanya
+  - Kerana isterinya ingin memiliki seorang anak untuk menemani mereka di hari tua
+  - Kerana baginda merasa tidak lengkap sebagai seorang Nabi tanpa memiliki anak

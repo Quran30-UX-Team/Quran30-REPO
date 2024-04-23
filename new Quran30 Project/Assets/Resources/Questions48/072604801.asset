@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 072604801
+  m_EditorClassIdentifier: 
+  questionCode: 072604801
+  question: Apa yang menjadi keinginan golongan munafik ketika Rasulullah dan para
+    mukmin pergi ke Mekah untuk mengerjakan Umrah?
+  answers:
+  - Mereka berharap agar Rasulullah dan para mukmin tidak kembali dari perjalanan
+    tersebut
+  - Mereka ingin ikut serta dalam perjalanan Umrah
+  - Mereka ingin membantu Rasulullah dan para mukmin dalam perjalanan
+  - Mereka merencanakan untuk menyambut kedatangan Rasulullah dan para mukmin dengan
+    gembira

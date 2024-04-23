@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 032103301
+  m_EditorClassIdentifier: 
+  questionCode: 032103301
+  question: Apakah hukum yang ditetapkan oleh Islam berkenaan dengan zihar?
+  answers:
+  - ' Zihar adalah amalan yang dilarang keras oleh Islam dan dianggap sebagai dosa
+    besar'
+  - Zihar adalah amalan yang disyariatkan oleh Islam untuk menyelesaikan konflik
+    dalam perkahwinan
+  - Zihar adalah amalan yang harus dilakukan dengan syarat-syarat tertentu berdasarkan
+    keadaan
+  - '"Zihar adalah amalan yang dibiarkan atas kebijaksanaan individu dan boleh diterimajika
+    dilakukan dengan niat baik"'

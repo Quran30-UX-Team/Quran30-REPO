@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 052303901
+  m_EditorClassIdentifier: 
+  questionCode: 052303901
+  question: Apa yang menjadi larangan Allah terhadap perbuatan tawasul?
+  answers:
+  - Mengambil selain Allah sebagai wali-wali dan menyeru kepada mereka untuk mendekatkan
+    diri kepada Allah
+  - Mengabaikan syariat Islam dan mengikut pandangan manusia
+  - Menggunakan perantaraan untuk berdoa kepada Allah tanpa minta ampun
+  - Mempunyai anak angkat untuk membantu dalam urusan pentadbiran alam

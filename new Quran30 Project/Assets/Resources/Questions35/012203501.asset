@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 012203501
+  m_EditorClassIdentifier: 
+  questionCode: 012203501
+  question: "\"Apakah peringatan yang Allah berikan kepada manusia berdasarkan ayat
+    di bawah?Apakah peringatan yang Allah berikan kepada manusia berdasarkan ayat
+    di bawah?\u201CHai manusia"
+  answers:
+  - " ingatlah akan nikmat Allah kepadamu Adakah pencipta selain Allah yang dapat
+    memberikan rezeki kepada kamu dari langit dan bumi? Tidak ada ilah selain Dia;
+    maka mengapakah kamu berpaling?\u201D\""
+  - '"Allah menegaskan bahawa setiap pencipta dan penyedia rezeki selain daripada-Nya
+    tidak ada Tuhan (yang layak disembah) kecuali Dia"'
+  - '"Allah menegaskan bahawa manusia harus melupakan nikmat Allah yang diberikan
+    kepada mereka dari langit dan bumi"'
+  - Allah menyeru manusia untuk berdoa kepada para malaikat sebagai perantara untuk
+    mendapatkan rezeki

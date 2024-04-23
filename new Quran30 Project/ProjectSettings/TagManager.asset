@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - SetPrimaryColor
+  - SetSecondaryColor
+  - SetTertiaryColor
+  - SetQuarternaryColor
+  - SetTextColor1
+  - SetTextColor2
+  - SetTextColor3
+  - SetTextColor4
+  - SetTextColor5
+  - SetTextColor6
   layers:
   - Default
   - TransparentFX
