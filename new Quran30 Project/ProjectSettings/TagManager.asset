@@ -14,7 +14,7 @@ TagManager:
   - SetTextColor4
   - SetTextColor5
   - SetTextColor6
-  - CompleteAchievement
+  - CompletedAchievement
   layers:
   - Default
   - TransparentFX

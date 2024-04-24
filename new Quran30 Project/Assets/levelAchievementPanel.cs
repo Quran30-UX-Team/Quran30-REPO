@@ -14,11 +14,17 @@ public class AchievementPanelHandler : MonoBehaviour
 
     public GameObject progressContainer;
     public Image progressFillbar;
+    public GameObject Badge;
 
     private void Start()
     {
         achievementNameText.text = achievementName;
         CalculateMaxExp();
+
+        if (PlayerPrefs.GetInt("playerLevel") >= achievementLevel)
+        {
+            COMPLETED();
+        }
     }
 
     private void Update()
@@ -30,12 +36,19 @@ public class AchievementPanelHandler : MonoBehaviour
 
         if (currentLevel == achievementLevel)
         {
-            progressContainer.SetActive(false);
+            COMPLETED();
         }
     }
 
     private void CalculateMaxExp()
     {
         achievementMaxExp = 50 * (achievementLevel + 0); // Ensure achievementMaxExp is at least 1
+    }
+
+    public void COMPLETED()
+    {
+        progressContainer.SetActive(false);
+        Badge.SetActive(true);
+        this.gameObject.tag = "CompletedAchievement";
     }
 }
