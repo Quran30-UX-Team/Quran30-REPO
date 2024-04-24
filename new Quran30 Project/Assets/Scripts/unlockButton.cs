@@ -8,6 +8,7 @@ using Unity.VisualScripting;
 public class unlockButton : MonoBehaviour
 {
     public GameObject unlockPanel;
+    public GameObject unlockBGPanel;
 
     public GameObject lockCode; // The lock number associated with this button
     public GameObject unlockBtn;
@@ -34,6 +35,7 @@ public class unlockButton : MonoBehaviour
     public void openUnlockPanel()
     {
         unlockPanel.SetActive(true);
+        unlockBGPanel.SetActive(true);
         panel.SetActive(false);
         PlayerPrefs.SetString("currentLock", unlockKey);
         PlayerPrefs.SetString("currentButton", lockCode.name);
@@ -52,7 +54,9 @@ public class unlockButton : MonoBehaviour
     IEnumerator findPanel()
     {
         unlockPanel = GameObject.Find("unlockPanel");
+        unlockBGPanel = GameObject.Find("unlockBGPanel");
         yield return new WaitForSeconds(0.1f);
         unlockPanel.SetActive(false);
+        unlockBGPanel.SetActive(false);
     }
 }
