@@ -16,16 +16,29 @@ public class AchievementPanelHandler : MonoBehaviour
     public Image progressFillbar;
     public GameObject Badge;
 
+    public GameObject acceptPanel;
+
+    private bool isCompleted = false; // Track if achievement is completed
+
     private void Start()
     {
         achievementNameText.text = achievementName;
         CalculateMaxExp();
 
-        if (PlayerPrefs.GetInt("playerLevel") >= achievementLevel)
+        // Check if achievement was already completed and accepted
+        if (PlayerPrefs.GetInt("Achievement_" + achievementName + "_Completed") == 1)
         {
+            isCompleted = true;
             COMPLETED();
+
+            // Check if achievement was accepted
+            if (PlayerPrefs.GetInt("Achievement_" + achievementName + "_Accepted") == 1)
+            {
+                acceptAchievement();
+            }
         }
     }
+
 
     private void Update()
     {
@@ -34,9 +47,11 @@ public class AchievementPanelHandler : MonoBehaviour
         float fillAmount = (float)PlayerPrefs.GetInt("currentExp") / achievementMaxExp;
         progressFillbar.fillAmount = fillAmount;
 
-        if (currentLevel == achievementLevel)
+        if (!isCompleted && currentLevel >= achievementLevel)
         {
+            isCompleted = true;
             COMPLETED();
+            PlayerPrefs.SetInt("Achievement_" + achievementName + "_Completed", 1); // Save completion state
         }
     }
 
@@ -48,7 +63,13 @@ public class AchievementPanelHandler : MonoBehaviour
     public void COMPLETED()
     {
         progressContainer.SetActive(false);
-        Badge.SetActive(true);
         this.gameObject.tag = "CompletedAchievement";
+    }
+
+    public void acceptAchievement()
+    {
+        acceptPanel.SetActive(false);
+        Badge.SetActive(true);
+        PlayerPrefs.SetInt("Achievement_" + achievementName + "_Accepted", 1); // Save acceptance state
     }
 }

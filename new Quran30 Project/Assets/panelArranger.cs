@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class panelArranger : MonoBehaviour
 {
@@ -10,15 +11,31 @@ public class panelArranger : MonoBehaviour
     // Tag to identify completed achievement panels
     public string completedAchievementTag = "CompletedAchievement";
 
-    // Function to reorder the panels
+    private int totalPanels;
+    private int panelsWithTag;
+
+    // Reference to the TextMeshProUGUI component to display the count
+    public TextMeshProUGUI countText;
+
+    // Function to reorder the panels and update count text
     void ReorderPanels()
     {
         // Get all panels under the parent transform
         List<Transform> panels = new List<Transform>();
+        panelsWithTag = 0; // Reset the count of panels with tag
+
         foreach (Transform child in panelsParent)
         {
             panels.Add(child);
+
+            // Check if the panel has the specified tag
+            if (child.CompareTag(completedAchievementTag))
+            {
+                panelsWithTag++;
+            }
         }
+
+        totalPanels = panels.Count;
 
         // Sort the panels based on their tag
         panels.Sort((x, y) =>
@@ -44,6 +61,18 @@ public class panelArranger : MonoBehaviour
         for (int i = 0; i < panels.Count; i++)
         {
             panels[i].SetSiblingIndex(i);
+        }
+
+        // Update count text
+        UpdateCountText();
+    }
+
+    // Method to update count text
+    void UpdateCountText()
+    {
+        if (countText != null)
+        {
+            countText.text = panelsWithTag + " / " + totalPanels;
         }
     }
 
