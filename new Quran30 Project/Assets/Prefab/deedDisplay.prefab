@@ -19,22 +19,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6249841807597183242
-Transform:
+--- !u!224 &6249841807597183242
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6403748273973117746}
-  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 237.042, y: 936.46796, z: -21060}
-  m_LocalScale: {x: 15.773846, y: 15.773846, z: 15.773846}
+  m_LocalPosition: {x: 0, y: 0, z: -21060}
+  m_LocalScale: {x: 12.148859, y: 12.148859, z: 12.148859}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4661545205802311027}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 237.042, y: 846}
+  m_SizeDelta: {x: 8.36, y: 8.376328}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &7042838181963355861
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -134,7 +138,7 @@ GameObject:
   - component: {fileID: 9049796445668237615}
   m_Layer: 5
   m_Name: Text (TMP)
-  m_TagString: Untagged
+  m_TagString: SetTextColor1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -195,7 +199,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3

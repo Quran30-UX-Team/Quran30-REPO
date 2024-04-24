@@ -20,7 +20,7 @@ public class levelManager : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(ExpIncreaseCoroutine()); //UNCOMMENT TO TEST LEVEL
+        //StartCoroutine(ExpIncreaseCoroutine()); //UNCOMMENT TO TEST LEVEL
     }
 
     private IEnumerator ExpIncreaseCoroutine()

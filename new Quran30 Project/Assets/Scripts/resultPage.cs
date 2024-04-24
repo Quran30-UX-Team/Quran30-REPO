@@ -38,8 +38,6 @@ public class resultPage : MonoBehaviour
 
     public void Start()
     {
-        particleSystem.Play();
-
         congratsPanelText = congratsPanel.GetComponent<TextMeshProUGUI>();
         rewardPanelText = rewardPanel.GetComponent<TextMeshProUGUI>();
 
@@ -65,29 +63,35 @@ public class resultPage : MonoBehaviour
         totalScore.text = "Total Scores: " + totalScores.ToString();
 
         // Check the score and activate stars accordingly
-        if (totalScores >= 30)
+        if (totalScores < 0.04)
+        {
+            Star1.SetActive(false);
+            Star2.SetActive(false);
+            Star3.SetActive(false);
+        }
+        else if (totalScores < 15)
+        {
+            Star1.SetActive(true);
+            Star2.SetActive(false);
+            Star3.SetActive(false);
+        }
+        else if (totalScores < 30)
+        {
+            Star1.SetActive(true);
+            Star2.SetActive(true);
+            Star3.SetActive(false);
+        }
+        else
         {
             Star1.SetActive(true);
             Star2.SetActive(true);
             Star3.SetActive(true);
         }
-        else if (totalScores >= 15)
+
+        // Activate confetti only if at least one star is active
+        if (Star1.activeSelf || Star2.activeSelf || Star3.activeSelf)
         {
-            Star1.SetActive(true);
-            Star2.SetActive(true);
-            Star3.SetActive(false);
-        }
-        else if (totalScores >= 0.04)
-        {
-            Star1.SetActive(true);
-            Star2.SetActive(false);
-            Star3.SetActive(false);
-        }
-        else
-        {
-            Star1.SetActive(false);
-            Star2.SetActive(false);
-            Star3.SetActive(false);
+            StartCoroutine(confetti(0.1f));
         }
 
         string roundedScore = Mathf.RoundToInt(totalScores).ToString();
@@ -106,5 +110,11 @@ public class resultPage : MonoBehaviour
 
         PlayerPrefs.SetFloat("Deeds", deeds);
         PlayerPrefs.SetFloat("Score", 0);
+    }
+
+    IEnumerator confetti(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        particleSystem.Play();
     }
 }
