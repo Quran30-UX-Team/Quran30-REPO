@@ -141,6 +141,7 @@ public class answerButton : MonoBehaviour
         yield return new WaitForSeconds(0.75f);
         buttonComponent.image.color = defaultColor;
         PlayerPrefs.SetInt("currentExp", PlayerPrefs.GetInt("currentExp") + 5);
+        PlayerPrefs.SetInt("totalExp", PlayerPrefs.GetInt("totalExp") + 5);
     }
 
     IEnumerator turnRed()
@@ -149,6 +150,7 @@ public class answerButton : MonoBehaviour
         yield return new WaitForSeconds(0.75f);
         buttonComponent.image.color = defaultColor;
         PlayerPrefs.SetInt("currentExp", PlayerPrefs.GetInt("currentExp") + 5);
+        PlayerPrefs.SetInt("totalExp", PlayerPrefs.GetInt("totalExp") + 5);
     }
 
     IEnumerator reload()

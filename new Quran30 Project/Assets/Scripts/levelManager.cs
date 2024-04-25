@@ -20,7 +20,7 @@ public class levelManager : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(ExpIncreaseCoroutine()); //UNCOMMENT TO TEST LEVEL
+        //StartCoroutine(ExpIncreaseCoroutine()); //UNCOMMENT TO TEST LEVEL
     }
 
     private IEnumerator ExpIncreaseCoroutine()
@@ -29,6 +29,7 @@ public class levelManager : MonoBehaviour
         {
             yield return new WaitForSeconds(0.01f);
             PlayerPrefs.SetInt("currentExp", PlayerPrefs.GetInt("currentExp") + 1);
+            PlayerPrefs.SetInt("totalExp", PlayerPrefs.GetInt("totalExp") + 1);
         }
     }
 
@@ -37,8 +38,6 @@ public class levelManager : MonoBehaviour
         int currentLevel = PlayerPrefs.GetInt("playerLevel");
         playerLevel.text = currentLevel.ToString();
         expPoints.text = PlayerPrefs.GetInt("currentExp") + "/" + PlayerPrefs.GetInt("currentMaxExp");
-
-        int totalExp = PlayerPrefs.GetInt("totalExp");
 
         float fillAmount = (float)PlayerPrefs.GetInt("currentExp") / PlayerPrefs.GetInt("currentMaxExp");
         expFillBar.fillAmount = fillAmount;
