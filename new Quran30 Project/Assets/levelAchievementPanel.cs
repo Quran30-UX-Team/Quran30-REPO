@@ -57,7 +57,7 @@ public class AchievementPanelHandler : MonoBehaviour
 
     private void CalculateMaxExp()
     {
-        achievementMaxExp = 50 * (achievementLevel + 0); // Ensure achievementMaxExp is at least 1
+        achievementMaxExp = 50 * (achievementLevel - 1); // Ensure achievementMaxExp is at least 1
     }
 
     public void COMPLETED()
