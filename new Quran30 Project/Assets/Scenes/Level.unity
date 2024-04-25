@@ -3217,7 +3217,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1604055992669350476, guid: 5792beea5ac2d954f926e9b5e3264fc1, type: 3}
       propertyPath: m_TagString
-      value: SetTextColor2
+      value: SetTextColor1
       objectReference: {fileID: 0}
     - target: {fileID: 1917196109554064865, guid: 5792beea5ac2d954f926e9b5e3264fc1, type: 3}
       propertyPath: m_AnchorMax.x
