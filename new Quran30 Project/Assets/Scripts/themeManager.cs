@@ -19,7 +19,6 @@ public class ThemeManager : MonoBehaviour
     private Color textColor5;
     private Color textColor6;
 
-
     GameObject[] primaryTheme;
     GameObject[] secondaryTheme;
     GameObject[] tertiaryTheme;
@@ -52,6 +51,7 @@ public class ThemeManager : MonoBehaviour
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor2);//White
                 ColorUtility.TryParseHtmlString("#231F20", out textColor3);//Black
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor4);//White
+
                 break;
             case 2:
                 ColorUtility.TryParseHtmlString("#D1BCDB", out primaryColor); //Light Purple
@@ -63,6 +63,7 @@ public class ThemeManager : MonoBehaviour
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor2);//White
                 ColorUtility.TryParseHtmlString("#231F20", out textColor3);//Black
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor4);//White
+
                 break;
             case 3:
                 ColorUtility.TryParseHtmlString("#0E1C3E", out primaryColor);//Navy Blue
@@ -74,6 +75,7 @@ public class ThemeManager : MonoBehaviour
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor2);//White
                 ColorUtility.TryParseHtmlString("#231F20", out textColor3);//Black
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor4);//White
+
                 break;
             case 4:
                 ColorUtility.TryParseHtmlString("#86BA90", out primaryColor);//Green
@@ -85,6 +87,7 @@ public class ThemeManager : MonoBehaviour
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor2);//White
                 ColorUtility.TryParseHtmlString("#231F20", out textColor3);//Black
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor4);//White
+
                 break;
             default:
                 ColorUtility.TryParseHtmlString("#68C9FF", out primaryColor);//Light Blue
@@ -96,6 +99,7 @@ public class ThemeManager : MonoBehaviour
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor2);//White
                 ColorUtility.TryParseHtmlString("#231F20", out textColor3);//Black
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor4);//White
+
                 break;
         }
 

@@ -147,6 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a6ef8ffd5035af40be6ad1dd6f9788b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selectedPanel: {fileID: 0}
 --- !u!95 &6893179609766723995
 Animator:
   serializedVersion: 5

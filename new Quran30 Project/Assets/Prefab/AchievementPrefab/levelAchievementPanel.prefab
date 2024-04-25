@@ -366,7 +366,7 @@ GameObject:
   - component: {fileID: 5426689817733812579}
   m_Layer: 5
   m_Name: achievementPanel
-  m_TagString: Untagged
+  m_TagString: SetSecondaryColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -817,7 +817,7 @@ GameObject:
   - component: {fileID: 1827555462937546291}
   m_Layer: 5
   m_Name: acceptPanel
-  m_TagString: Untagged
+  m_TagString: SetSecondaryColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -893,7 +893,7 @@ GameObject:
   - component: {fileID: 6132864751448401428}
   m_Layer: 5
   m_Name: Text (TMP)
-  m_TagString: Untagged
+  m_TagString: SetTextColor1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1027,7 +1027,7 @@ GameObject:
   - component: {fileID: 5162808193783335105}
   m_Layer: 5
   m_Name: completeText
-  m_TagString: Untagged
+  m_TagString: SetTextColor1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1161,7 +1161,7 @@ GameObject:
   - component: {fileID: 5173751955840042901}
   m_Layer: 5
   m_Name: Text (TMP) (1)
-  m_TagString: Untagged
+  m_TagString: SetTextColor1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1295,7 +1295,7 @@ GameObject:
   - component: {fileID: 1048897868481421550}
   m_Layer: 5
   m_Name: progressContainer
-  m_TagString: Untagged
+  m_TagString: SetSecondaryColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
