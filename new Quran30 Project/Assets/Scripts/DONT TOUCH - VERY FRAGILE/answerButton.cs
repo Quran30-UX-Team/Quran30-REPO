@@ -140,7 +140,7 @@ public class answerButton : MonoBehaviour
         buttonComponent.image.color = correctColor;
         yield return new WaitForSeconds(0.75f);
         buttonComponent.image.color = defaultColor;
-        PlayerPrefs.SetInt("currentExp", PlayerPrefs.GetInt("currentExp") + 3);
+        PlayerPrefs.SetInt("currentExp", PlayerPrefs.GetInt("currentExp") + 5);
     }
 
     IEnumerator turnRed()
@@ -148,7 +148,7 @@ public class answerButton : MonoBehaviour
         buttonComponent.image.color = wrongColor;
         yield return new WaitForSeconds(0.75f);
         buttonComponent.image.color = defaultColor;
-        PlayerPrefs.SetInt("currentExp", PlayerPrefs.GetInt("currentExp") + 1);
+        PlayerPrefs.SetInt("currentExp", PlayerPrefs.GetInt("currentExp") + 5);
     }
 
     IEnumerator reload()

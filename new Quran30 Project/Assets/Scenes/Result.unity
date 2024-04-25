@@ -7446,6 +7446,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8501703884439056387, guid: 583156c0e186a8f4e86e2687a8033b90, type: 3}
       insertIndex: -1
       addedObject: {fileID: 842775906}
+    - targetCorrespondingSourceObject: {fileID: 8501703884439056387, guid: 583156c0e186a8f4e86e2687a8033b90, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 842775908}
   m_SourcePrefab: {fileID: 100100000, guid: 583156c0e186a8f4e86e2687a8033b90, type: 3}
 --- !u!224 &842775904 stripped
 RectTransform:
@@ -7501,6 +7504,19 @@ MonoBehaviour:
   totalDeed: {fileID: 1332410353}
   totalScore: {fileID: 1359538855}
   devPanel: {fileID: 299677054}
+--- !u!114 &842775908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842775905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69bc6bc8377d2974d9deaf8ef3def78d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  achievementName: 
 --- !u!1 &893464371
 GameObject:
   m_ObjectHideFlags: 0
