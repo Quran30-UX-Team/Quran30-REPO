@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4543100573344754384}
   - component: {fileID: 6240688969191889435}
   m_Layer: 5
-  m_Name: powerUp
+  m_Name: DoubleDeedPU
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a806f486281c0884e92500c400c17322, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b071a525811ad4d4682620206f2f9e5a, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
