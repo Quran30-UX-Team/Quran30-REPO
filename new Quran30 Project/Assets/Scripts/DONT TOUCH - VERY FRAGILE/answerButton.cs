@@ -7,6 +7,7 @@ using TMPro;
 public class answerButton : MonoBehaviour
 {
     public GameObject doublePanel;
+    public GameObject blockPanel;
 
     private bool isCorrect;
     private TextMeshProUGUI answerText;
@@ -57,6 +58,8 @@ public class answerButton : MonoBehaviour
         {
             Debug.LogError("timeController not found in the scene!");
         }
+
+        blockPanel = GameObject.Find("blockPanel");
     }
 
     public void SetAnswerText(string newText)
@@ -71,6 +74,8 @@ public class answerButton : MonoBehaviour
 
     public void onClick()
     {
+        StartCoroutine(debounce(1));
+
         int i = questionSetup.counter;
         doublePanel.SetActive(false);
 
@@ -115,6 +120,7 @@ public class answerButton : MonoBehaviour
             // If there is only one question left, change the scene
             StartCoroutine(resultPage(1));
         }
+
     }
 
     public void ActivatePowerUp()
@@ -164,5 +170,12 @@ public class answerButton : MonoBehaviour
     {
         yield return new WaitForSeconds(waitTime);
         SceneManager.LoadScene("Result");
+    }
+
+    IEnumerator debounce(int waitTime)
+    {
+        blockPanel.SetActive(true);
+        yield return new WaitForSeconds(waitTime);
+        blockPanel.SetActive(false);
     }
 }

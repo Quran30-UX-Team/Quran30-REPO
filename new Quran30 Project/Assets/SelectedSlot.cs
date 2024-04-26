@@ -11,6 +11,7 @@ public class SelectedSlot : MonoBehaviour, IDropHandler
             DraggableItem draggableItem = dropped.GetComponent<DraggableItem>();
             draggableItem.parentAfterDrag = transform;
             draggableItem.tag = "SelectedPowerUP";
+            PlayerPrefs.SetFloat("Premium", PlayerPrefs.GetFloat("Premium") - 10);
         }
     }
 }

@@ -20,6 +20,8 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         // Check if the draggable object has any tag assigned to it
         if (gameObject.tag == "SelectedPowerUP")
         {
+            PlayerPrefs.SetFloat("Premium", PlayerPrefs.GetFloat("Premium") + 10);
+
             // If the object has any tag, destroy it
             Destroy(gameObject);
             return; // Exit the method to prevent further execution
