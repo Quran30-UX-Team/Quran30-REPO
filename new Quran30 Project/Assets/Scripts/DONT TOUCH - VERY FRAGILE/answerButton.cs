@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
 using TMPro;
+using System.Linq;
 
 public class answerButton : MonoBehaviour
 {
@@ -92,8 +93,7 @@ public class answerButton : MonoBehaviour
             // Check if the power-up is activated and apply it only once per question
             if (powerUpActivated)
             {
-                DoubleDeeds();
-                powerUpActivated = false; // Reset the power-up activation
+                DoubleDeedsPowerUp();
             }
 
             // Change the button's color to green
@@ -123,22 +123,18 @@ public class answerButton : MonoBehaviour
 
     }
 
-    public void ActivatePowerUp()
-    {
-        // Set the power-up as activated for this question
-        powerUpActivated = true;
-    }
-
     // Method to double the deeds
-    public void DoubleDeeds()
+    public void DoubleDeedsPowerUp()
     {
-        int i = questionSetup.counter;
-
         // Double the deeds
+        int i = questionSetup.counter;
         rightDeeds *= 2;
 
         // Save the doubled deeds for the current question
         PlayerPrefs.SetFloat("Deeds_" + i, Mathf.Round(rightDeeds * 100f) / 100f);
+
+        // Reset the power-up activation
+        powerUpActivated = false;
     }
 
     IEnumerator turnGreen()
@@ -177,5 +173,39 @@ public class answerButton : MonoBehaviour
         blockPanel.SetActive(true);
         yield return new WaitForSeconds(waitTime);
         blockPanel.SetActive(false);
+    }
+
+    // Method to remove a specified number of random wrong answers
+    public void RemoveRandomWrongAnswers(int count)
+    {
+        // Get all answer buttons in the scene
+        answerButton[] answerButtons = FindObjectsOfType<answerButton>();
+
+        // Filter out the wrong answer buttons
+        answerButton[] wrongAnswerButtons = answerButtons.Where(button => !button.isCorrect).ToArray();
+
+        // If there are fewer wrong answers than the count, set count to the number of wrong answers
+        count = Mathf.Min(count, wrongAnswerButtons.Length);
+
+        // Shuffle the wrong answer buttons array
+        ShuffleArray(wrongAnswerButtons);
+
+        // Disable the specified number of wrong answer buttons
+        for (int i = 0; i < count; i++)
+        {
+            wrongAnswerButtons[i].gameObject.SetActive(false);
+        }
+    }
+
+    // Method to shuffle an array
+    private void ShuffleArray<T>(T[] array)
+    {
+        for (int i = array.Length - 1; i > 0; i--)
+        {
+            int randomIndex = Random.Range(0, i + 1);
+            T temp = array[i];
+            array[i] = array[randomIndex];
+            array[randomIndex] = temp;
+        }
     }
 }

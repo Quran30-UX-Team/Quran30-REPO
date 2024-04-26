@@ -7,26 +7,24 @@ using TMPro;
 public class questionSetup : MonoBehaviour
 {
     public GameObject devPanel;
+
+    public GameObject answerPanel; // Reference to the answer panel
     private string questionFilePath;
 
-    [SerializeField]
-    public List<questionData> questions;
+    [SerializeField] public List<questionData> questions;
     private questionData currentQuestion;
-    [SerializeField]
-    private TextMeshProUGUI questionText;
-    [SerializeField]
-    private TextMeshProUGUI codeText;
-    [SerializeField]
-    private answerButton[] answerButtons;
-    [SerializeField]
-    private int correctAnswerChoice;
+    [SerializeField] private TextMeshProUGUI questionText;
+    [SerializeField] private TextMeshProUGUI codeText;
+    [SerializeField] private answerButton[] answerButtons;
+    [SerializeField] private int correctAnswerChoice;
 
-    [SerializeField]
-    private TextMeshProUGUI counterText;
+    [SerializeField] private TextMeshProUGUI counterText;
 
     public int counter;
 
     private int totalCount;
+
+    private answerButton answerButton;
 
     public void Awake()
     {
@@ -53,7 +51,7 @@ public class questionSetup : MonoBehaviour
         questions = new List<questionData>(Resources.LoadAll<questionData>(questionFilePath));
     }
 
-     public void SelectNewQuestion()
+    public void SelectNewQuestion()
     {
         int randomQuestionIndex = Random.Range(0, questions.Count);
 
@@ -63,7 +61,9 @@ public class questionSetup : MonoBehaviour
 
         counter++;
         counterText.text = counter + "/" + totalCount;
-        print(questions.Count);
+
+        // Activate all children of the answer panel
+        ActivateAnswerPanelChildren();
     }
 
     void SetQuestionValues()
@@ -90,6 +90,7 @@ public class questionSetup : MonoBehaviour
             answerButtons[i].SetAnswerText(answers[i]);
         }
     }
+
     private List<string> RandomizeAnswers(List<string> originalList)
     {
         bool correctAnswerChosen = false;
@@ -110,5 +111,14 @@ public class questionSetup : MonoBehaviour
             originalList.RemoveAt(random);
         }
         return newList;
+    }
+
+    private void ActivateAnswerPanelChildren()
+    {
+        // Activate all children of the answer panel
+        foreach (Transform child in answerPanel.transform)
+        {
+            child.gameObject.SetActive(true);
+        }
     }
 }

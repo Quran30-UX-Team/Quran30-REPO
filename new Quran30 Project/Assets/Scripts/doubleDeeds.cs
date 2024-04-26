@@ -21,7 +21,7 @@ public class doubleDeeds : MonoBehaviour
         // Iterate through all answerButtons and call a function to activate the power-up
         foreach (answerButton button in answerButtons)
         {
-            button.ActivatePowerUp();
+            button.DoubleDeedsPowerUp();
         }
 
         this.gameObject.SetActive(false);
