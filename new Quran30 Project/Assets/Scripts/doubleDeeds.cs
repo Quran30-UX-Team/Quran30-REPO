@@ -2,19 +2,14 @@ using UnityEngine;
 
 public class doubleDeeds : MonoBehaviour
 {
-    public GameObject doublePanel;
-
+    private GameObject doublePanel;
+    public void Start()
+    {
+        doublePanel = GameObject.Find("doublePanel");
+    }
     public void onClick()
     {
-        if (PlayerPrefs.GetFloat("Premium") > 9)
-        {
-            PlayerPrefs.SetFloat("Premium", PlayerPrefs.GetFloat("Premium") - 10);
-            activateDouble();
-        }
-        else
-        {
-            print("No Money");
-        }
+        activateDouble();
     }
     public void activateDouble()
     {
@@ -28,5 +23,7 @@ public class doubleDeeds : MonoBehaviour
         {
             button.ActivatePowerUp();
         }
+
+        this.gameObject.SetActive(false);
     }
 }

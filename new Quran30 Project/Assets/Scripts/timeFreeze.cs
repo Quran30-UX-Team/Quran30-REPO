@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class TimeFreeze : MonoBehaviour
 {
-    public GameObject freezePanel;
+    private GameObject freezePanel;
     private timeController timeController;
 
     void Start()
@@ -13,31 +13,30 @@ public class TimeFreeze : MonoBehaviour
         {
             Debug.LogError("TimeController component not found!");
         }
+
+        freezePanel = GameObject.Find("freezePanel");
     }
     public void FreezeTimer(float setTimer)
     {
-        if (PlayerPrefs.GetFloat("Premium") > 9)
-        {
-            PlayerPrefs.SetFloat("Premium", PlayerPrefs.GetFloat("Premium") - 10);
-            StartCoroutine(FreezeForAMoment(setTimer));
-        }
-        else
-        {
-            print("No Money");
-        }
+        StartCoroutine(FreezeForAMoment(setTimer));
     }
 
     IEnumerator FreezeForAMoment(float seconds)
     {
         timeController.enabled = false;
         if (freezePanel != null)
+        {
             freezePanel.SetActive(true);
+        }
         Debug.Log("FREEZE");
         yield return new WaitForSeconds(seconds);
         Debug.Log("UNFREEZE");
         timeController.enabled = true;
         if (freezePanel != null)
+        {
             freezePanel.SetActive(false);
+        }
+        this.gameObject.SetActive(false);
     }
 
 }
