@@ -36,6 +36,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level.unity
     guid: 95362b9b91deac140923e04b4d8bc0bf
   - enabled: 1
+    path: Assets/Scenes/PowerUPShop.unity
+    guid: a3e6ca15f93b9cd418e61faf49098f80
+  - enabled: 1
     path: Assets/Scenes/COMING SOON.unity
     guid: ee0f36566582a134b904f66322e6bc3f
   m_configObjects:
