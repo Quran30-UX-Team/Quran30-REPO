@@ -5,7 +5,7 @@ public class SelectedSlot : MonoBehaviour, IDropHandler
 {
     public void OnDrop(PointerEventData eventData)
     {
-        if (transform.childCount == 0)
+        if (transform.childCount == 0 && PlayerPrefs.GetFloat("Premium") > 9)
         {
             GameObject dropped = eventData.pointerDrag;
             DraggableItem draggableItem = dropped.GetComponent<DraggableItem>();

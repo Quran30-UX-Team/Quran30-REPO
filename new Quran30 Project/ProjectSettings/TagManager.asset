@@ -16,6 +16,7 @@ TagManager:
   - SetTextColor6
   - CompletedAchievement
   - SelectedPowerUP
+  - Claimed
   layers:
   - Default
   - TransparentFX

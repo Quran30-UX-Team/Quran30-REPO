@@ -8,6 +8,8 @@ public class levelManager : MonoBehaviour
     public Image expFillBar;
 
     [SerializeField]
+    private TextMeshProUGUI username;
+    [SerializeField]
     private TextMeshProUGUI playerLevel;
     [SerializeField]
     private TextMeshProUGUI expPoints;
@@ -35,6 +37,7 @@ public class levelManager : MonoBehaviour
 
     private void UpdateUI()
     {
+        username.text = PlayerPrefs.GetString("Profile Name");
         int currentLevel = PlayerPrefs.GetInt("playerLevel");
         playerLevel.text = currentLevel.ToString();
         expPoints.text = PlayerPrefs.GetInt("currentExp") + "/" + PlayerPrefs.GetInt("currentMaxExp");

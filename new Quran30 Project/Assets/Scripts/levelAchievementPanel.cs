@@ -71,5 +71,6 @@ public class AchievementPanelHandler : MonoBehaviour
         acceptPanel.SetActive(false);
         Badge.SetActive(true);
         PlayerPrefs.SetInt("Achievement_" + achievementName + "_Accepted", 1); // Save acceptance state
+        this.gameObject.tag = "Claimed";
     }
 }

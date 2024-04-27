@@ -53,7 +53,7 @@ public class SceneEnterAchievement : MonoBehaviour
         }
 
         // Check if achievement is completed
-        if (sceneEntriesCount >= requiredSceneEntries)
+        if (sceneEntriesCount >= requiredSceneEntries && isCompleted == false)
         {
             isCompleted = true;
             COMPLETED();
@@ -74,5 +74,6 @@ public class SceneEnterAchievement : MonoBehaviour
         acceptPanel.SetActive(false);
         Badge.SetActive(true);
         PlayerPrefs.SetInt("Achievement_" + achievementName + "_Accepted", 1); // Save acceptance state
+        this.gameObject.tag = "Claimed";
     }
 }
