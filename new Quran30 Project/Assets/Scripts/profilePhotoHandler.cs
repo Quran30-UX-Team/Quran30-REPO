@@ -10,6 +10,7 @@ public class profilePhotoHandler : MonoBehaviour
 
     public void ImportPhoto()
     {
+        Debug.Log("IMPORT PHOTO");
         NativeGallery.Permission permission = NativeGallery.GetImageFromGallery((path) =>
         {
             if (path != null)
