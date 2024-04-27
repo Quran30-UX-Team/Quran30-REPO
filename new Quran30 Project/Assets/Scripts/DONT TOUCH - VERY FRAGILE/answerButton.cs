@@ -10,6 +10,8 @@ public class answerButton : MonoBehaviour
     public GameObject doublePanel;
     public GameObject blockPanel;
 
+    public doubleDeeds doubleDeeds;
+
     private bool isCorrect;
     private TextMeshProUGUI answerText;
     private Button buttonComponent;
@@ -25,19 +27,10 @@ public class answerButton : MonoBehaviour
     private int score;
 
     private float rightDeeds;
-    private float rightScores;
-
     private float wrongDeeds;
-    private float wrongScores;
-
-    // Variables related to power-up
-    private bool powerUpActivated = false; // Indicate if the power-up is activated for this question
 
     private float rightDeedMulti = 0.5f;
     private float wrongDeedMulti = 0.05f;
-
-    private float rightScoreMulti = 0.5f;
-    private float wrongScoreMulti = -0.75f;
 
     private void Awake()
     {
@@ -84,14 +77,12 @@ public class answerButton : MonoBehaviour
         {
             // Calculate deeds and scores for the current question
             rightDeeds = PlayerPrefs.GetFloat("Timer") * 0.5f;
-            rightScores = PlayerPrefs.GetFloat("Timer") * 0.5f;
 
-            // Save deeds and scores for the current question
+            // Save deeds for the current question
             PlayerPrefs.SetFloat("Deeds_" + i, Mathf.Round(rightDeeds * 100f) / 100f);
-            PlayerPrefs.SetFloat("Scores_" + i, Mathf.Round(rightScores * 100f) / 100f);
 
             // Check if the power-up is activated and apply it only once per question
-            if (powerUpActivated)
+            if (PlayerPrefs.GetInt("DoubleDeedPU") == 1)
             {
                 DoubleDeedsPowerUp();
             }
@@ -102,10 +93,9 @@ public class answerButton : MonoBehaviour
         else
         {
             wrongDeeds = PlayerPrefs.GetFloat("Timer") * 0.05f;
-            wrongScores = (11f - PlayerPrefs.GetFloat("Timer")) * -0.75f;
-            // Save deeds and scores for the current question
+
+            // Save deeds for the current question
             PlayerPrefs.SetFloat("Deeds_" + i, Mathf.Round(wrongDeeds * 100f) / 100f);
-            PlayerPrefs.SetFloat("Scores_" + i, Mathf.Round(wrongScores * 100f) / 100f);
 
             // Change the button's color to red
             StartCoroutine(turnRed());
@@ -120,7 +110,6 @@ public class answerButton : MonoBehaviour
             // If there is only one question left, change the scene
             StartCoroutine(resultPage(1));
         }
-
     }
 
     // Method to double the deeds
@@ -134,7 +123,7 @@ public class answerButton : MonoBehaviour
         PlayerPrefs.SetFloat("Deeds_" + i, Mathf.Round(rightDeeds * 100f) / 100f);
 
         // Reset the power-up activation
-        powerUpActivated = false;
+        PlayerPrefs.SetInt("DoubleDeedPU", 0);
     }
 
     IEnumerator turnGreen()
