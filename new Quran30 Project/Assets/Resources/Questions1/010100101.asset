@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 010100101
   m_EditorClassIdentifier: 
   questionCode: 010100101
+  image: {fileID: 2800000, guid: abcee7962affd804aad50b7fee4d440c, type: 3}
   question: Apakah maksud dari ayat <i>"Bismillahirrahmanirrahim"</i>?
   answers:
   - Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang

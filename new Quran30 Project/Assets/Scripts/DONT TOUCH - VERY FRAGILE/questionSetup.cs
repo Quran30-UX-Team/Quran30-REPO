@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.UI;
 
 public class questionSetup : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class questionSetup : MonoBehaviour
     private questionData currentQuestion;
     [SerializeField] private TextMeshProUGUI questionText;
     [SerializeField] private TextMeshProUGUI codeText;
+    [SerializeField] private RawImage questionImageRaw;
     [SerializeField] private answerButton[] answerButtons;
     [SerializeField] private int correctAnswerChoice;
 
@@ -70,6 +72,17 @@ public class questionSetup : MonoBehaviour
     {
         codeText.text = "Question Code: " + currentQuestion.questionCode;
         questionText.text = currentQuestion.question;
+
+        // Load and set the question image
+        Texture2D imageTexture = currentQuestion.image;
+        if (imageTexture != null)
+        {
+            questionImageRaw.texture = imageTexture;
+        }
+        else
+        {
+            questionImageRaw.texture = null;
+        }
     }
 
     private void SetAnswerValues()
