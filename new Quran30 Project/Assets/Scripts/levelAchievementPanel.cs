@@ -37,10 +37,12 @@ public class AchievementPanelHandler : MonoBehaviour
                 acceptAchievement();
             }
         }
+
+        UpdateExp();
     }
 
 
-    private void Update()
+    public void UpdateExp()
     {
         int currentLevel = PlayerPrefs.GetInt("playerLevel");
 

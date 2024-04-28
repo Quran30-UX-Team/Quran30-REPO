@@ -27,7 +27,10 @@ public class answerButton : MonoBehaviour
     private int score;
 
     private float rightDeeds;
+    private float rightScores;
+
     private float wrongDeeds;
+    private float wrongScores;
 
     private float rightDeedMulti = 0.5f;
     private float wrongDeedMulti = 0.05f;
@@ -77,9 +80,11 @@ public class answerButton : MonoBehaviour
         {
             // Calculate deeds and scores for the current question
             rightDeeds = PlayerPrefs.GetFloat("Timer") * 0.5f;
+            rightScores = PlayerPrefs.GetFloat("Timer") * 0.5f;
 
-            // Save deeds for the current question
+            // Save deeds and scores for the current question
             PlayerPrefs.SetFloat("Deeds_" + i, Mathf.Round(rightDeeds * 100f) / 100f);
+            PlayerPrefs.SetFloat("Scores_" + i, Mathf.Round(rightScores * 100f) / 100f);
 
             // Check if the power-up is activated and apply it only once per question
             if (PlayerPrefs.GetInt("DoubleDeedPU") == 1)
@@ -93,9 +98,10 @@ public class answerButton : MonoBehaviour
         else
         {
             wrongDeeds = PlayerPrefs.GetFloat("Timer") * 0.05f;
-
-            // Save deeds for the current question
+            wrongScores = (11f - PlayerPrefs.GetFloat("Timer")) * -0.75f;
+            // Save deeds and scores for the current question
             PlayerPrefs.SetFloat("Deeds_" + i, Mathf.Round(wrongDeeds * 100f) / 100f);
+            PlayerPrefs.SetFloat("Scores_" + i, Mathf.Round(wrongScores * 100f) / 100f);
 
             // Change the button's color to red
             StartCoroutine(turnRed());

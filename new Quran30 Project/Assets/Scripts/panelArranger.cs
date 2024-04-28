@@ -30,7 +30,7 @@ public class panelArranger : MonoBehaviour
             panels.Add(child);
 
             // Check if the panel has the specified tag
-            if (child.CompareTag(completedAchievementTag))
+            if (child.CompareTag(ClaimedTag))
             {
                 panelsWithTag++;
             }

@@ -1790,7 +1790,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 225591588}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -6831,7 +6831,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 754310696300682245, guid: 773e99c3a40f18d4dacb19c5e4830048, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -223.41156
+      value: -130.82
       objectReference: {fileID: 0}
     - target: {fileID: 754310696300682245, guid: 773e99c3a40f18d4dacb19c5e4830048, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6849,9 +6849,17 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 0.39215687
       objectReference: {fileID: 0}
+    - target: {fileID: 1701024645641466125, guid: 773e99c3a40f18d4dacb19c5e4830048, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1920286630016219703, guid: 773e99c3a40f18d4dacb19c5e4830048, type: 3}
       propertyPath: m_Color.a
       value: 0.39215687
+      objectReference: {fileID: 0}
+    - target: {fileID: 1920286630016219703, guid: 773e99c3a40f18d4dacb19c5e4830048, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2102056637070577995, guid: 773e99c3a40f18d4dacb19c5e4830048, type: 3}
       propertyPath: m_Enabled
@@ -7317,6 +7325,22 @@ PrefabInstance:
     - target: {fileID: 5340664860054804637, guid: 6a3252e0a470df0449bbbbfbef1af9a6, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 5653883145808590624, guid: 6a3252e0a470df0449bbbbfbef1af9a6, type: 3}
+      propertyPath: m_fontSize
+      value: 41.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5653883145808590624, guid: 6a3252e0a470df0449bbbbfbef1af9a6, type: 3}
+      propertyPath: m_margin.x
+      value: -423.954
+      objectReference: {fileID: 0}
+    - target: {fileID: 5653883145808590624, guid: 6a3252e0a470df0449bbbbfbef1af9a6, type: 3}
+      propertyPath: m_margin.z
+      value: 55.88057
+      objectReference: {fileID: 0}
+    - target: {fileID: 5653883145808590624, guid: 6a3252e0a470df0449bbbbfbef1af9a6, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5653883145808590624, guid: 6a3252e0a470df0449bbbbfbef1af9a6, type: 3}
       propertyPath: m_HorizontalAlignment
@@ -8938,7 +8962,7 @@ GameObject:
   - component: {fileID: 1618955326}
   m_Layer: 5
   m_Name: unlockPanel
-  m_TagString: SetSecondaryColor
+  m_TagString: SetPrimaryColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

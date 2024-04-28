@@ -113,8 +113,6 @@ public class ThemeManager : MonoBehaviour
         textColor3Theme = GameObject.FindGameObjectsWithTag("SetTextColor3");
         textColor4Theme = GameObject.FindGameObjectsWithTag("SetTextColor4");
 
-        print("textColor2Theme");
-
         foreach (GameObject obj in primaryTheme)
         {
             Image image = obj.GetComponent<Image>();
@@ -186,7 +184,6 @@ public class ThemeManager : MonoBehaviour
                 textComponent.color = textColor4;
             }
         }
-
 
         Debug.Log("Change Theme Success!");
     }

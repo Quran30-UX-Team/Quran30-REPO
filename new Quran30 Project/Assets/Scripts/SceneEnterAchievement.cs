@@ -37,9 +37,11 @@ public class SceneEnterAchievement : MonoBehaviour
                 AcceptAchievement();
             }
         }
+
+        UpdateExp();
     }
 
-    private void Update()
+    public void UpdateExp()
     {
         // Display progress based on scene entries count
         float fillAmount = (float)sceneEntriesCount / requiredSceneEntries;
