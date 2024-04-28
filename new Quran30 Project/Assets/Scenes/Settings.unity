@@ -2640,13 +2640,13 @@ PrefabInstance:
       addedObject: {fileID: 377366432}
     - targetCorrespondingSourceObject: {fileID: 1214400300239897899, guid: 583156c0e186a8f4e86e2687a8033b90, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 782889570}
+    - targetCorrespondingSourceObject: {fileID: 1214400300239897899, guid: 583156c0e186a8f4e86e2687a8033b90, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1918057636}
     - targetCorrespondingSourceObject: {fileID: 1214400300239897899, guid: 583156c0e186a8f4e86e2687a8033b90, type: 3}
       insertIndex: -1
       addedObject: {fileID: 908621303}
-    - targetCorrespondingSourceObject: {fileID: 1214400300239897899, guid: 583156c0e186a8f4e86e2687a8033b90, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 782889570}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 583156c0e186a8f4e86e2687a8033b90, type: 3}
 --- !u!224 &1296267023 stripped
@@ -4234,6 +4234,10 @@ PrefabInstance:
     - target: {fileID: 1169861378129096987, guid: 01f8cf61ecb4b8f43801ae1e62dd3117, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281155964142659883, guid: 01f8cf61ecb4b8f43801ae1e62dd3117, type: 3}
+      propertyPath: m_Color.a
+      value: 0.003921569
       objectReference: {fileID: 0}
     - target: {fileID: 6704564544362885339, guid: 01f8cf61ecb4b8f43801ae1e62dd3117, type: 3}
       propertyPath: m_Name
