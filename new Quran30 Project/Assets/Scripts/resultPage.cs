@@ -100,7 +100,7 @@ public class resultPage : MonoBehaviour
         if (PlayerPrefs.GetString("Level Type") == "PracticeSurahSelect")
         {
             totalDeeds = 0;
-            roundedDeed = "0";
+            roundedDeed = 0 + "";
         }
 
         deeds = PlayerPrefs.GetFloat("Deeds") + totalDeeds;
@@ -110,6 +110,11 @@ public class resultPage : MonoBehaviour
 
         PlayerPrefs.SetFloat("Deeds", deeds);
         PlayerPrefs.SetFloat("Score", 0);
+
+        if (totalDeeds > 0)
+        {
+            PlayerPrefs.SetInt("totalDeed", PlayerPrefs.GetInt("totalDeed") + (int)deeds);
+        }
     }
 
     IEnumerator confetti(float seconds)
