@@ -15,6 +15,10 @@ public class levelButton : MonoBehaviour
     public string surahQuestionSet;
 
     public bool isShow = false;
+
+    // Reference to the container holding all level buttons
+    public Transform buttonContainer;
+
     private void Start()
     {
         StartCoroutine(autoHide());
@@ -22,13 +26,11 @@ public class levelButton : MonoBehaviour
 
     public void interactButton(string sceneName)
     {
-
         if (lockImage.activeSelf == true)
         {
             Debug.Log("Button is LOCKED");
             controlDesc();
         }
-
         else
         {
             PlayerPrefs.SetString("Question Set", surahQuestionSet);
@@ -38,10 +40,11 @@ public class levelButton : MonoBehaviour
 
     public void controlDesc()
     {
-
         if (isShow == false)
         {
             showDesc();
+            // Collapse other descriptions
+            CollapseOtherDescriptions();
             isShow = true;
         }
         else
@@ -49,14 +52,13 @@ public class levelButton : MonoBehaviour
             hideDesc();
             isShow = false;
         }
-
     }
+
     public void showDesc()
     {
         description.SetActive(true);
         isShow = true;
     }
-
 
     public void hideDesc()
     {
@@ -70,5 +72,21 @@ public class levelButton : MonoBehaviour
         buttonText.text = surahName;
         description.SetActive(false);
         isShow = false;
+    }
+
+    // Helper method to collapse descriptions of other buttons
+    private void CollapseOtherDescriptions()
+    {
+        foreach (Transform button in buttonContainer)
+        {
+            if (button != transform) // Skip current button
+            {
+                var buttonScript = button.GetComponent<levelButton>();
+                if (buttonScript != null && buttonScript.isShow)
+                {
+                    buttonScript.hideDesc();
+                }
+            }
+        }
     }
 }
