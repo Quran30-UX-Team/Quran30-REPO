@@ -14,7 +14,9 @@ public class questionSetup : MonoBehaviour
 
     [SerializeField] public List<questionData> questions;
     private questionData currentQuestion;
+    [SerializeField] private GameObject questionPhotoPanel;
     [SerializeField] private TextMeshProUGUI questionText;
+    [SerializeField] private TextMeshProUGUI questionText2;
     [SerializeField] private TextMeshProUGUI codeText;
     [SerializeField] private RawImage questionImageRaw;
     [SerializeField] private answerButton[] answerButtons;
@@ -72,15 +74,18 @@ public class questionSetup : MonoBehaviour
     {
         codeText.text = "Question Code: " + currentQuestion.questionCode;
         questionText.text = currentQuestion.question;
+        questionText2.text = currentQuestion.question;
 
         // Load and set the question image
         Texture2D imageTexture = currentQuestion.image;
         if (imageTexture != null)
         {
             questionImageRaw.texture = imageTexture;
+            questionPhotoPanel.SetActive(true);
         }
         else
         {
+            questionPhotoPanel.SetActive(false);
             questionImageRaw.texture = null;
         }
     }

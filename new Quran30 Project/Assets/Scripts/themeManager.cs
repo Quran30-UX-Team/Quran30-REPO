@@ -35,6 +35,7 @@ public class ThemeManager : MonoBehaviour
     {
         ChangeTheme(PlayerPrefs.GetInt("choosenTheme"));
     }
+
     public void ChangeTheme(int themeSet)
     {
         PlayerPrefs.SetInt("choosenTheme", themeSet);
@@ -42,63 +43,78 @@ public class ThemeManager : MonoBehaviour
         switch (themeSet)
         {
             case 1:
-                ColorUtility.TryParseHtmlString("#68C9FF", out primaryColor);//Light Blue
-                ColorUtility.TryParseHtmlString("#FFFFFF", out secondaryColor);//White
-                ColorUtility.TryParseHtmlString("#231F20", out tertiaryColor);//Black
-                ColorUtility.TryParseHtmlString("#231F20", out quarternaryColor);//Black
+                // Define colors for theme 1
+                ColorUtility.TryParseHtmlString("#68C9FF", out primaryColor); // Light Blue
+                ColorUtility.TryParseHtmlString("#FFFFFF", out secondaryColor); // White
+                ColorUtility.TryParseHtmlString("#68C9FF", out tertiaryColor); // Light Blue
+                ColorUtility.TryParseHtmlString("#FFFFFF", out quarternaryColor); // White
 
-                ColorUtility.TryParseHtmlString("#231F20", out textColor1);//Black
-                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor2);//White
-                ColorUtility.TryParseHtmlString("#231F20", out textColor3);//Black
-                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor4);//White
+                ColorUtility.TryParseHtmlString("#231F20", out textColor1); // Black
+                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor2); // White
+                ColorUtility.TryParseHtmlString("#231F20", out textColor3); // Black
+                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor4); // White
+                ColorUtility.TryParseHtmlString("#68C9FF", out textColor5); // Light Blue
+                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor6); // New color 2
 
                 break;
             case 2:
-                ColorUtility.TryParseHtmlString("#D1BCDB", out primaryColor); //Light Purple
-                ColorUtility.TryParseHtmlString("#6D57A5", out secondaryColor); //Purple
-                ColorUtility.TryParseHtmlString("#47366D", out tertiaryColor); //Darker Purple
-                ColorUtility.TryParseHtmlString("#FFFFFF", out quarternaryColor); //White
+                // Define colors for theme 2
+                ColorUtility.TryParseHtmlString("#D1BCDB", out primaryColor); // Light Purple
+                ColorUtility.TryParseHtmlString("#6D57A5", out secondaryColor); // Purple
+                ColorUtility.TryParseHtmlString("#6D57A5", out tertiaryColor); // Purple
+                ColorUtility.TryParseHtmlString("#FFFFFF", out quarternaryColor); // White
 
-                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor1);//White
-                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor2);//White
-                ColorUtility.TryParseHtmlString("#231F20", out textColor3);//Black
-                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor4);//White
+                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor1); // White
+                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor2); // White
+                ColorUtility.TryParseHtmlString("#231F20", out textColor3); // Black
+                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor4); // White
+                ColorUtility.TryParseHtmlString("#47366D", out textColor5); // Darker Purple
+                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor6); // New color 2
 
                 break;
             case 3:
-                ColorUtility.TryParseHtmlString("#0E1C3E", out primaryColor);//Navy Blue
-                ColorUtility.TryParseHtmlString("#65C9D7", out secondaryColor);//Neon Blue
-                ColorUtility.TryParseHtmlString("#231F20", out tertiaryColor);//Black
-                ColorUtility.TryParseHtmlString("#231F20", out quarternaryColor);//Black
+                // Define colors for theme 3
+                ColorUtility.TryParseHtmlString("#0E1C3E", out primaryColor); // Navy Blue
+                ColorUtility.TryParseHtmlString("#65C9D7", out secondaryColor); // Neon Blue
+                ColorUtility.TryParseHtmlString("#65C9D7", out tertiaryColor); // Neon Blue
+                ColorUtility.TryParseHtmlString("#FFFFFF", out quarternaryColor); // White
 
-                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor1);//White
-                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor2);//White
-                ColorUtility.TryParseHtmlString("#231F20", out textColor3);//Black
-                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor4);//White
+                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor1); // White
+                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor2); // White
+                ColorUtility.TryParseHtmlString("#231F20", out textColor3); // Black
+                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor4); // White
+                ColorUtility.TryParseHtmlString("#65C9D7", out textColor5); // Neon Blue
+                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor6); // New color 2
 
                 break;
             case 4:
-                ColorUtility.TryParseHtmlString("#86BA90", out primaryColor);//Green
-                ColorUtility.TryParseHtmlString("#DFA06E", out secondaryColor);//Light Yellow
-                ColorUtility.TryParseHtmlString("#231F20", out tertiaryColor);//Black
-                ColorUtility.TryParseHtmlString("#231F20", out quarternaryColor);//Black
+                // Define colors for theme 4
+                ColorUtility.TryParseHtmlString("#86BA90", out primaryColor); // Green
+                ColorUtility.TryParseHtmlString("#DFA06E", out secondaryColor); // Light Yellow
+                ColorUtility.TryParseHtmlString("#DFA06E", out tertiaryColor); // Light Yellow
+                ColorUtility.TryParseHtmlString("#FFFFFF", out quarternaryColor); // White
 
-                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor1);//White
-                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor2);//White
-                ColorUtility.TryParseHtmlString("#231F20", out textColor3);//Black
-                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor4);//White
+                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor1); // White
+                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor2); // White
+                ColorUtility.TryParseHtmlString("#231F20", out textColor3); // Black
+                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor4); // White
+                ColorUtility.TryParseHtmlString("#DFA06E", out textColor5); // Light Yellow
+                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor6); // New color 2
 
                 break;
             default:
-                ColorUtility.TryParseHtmlString("#68C9FF", out primaryColor);//Light Blue
-                ColorUtility.TryParseHtmlString("#FFFFFF", out secondaryColor);//White
-                ColorUtility.TryParseHtmlString("#231F20", out tertiaryColor);//Black
-                ColorUtility.TryParseHtmlString("#231F20", out quarternaryColor);//Black
+                // Default theme
+                ColorUtility.TryParseHtmlString("#68C9FF", out primaryColor); // Light Blue
+                ColorUtility.TryParseHtmlString("#FFFFFF", out secondaryColor); // White
+                ColorUtility.TryParseHtmlString("#68C9FF", out tertiaryColor); // Light Blue
+                ColorUtility.TryParseHtmlString("#FFFFFF", out quarternaryColor); // White
 
-                ColorUtility.TryParseHtmlString("#231F20", out textColor1);//Black
-                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor2);//White
-                ColorUtility.TryParseHtmlString("#231F20", out textColor3);//Black
-                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor4);//White
+                ColorUtility.TryParseHtmlString("#231F20", out textColor1); // Black
+                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor2); // White
+                ColorUtility.TryParseHtmlString("#231F20", out textColor3); // Black
+                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor4); // White
+                ColorUtility.TryParseHtmlString("#68C9FF", out textColor5); // Light Blue
+                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor6); // New color 2
 
                 break;
         }
@@ -112,6 +128,8 @@ public class ThemeManager : MonoBehaviour
         textColor2Theme = GameObject.FindGameObjectsWithTag("SetTextColor2");
         textColor3Theme = GameObject.FindGameObjectsWithTag("SetTextColor3");
         textColor4Theme = GameObject.FindGameObjectsWithTag("SetTextColor4");
+        textColor5Theme = GameObject.FindGameObjectsWithTag("SetTextColor5"); // New
+        textColor6Theme = GameObject.FindGameObjectsWithTag("SetTextColor6"); // New
 
         foreach (GameObject obj in primaryTheme)
         {
@@ -182,6 +200,24 @@ public class ThemeManager : MonoBehaviour
             if (textComponent != null)
             {
                 textComponent.color = textColor4;
+            }
+        }
+
+        foreach (GameObject obj in textColor5Theme)
+        {
+            TextMeshProUGUI textComponent = obj.GetComponent<TextMeshProUGUI>();
+            if (textComponent != null)
+            {
+                textComponent.color = textColor5;
+            }
+        }
+
+        foreach (GameObject obj in textColor6Theme)
+        {
+            TextMeshProUGUI textComponent = obj.GetComponent<TextMeshProUGUI>();
+            if (textComponent != null)
+            {
+                textComponent.color = textColor6;
             }
         }
 
