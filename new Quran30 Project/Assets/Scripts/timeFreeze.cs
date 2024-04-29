@@ -1,10 +1,14 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TimeFreeze : MonoBehaviour
 {
     private GameObject freezePanel;
     private timeController timeController;
+
+    public Button powerUPBtn;
 
     void Start()
     {
@@ -23,6 +27,7 @@ public class TimeFreeze : MonoBehaviour
 
     IEnumerator FreezeForAMoment(float seconds)
     {
+        powerUPBtn.interactable = false;
         timeController.enabled = false;
         if (freezePanel != null)
         {
@@ -36,7 +41,6 @@ public class TimeFreeze : MonoBehaviour
         {
             freezePanel.SetActive(false);
         }
-        this.gameObject.SetActive(false);
     }
 
 }

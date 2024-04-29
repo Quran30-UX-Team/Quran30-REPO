@@ -1,9 +1,12 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class doubleDeeds : MonoBehaviour
 {
     private GameObject doublePanel;
+
+    public Button powerUPBtn;
 
     public void Start()
     {
@@ -16,7 +19,7 @@ public class doubleDeeds : MonoBehaviour
         doublePanel.SetActive(true);
 
         PlayerPrefs.SetInt("DoubleDeedPU", 1);
-        this.gameObject.SetActive(false);
+        powerUPBtn.interactable = false;
     }
 
 }

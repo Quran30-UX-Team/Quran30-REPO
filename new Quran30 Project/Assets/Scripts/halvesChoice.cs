@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class halvesChoice : MonoBehaviour
 {
     private answerButton answerButton;
+
+    public Button powerUPBtn;
 
     private void Start()
     {
@@ -13,6 +16,6 @@ public class halvesChoice : MonoBehaviour
     public void halfWrongAnswer()
     {
         answerButton.RemoveRandomWrongAnswers(2);
-        this.gameObject.SetActive(false);
+        powerUPBtn.interactable = false;
     }
 }
