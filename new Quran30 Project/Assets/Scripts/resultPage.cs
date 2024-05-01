@@ -7,6 +7,7 @@ using TMPro;
 public class resultPage : MonoBehaviour
 {
     public ParticleSystem particleSystem;
+    private LeaderboardManager leaderboard;
 
     [SerializeField]
     private float deeds;
@@ -38,6 +39,7 @@ public class resultPage : MonoBehaviour
 
     public void Start()
     {
+        leaderboard = FindObjectOfType<LeaderboardManager>();
         congratsPanelText = congratsPanel.GetComponent<TextMeshProUGUI>();
         rewardPanelText = rewardPanel.GetComponent<TextMeshProUGUI>();
 
@@ -115,6 +117,9 @@ public class resultPage : MonoBehaviour
         {
             PlayerPrefs.SetInt("totalDeed", PlayerPrefs.GetInt("totalDeed") + (int)deeds);
         }
+
+        PlayerPrefs.SetInt("totalScore", PlayerPrefs.GetInt("totalScore") + (int)totalScores);
+        leaderboard.SetEntry(PlayerPrefs.GetString("Profile Name"), PlayerPrefs.GetInt("totalScore"));
     }
 
     IEnumerator confetti(float seconds)

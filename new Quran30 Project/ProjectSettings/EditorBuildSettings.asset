@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Settings.unity
     guid: d86a0cf6288e51c43975a341a3f65d59
   - enabled: 1
+    path: Assets/Scenes/Leaderboard.unity
+    guid: 9aca3ef382364b941a6c919b09cc7716
+  - enabled: 1
     path: Assets/Scenes/Play.unity
     guid: dbd898e43a0355f419c41e560a58c6ff
   - enabled: 1
