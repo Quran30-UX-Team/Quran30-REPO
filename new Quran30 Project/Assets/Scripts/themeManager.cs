@@ -44,16 +44,16 @@ public class ThemeManager : MonoBehaviour
         {
             case 1:
                 // Define colors for theme 1
-                ColorUtility.TryParseHtmlString("#68C9FF", out primaryColor); // Light Blue
-                ColorUtility.TryParseHtmlString("#FFFFFF", out secondaryColor); // White
-                ColorUtility.TryParseHtmlString("#68C9FF", out tertiaryColor); // Light Blue
+                ColorUtility.TryParseHtmlString("#0E1C3E", out primaryColor); // Navy Blue
+                ColorUtility.TryParseHtmlString("#65C9D7", out secondaryColor); // Neon Blue
+                ColorUtility.TryParseHtmlString("#65C9D7", out tertiaryColor); // Neon Blue
                 ColorUtility.TryParseHtmlString("#FFFFFF", out quarternaryColor); // White
 
-                ColorUtility.TryParseHtmlString("#231F20", out textColor1); // Black
+                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor1); // White
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor2); // White
                 ColorUtility.TryParseHtmlString("#231F20", out textColor3); // Black
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor4); // White
-                ColorUtility.TryParseHtmlString("#68C9FF", out textColor5); // Light Blue
+                ColorUtility.TryParseHtmlString("#65C9D7", out textColor5); // Neon Blue
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor6); // New color 2
 
                 break;
@@ -74,16 +74,16 @@ public class ThemeManager : MonoBehaviour
                 break;
             case 3:
                 // Define colors for theme 3
-                ColorUtility.TryParseHtmlString("#0E1C3E", out primaryColor); // Navy Blue
-                ColorUtility.TryParseHtmlString("#65C9D7", out secondaryColor); // Neon Blue
-                ColorUtility.TryParseHtmlString("#65C9D7", out tertiaryColor); // Neon Blue
+                ColorUtility.TryParseHtmlString("#68C9FF", out primaryColor); // Light Blue
+                ColorUtility.TryParseHtmlString("#FFFFFF", out secondaryColor); // White
+                ColorUtility.TryParseHtmlString("#68C9FF", out tertiaryColor); // Light Blue
                 ColorUtility.TryParseHtmlString("#FFFFFF", out quarternaryColor); // White
 
-                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor1); // White
+                ColorUtility.TryParseHtmlString("#231F20", out textColor1); // Black
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor2); // White
                 ColorUtility.TryParseHtmlString("#231F20", out textColor3); // Black
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor4); // White
-                ColorUtility.TryParseHtmlString("#65C9D7", out textColor5); // Neon Blue
+                ColorUtility.TryParseHtmlString("#68C9FF", out textColor5); // Light Blue
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor6); // New color 2
 
                 break;
@@ -104,16 +104,16 @@ public class ThemeManager : MonoBehaviour
                 break;
             default:
                 // Default theme
-                ColorUtility.TryParseHtmlString("#68C9FF", out primaryColor); // Light Blue
-                ColorUtility.TryParseHtmlString("#FFFFFF", out secondaryColor); // White
-                ColorUtility.TryParseHtmlString("#68C9FF", out tertiaryColor); // Light Blue
+                ColorUtility.TryParseHtmlString("#0E1C3E", out primaryColor); // Navy Blue
+                ColorUtility.TryParseHtmlString("#65C9D7", out secondaryColor); // Neon Blue
+                ColorUtility.TryParseHtmlString("#65C9D7", out tertiaryColor); // Neon Blue
                 ColorUtility.TryParseHtmlString("#FFFFFF", out quarternaryColor); // White
 
-                ColorUtility.TryParseHtmlString("#231F20", out textColor1); // Black
+                ColorUtility.TryParseHtmlString("#FFFFFF", out textColor1); // White
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor2); // White
                 ColorUtility.TryParseHtmlString("#231F20", out textColor3); // Black
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor4); // White
-                ColorUtility.TryParseHtmlString("#68C9FF", out textColor5); // Light Blue
+                ColorUtility.TryParseHtmlString("#65C9D7", out textColor5); // Neon Blue
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor6); // New color 2
 
                 break;
