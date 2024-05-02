@@ -18,7 +18,7 @@ public class dataSaver : MonoBehaviour
             PlayerPrefs.SetFloat("Premium", 80);
 
             PlayerPrefs.SetString("Question Set", "Questions1");
-            PlayerPrefs.SetString("Profile Name", "Guest" + Random.Range(1,999));
+            PlayerPrefs.SetString("Profile Name", "Guest" + Random.Range(1,999).ToString());
             PlayerPrefs.SetString("Level Type", "QuizSurahSelect");
             PlayerPrefs.SetFloat("Countdown", 0);
             PlayerPrefs.SetFloat("scoreTemp", 0);

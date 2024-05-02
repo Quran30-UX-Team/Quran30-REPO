@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: 090100201
   m_EditorClassIdentifier: 
   questionCode: 090100201
+  image: {fileID: 0}
   question: Apakah balasan yang akan diterima oleh orang-orang munafik di akhirat
     kelak?
   answers:
   - Diazab di neraka
-  - Masuk surga
+  - Masuk syurga
   - Diberi ampunan
   - Dikembalikan ke dunia

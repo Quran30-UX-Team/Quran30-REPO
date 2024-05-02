@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: 080400401
   m_EditorClassIdentifier: 
   questionCode: 080400401
+  image: {fileID: 0}
   question: Bagaimana hukum waris laki-laki dibandingkan dengan perempuan?
   answers:
   - Laki-laki mendapat dua kali lipat bagian perempuan
-  - ' Laki-laki mendapat sama rata dengan perempuan'
+  - Laki-laki mendapat sama rata dengan perempuan
   - Laki-laki mendapat tiga kali lipat bagian perempuan
   - Laki-laki mendapat seluruh warisan

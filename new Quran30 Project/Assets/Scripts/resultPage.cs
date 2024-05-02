@@ -6,6 +6,9 @@ using TMPro;
 
 public class resultPage : MonoBehaviour
 {
+    public AudioSource src;
+    public AudioClip popSFX;
+
     public ParticleSystem particleSystem;
     private LeaderboardManager leaderboard;
 
@@ -39,6 +42,12 @@ public class resultPage : MonoBehaviour
 
     public void Start()
     {
+        PlayerPrefs.SetString("Slot1", "Empty");
+        PlayerPrefs.SetString("Slot2", "Empty");
+        PlayerPrefs.SetString("Slot3", "Empty");
+
+        Debug.Log(PlayerPrefs.GetString("Slot1") + " " + PlayerPrefs.GetString("Slot2") + " " + PlayerPrefs.GetString("Slot3"));
+
         leaderboard = FindObjectOfType<LeaderboardManager>();
         congratsPanelText = congratsPanel.GetComponent<TextMeshProUGUI>();
         rewardPanelText = rewardPanel.GetComponent<TextMeshProUGUI>();
@@ -76,18 +85,24 @@ public class resultPage : MonoBehaviour
             Star1.SetActive(true);
             Star2.SetActive(false);
             Star3.SetActive(false);
+            src.clip = popSFX;
+            src.Play();
         }
         else if (totalScores < 30)
         {
             Star1.SetActive(true);
             Star2.SetActive(true);
             Star3.SetActive(false);
+            src.clip = popSFX;
+            src.Play();
         }
         else
         {
             Star1.SetActive(true);
             Star2.SetActive(true);
             Star3.SetActive(true);
+            src.clip = popSFX;
+            src.Play();
         }
 
         // Activate confetti only if at least one star is active

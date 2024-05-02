@@ -10,6 +10,9 @@ public class answerButton : MonoBehaviour
     public GameObject doublePanel;
     public GameObject blockPanel;
 
+    public AudioSource src;
+    public AudioClip rightSFX, wrongSFX;
+
     public doubleDeeds doubleDeeds;
 
     private bool isCorrect;
@@ -78,6 +81,8 @@ public class answerButton : MonoBehaviour
 
         if (isCorrect)
         {
+            src.clip = rightSFX;
+            src.Play();
             // Calculate deeds and scores for the current question
             rightDeeds = PlayerPrefs.GetFloat("Timer") * 0.5f;
             rightScores = PlayerPrefs.GetFloat("Timer") * 0.5f;
@@ -97,6 +102,9 @@ public class answerButton : MonoBehaviour
         }
         else
         {
+            src.clip = wrongSFX;
+            src.Play();
+
             wrongDeeds = PlayerPrefs.GetFloat("Timer") * 0.05f;
             wrongScores = (11f - PlayerPrefs.GetFloat("Timer")) * -0.75f;
             // Save deeds and scores for the current question

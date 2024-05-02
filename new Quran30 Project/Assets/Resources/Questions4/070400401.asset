@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: 070400401
   m_EditorClassIdentifier: 
   questionCode: 070400401
+  image: {fileID: 0}
   question: Apakah yang dikhawatirkan jika seseorang tidak berlaku adil terhadap
     anak yatim?
   answers:
   - Kita akan disiksa di akhirat kelak
-  - ' Mereka akan mengambil harta kita '
+  - 'Mereka akan mengambil harta kita '
   - Mereka akan membenci kita
   - Kerabat kita akan marah
