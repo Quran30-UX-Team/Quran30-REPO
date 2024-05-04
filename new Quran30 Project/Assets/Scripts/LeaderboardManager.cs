@@ -9,7 +9,6 @@ public class LeaderboardManager : MonoBehaviour
 {
     public List<TextMeshProUGUI> usernames;
     public List<TextMeshProUGUI> scores;
-
     private void Start()
     {
         LoadEntries();
@@ -37,6 +36,7 @@ public class LeaderboardManager : MonoBehaviour
                 scores[i].text = entries[i].Score.ToString();
             }
         });
+
     }
 
     public void SetEntry(string username, int score)
