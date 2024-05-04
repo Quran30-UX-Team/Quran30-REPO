@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 140300201
   m_EditorClassIdentifier: 
   questionCode: 140300201
-  image: {fileID: 2800000, guid: 634d2e8ea13382d418fbbfaaa163e3d1, type: 3}
+  image: {fileID: 2800000, guid: cd1249fbce5e1574da94cc97c25a07be, type: 3}
   question: Apakah yang dilarang untuk disedekahkan?
   answers:
   - Harta yang buruk
