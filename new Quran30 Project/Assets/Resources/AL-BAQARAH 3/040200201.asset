@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 2
   surahName: AL-BAQARAH(AYAT 142-252)
   category: Hukum
-  image: {fileID: 2800000, guid: 85178de062cfef64c94b964c9d7dfdc3, type: 3}
+  image: {fileID: 2800000, guid: 8c7d26b7b4233a546b71d965179030c6, type: 3}
   question: Apakah hukuman yang ditetapkan terhadap kes pembunuhan?
   answers:
   - Diqisas(dibalas dengan hukuman yang setimpal)

@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 1
   surahName: AL-BAQARAH(AYAT 1-141)
   category: Cerita
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 59c84a9f5baee0a4490d9c6afa959348, type: 3}
   question: Siapakah yang menciptakan langit dan bumi?
   answers:
   - Allah SWT

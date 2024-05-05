@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 4
   surahName: AN-NISA'(AYAT 1-23)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 062320abd4a86ff47bc1aa83c4ae229a, type: 3}
   question: Apakah nasihat Allah SWT kepada suami dalam memperlakukan isteri?
   answers:
   - Mempergauli dengan ma'ruf (baik)

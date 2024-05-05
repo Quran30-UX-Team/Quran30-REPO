@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 2
   surahName: AL-BAQARAH(AYAT 142-252)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 53f3ea046fd16834684df83d7284ead0, type: 3}
   question: Apakah tujuan utama diutusnya para Rasul?
   answers:
   - Membawa petunjuk dan memberi peringatan

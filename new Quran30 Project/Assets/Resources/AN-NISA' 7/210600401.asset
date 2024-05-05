@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 6
   surahName: AN-NISA'(AYAT 148-176)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: a312ca9a4bf7633498f58c247a7b82eb, type: 3}
   question: Anggota badan manakah yang TIDAK diperintahkan untuk dibasuh saat berwuduk?
   answers:
   - Perut

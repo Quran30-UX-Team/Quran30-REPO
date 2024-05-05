@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 2
   surahName: AL-BAQARAH(AYAT 142-252)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 2aa9d0db6dec02246ae1539e164c5996, type: 3}
   question: Sifat apakah yang dimiliki orang-orang munafik?
   answers:
   - Suka berbuat kerusakan di muka bumi

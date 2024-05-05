@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 2
   surahName: AL-BAQARAH(AYAT 142-252)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 09dfa46342f94d147bd57dca3ad4e945, type: 3}
   question: Apakah nasihat Allah SWT kepada manusia?
   answers:
   - Bersegeralah dalam mengerjakan kebaikan

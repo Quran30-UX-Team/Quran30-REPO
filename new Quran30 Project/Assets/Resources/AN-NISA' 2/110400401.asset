@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 4
   surahName: AN-NISA'(AYAT 1-23)
   category: Hukum
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 64510687277cafb41906990e7f08edc0, type: 3}
   question: Apakah hukuman bagi wanita pezina?
   answers:
   - Dikurung di rumah

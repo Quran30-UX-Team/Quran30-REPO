@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 9
   surahName: AL-ANFAL(AYAT 1-40)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: a8d2e5a3d7cea974d9cf9fe5470b07a1, type: 3}
   question: Bagaimanakah sikap orang-orang kafir terhadap kaum muslimin?
   answers:
   - 'Membenci kaum muslimin '
