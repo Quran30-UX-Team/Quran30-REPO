@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 011301201
+  m_EditorClassIdentifier: 
+  questionCode: 011301201
+  juz: 13
+  surahName: YUSUF(AYAT 53-111)
+  category: Cerita
+  image: {fileID: 0}
+  question: Apakah yang dilakukan Nabi Yusuf ketika diajak berbuat maksiat oleh isteri
+    Al-Aziz?
+  answers:
+  - Nabi Yusuf menolak ajakannya dan memohon perlindungan daripada Allah.
+  - Nabi Yusuf menerima ajakannya kerana takut didenda.
+  - Nabi Yusuf berdiam diri sahaja tanpa memberi sebarang respons.
+  - Nabi Yusuf membalas ajakan isteri Al-Aziz dengan kata-kata kesat.

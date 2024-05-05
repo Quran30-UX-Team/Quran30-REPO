@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 081100901
+  m_EditorClassIdentifier: 
+  questionCode: 081100901
+  juz: 11
+  surahName: AT-TAUBAH(AYAT 93-129)
+  category: Cerita
+  image: {fileID: 0}
+  question: Mengapa Allah redha terhadap mereka dan mereka redha kepada Allah?
+  answers:
+  - Kerana mereka gigih berjuang untuk Islam
+  - 'Kerana mereka menjadi pelopor Islam '
+  - 'Kerana mereka kaya dan dermawan '
+  - Kerana mereka saling mengasihi sesama Muslim

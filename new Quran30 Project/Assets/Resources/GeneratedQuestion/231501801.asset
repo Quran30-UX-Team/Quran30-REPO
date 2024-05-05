@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 231501801
+  m_EditorClassIdentifier: 
+  questionCode: 231501801
+  juz: 15
+  surahName: AL-KAHFI(AYAT 1-74)
+  category: Cerita
+  image: {fileID: 0}
+  question: Dalam ayat 73 Surah Al-Kahfi mengapakah hamba soleh tidak menceritakan
+    sebab perbuatannya sebelum peristiwa kedua berlaku?
+  answers:
+  - ' Dia ingin memberikan ujian kepada Nabi Musa'
+  - Dia lupa menerangkannya
+  - ' Dia tidak sempat menjelaskannya'
+  - Dia tidak mahu memberitahu alasannya

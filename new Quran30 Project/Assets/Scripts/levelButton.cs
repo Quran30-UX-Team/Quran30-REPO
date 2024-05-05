@@ -12,7 +12,6 @@ public class levelButton : MonoBehaviour
 
     public TextMeshProUGUI buttonText;
     public string surahName;
-    public string surahQuestionSet;
 
     public bool isShow = false;
 
@@ -33,7 +32,7 @@ public class levelButton : MonoBehaviour
         }
         else
         {
-            PlayerPrefs.SetString("Question Set", surahQuestionSet);
+            PlayerPrefs.SetString("Question Set", surahName);
             SceneManager.LoadScene(sceneName);
         }
     }

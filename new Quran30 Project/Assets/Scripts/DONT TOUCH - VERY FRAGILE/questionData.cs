@@ -8,6 +8,12 @@ public class questionData : ScriptableObject
 {
     public string questionCode;
 
+    public string juz;
+
+    public string surahName;
+
+    public string category;
+
     public Texture2D image;
 
     public string question;

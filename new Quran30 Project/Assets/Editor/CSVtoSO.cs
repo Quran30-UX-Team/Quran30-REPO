@@ -39,7 +39,10 @@ public class CSVtoSO
 
                 // Assign values from the split data to questionData fields
                 questionData.questionCode = splitData[0];
-                questionData.question = splitData[1];
+                questionData.juz = splitData[1];
+                questionData.surahName = splitData[2];
+                questionData.category = splitData[3];
+                questionData.question = splitData[4];
 
                 // Initialize answers array
                 questionData.answers = new string[4];
@@ -47,8 +50,9 @@ public class CSVtoSO
                 // Populate answers array
                 for (int i = 0; i < 4; i++)
                 {
-                    questionData.answers[i] = splitData[i + 2];
+                    questionData.answers[i] = splitData[i + 5];
                 }
+
 
                 // Specify the asset path for the questionData and create the asset
                 string assetPath = $"Assets/Resources/GeneratedQuestion/{questionData.questionCode}.asset";

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 291201201
+  m_EditorClassIdentifier: 
+  questionCode: 291201201
+  juz: 12
+  surahName: YUSUF(AYAT 1-52)
+  category: Cerita
+  image: {fileID: 0}
+  question: Apakah yang dilihat Raja Mesir dalam mimpinya?
+  answers:
+  - '7 ekor lembu gemuk dan 7 ekor lembu kurus '
+  - '7 tangkai gandum hijau dan 7 tangkai gandum kering '
+  - '7 bintang besar dan 7 bintang kecil '
+  - 7 awan putih dan 7 awan hitam
