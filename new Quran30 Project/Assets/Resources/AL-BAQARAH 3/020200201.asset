@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 2
   surahName: AL-BAQARAH(AYAT 142-252)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 23a51ce25cb56df4081629a458601045, type: 3}
   question: Dari mananakah perubahan arah kiblat berlaku?
   answers:
   - Dari Masjidil Aqsa ke Masjidil Haram
