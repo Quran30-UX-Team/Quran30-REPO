@@ -10,14 +10,8 @@ public class PedestalHandler : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI playerName;
     [SerializeField] private TextMeshProUGUI playerScore;
-    void Start()
+    void FixedUpdate()
     {
-        StartCoroutine(getInfo());
-    }
-
-    IEnumerator getInfo()
-    {
-        yield return new WaitForSeconds(1);
         playerName.text = getName.text;
         playerScore.text = getScore.text;
     }
