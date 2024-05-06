@@ -14,6 +14,7 @@ public class dataSaver : MonoBehaviour
             PlayerPrefs.SetFloat("Deeds", 50);
             PlayerPrefs.SetInt("totalDeed", 50);
             PlayerPrefs.SetFloat("Score", 0);
+            PlayerPrefs.SetInt("PerfectScore", 0);
 
             PlayerPrefs.SetFloat("Premium", 80);
 

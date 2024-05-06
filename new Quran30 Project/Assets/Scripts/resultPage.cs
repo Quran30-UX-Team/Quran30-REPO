@@ -101,6 +101,9 @@ public class resultPage : MonoBehaviour
             Star1.SetActive(true);
             Star2.SetActive(true);
             Star3.SetActive(true);
+
+            PlayerPrefs.SetInt("PerfectScore", PlayerPrefs.GetInt("PerfectScore") + 1);
+
             src.clip = popSFX;
             src.Play();
         }
