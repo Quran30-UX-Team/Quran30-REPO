@@ -6,7 +6,7 @@ using TMPro;
 public class displayPremium : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
-    void Start()
+    void Update()
     {
         scoreText.text = Mathf.RoundToInt(PlayerPrefs.GetFloat("Premium")).ToString();
     }
