@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 176.54167, y: 2044}
+  m_AnchoredPosition: {x: 162, y: 2115}
   m_SizeDelta: {x: 694.46, y: 155.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &39646546
@@ -1941,6 +1941,9 @@ PrefabInstance:
       addedObject: {fileID: 83078012}
     - targetCorrespondingSourceObject: {fileID: 2299447148430302509, guid: 5b599027f06ec864098635aedc07fea1, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1546579844}
+    - targetCorrespondingSourceObject: {fileID: 2299447148430302509, guid: 5b599027f06ec864098635aedc07fea1, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 363246167}
     - targetCorrespondingSourceObject: {fileID: 2299447148430302509, guid: 5b599027f06ec864098635aedc07fea1, type: 3}
       insertIndex: -1
@@ -1963,9 +1966,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2299447148430302509, guid: 5b599027f06ec864098635aedc07fea1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 39646545}
-    - targetCorrespondingSourceObject: {fileID: 2299447148430302509, guid: 5b599027f06ec864098635aedc07fea1, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1546579844}
     - targetCorrespondingSourceObject: {fileID: 2299447148430302509, guid: 5b599027f06ec864098635aedc07fea1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1853041945}
@@ -3327,11 +3327,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2715752510375924706, guid: 59a621d58f8506346b4e98fd6d19f86e, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 530.7
+      value: 487.7
       objectReference: {fileID: 0}
     - target: {fileID: 2715752510375924706, guid: 59a621d58f8506346b4e98fd6d19f86e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 190
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 2715752510375924706, guid: 59a621d58f8506346b4e98fd6d19f86e, type: 3}
       propertyPath: m_LocalScale.x
@@ -3400,6 +3400,26 @@ PrefabInstance:
     - target: {fileID: 3092719626695064196, guid: 59a621d58f8506346b4e98fd6d19f86e, type: 3}
       propertyPath: m_Name
       value: givePowerUP
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578155436634039997, guid: 59a621d58f8506346b4e98fd6d19f86e, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578155436634039997, guid: 59a621d58f8506346b4e98fd6d19f86e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578155436634039997, guid: 59a621d58f8506346b4e98fd6d19f86e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578155436634039997, guid: 59a621d58f8506346b4e98fd6d19f86e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578155436634039997, guid: 59a621d58f8506346b4e98fd6d19f86e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
