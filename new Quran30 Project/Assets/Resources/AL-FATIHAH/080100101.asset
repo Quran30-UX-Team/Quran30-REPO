@@ -17,7 +17,7 @@ MonoBehaviour:
   surahName: AL-FATIHAH(AYAT 1-7)
   category: Ayat Surah
   image: {fileID: 0}
-  question: Apa maksud ayatGhayr al-maghdubi 'alayhim?
+  question: Apa maksud ayat Ghayr al-maghdubi 'alayhim?
   answers:
   - Bukan jalan orang-orang yang dimurkai
   - Bukan jalan orang-orang yang tersesat
