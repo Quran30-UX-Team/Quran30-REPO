@@ -1763,51 +1763,51 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1142133192752516245, guid: 76960db178eb50c4082b7fe67529c427, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1142133192752516245, guid: 76960db178eb50c4082b7fe67529c427, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1142133192752516245, guid: 76960db178eb50c4082b7fe67529c427, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 245
       objectReference: {fileID: 0}
     - target: {fileID: 1142133192752516245, guid: 76960db178eb50c4082b7fe67529c427, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -410
       objectReference: {fileID: 0}
     - target: {fileID: 1841165347519645161, guid: 76960db178eb50c4082b7fe67529c427, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1841165347519645161, guid: 76960db178eb50c4082b7fe67529c427, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1841165347519645161, guid: 76960db178eb50c4082b7fe67529c427, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 245
       objectReference: {fileID: 0}
     - target: {fileID: 1841165347519645161, guid: 76960db178eb50c4082b7fe67529c427, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -55
       objectReference: {fileID: 0}
     - target: {fileID: 3379389650350180681, guid: 76960db178eb50c4082b7fe67529c427, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3379389650350180681, guid: 76960db178eb50c4082b7fe67529c427, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3379389650350180681, guid: 76960db178eb50c4082b7fe67529c427, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 245
       objectReference: {fileID: 0}
     - target: {fileID: 3379389650350180681, guid: 76960db178eb50c4082b7fe67529c427, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -220
       objectReference: {fileID: 0}
     - target: {fileID: 3739449054549068654, guid: 76960db178eb50c4082b7fe67529c427, type: 3}
       propertyPath: m_Name
@@ -3310,7 +3310,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6369666657154575650, guid: e45353b29baf31c4d86f2c4a67e56549, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 3164.8
+      value: 4113.7
       objectReference: {fileID: 0}
     - target: {fileID: 6369666657154575650, guid: e45353b29baf31c4d86f2c4a67e56549, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3346,7 +3346,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6369666657154575650, guid: e45353b29baf31c4d86f2c4a67e56549, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -768.7302
+      value: -1243.1804
       objectReference: {fileID: 0}
     - target: {fileID: 6369666657154575650, guid: e45353b29baf31c4d86f2c4a67e56549, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3767,11 +3767,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6112804289822085810, guid: 5b35bfbe350953645aa2e9a155c5d4a7, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 107.025024
+      value: 107.0249
       objectReference: {fileID: 0}
     - target: {fileID: 6112804289822085810, guid: 5b35bfbe350953645aa2e9a155c5d4a7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -222.90002
+      value: -222.8999
       objectReference: {fileID: 0}
     - target: {fileID: 6112804289822085810, guid: 5b35bfbe350953645aa2e9a155c5d4a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

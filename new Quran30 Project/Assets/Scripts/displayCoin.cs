@@ -7,7 +7,7 @@ public class displayCoin : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
 
-    void Update()
+    void Start()
     {
         scoreText.text = Mathf.RoundToInt(PlayerPrefs.GetFloat("Deeds")).ToString();
     }

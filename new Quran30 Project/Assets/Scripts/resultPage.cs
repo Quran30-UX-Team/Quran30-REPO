@@ -102,8 +102,6 @@ public class resultPage : MonoBehaviour
             Star2.SetActive(true);
             Star3.SetActive(true);
 
-            PlayerPrefs.SetInt("PerfectScore", PlayerPrefs.GetInt("PerfectScore") + 1);
-
             src.clip = popSFX;
             src.Play();
         }
@@ -112,6 +110,11 @@ public class resultPage : MonoBehaviour
         if (Star1.activeSelf || Star2.activeSelf || Star3.activeSelf)
         {
             StartCoroutine(confetti(0.1f));
+        }
+
+        if (Star1.activeSelf == true && Star2.activeSelf == true && Star3.activeSelf == true)
+        {
+            PlayerPrefs.SetInt("PerfectScore", PlayerPrefs.GetInt("PerfectScore") + 1);
         }
 
         string roundedScore = Mathf.RoundToInt(totalScores).ToString();

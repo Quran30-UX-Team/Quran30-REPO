@@ -7,7 +7,7 @@ public class EarnPerfectScore : MonoBehaviour
     public string achievementName;
     public int requiredPerfectScoreAmount = 1;
 
-    private int sceneEntriesCount = 0; // Counter for scene entries
+    private int scenePerfectScore = 0; // Counter for scene entries
     private bool isCompleted = false; // Track if achievement is completed
 
     public TextMeshProUGUI achievementNameText;
@@ -24,7 +24,7 @@ public class EarnPerfectScore : MonoBehaviour
         isCompleted = PlayerPrefs.GetInt("Achievement_" + achievementName + "_Completed", 0) == 1;
 
         // Load scene entries count from PlayerPrefs
-        sceneEntriesCount = PlayerPrefs.GetInt("SceneEntriesCount", 0);
+        scenePerfectScore = PlayerPrefs.GetInt("PerfectScore", 0);
 
         // Check if achievement was already completed and accepted
         if (isCompleted)
@@ -55,7 +55,7 @@ public class EarnPerfectScore : MonoBehaviour
         }
 
         // Check if achievement is completed
-        if (sceneEntriesCount >= requiredPerfectScoreAmount && isCompleted == false)
+        if (scenePerfectScore >= requiredPerfectScoreAmount && isCompleted == false)
         {
             isCompleted = true;
             COMPLETED();
