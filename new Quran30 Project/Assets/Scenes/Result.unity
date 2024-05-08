@@ -11740,8 +11740,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86b225ae63d1bbf44bcfbec503d76d5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  giveAdEvery: 1
-  randomRange: 2
+  giveAdEvery: 3
+  chanceOfADType: 2
   SkippableAdPanel: {fileID: 2028142502}
   UnSkippableAdPanel: {fileID: 973714358}
 --- !u!4 &2081200844

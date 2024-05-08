@@ -6,7 +6,7 @@ using UnityEngine;
 public class GiveAdHandler : MonoBehaviour
 {
     public int giveAdEvery;
-    public int randomRange;
+    public int chanceOfADType;
 
     [SerializeField] private GameObject SkippableAdPanel;
     [SerializeField] private GameObject UnSkippableAdPanel;
@@ -26,11 +26,11 @@ public class GiveAdHandler : MonoBehaviour
 
     private void AdTypeProbability()
     {
-        int randomNumber = Random.Range(1, randomRange + 1);
+        int randomNumber = Random.Range(1, chanceOfADType + 1);
 
         Debug.Log(randomNumber);
 
-        if (randomNumber == (randomRange))
+        if (randomNumber == (chanceOfADType))
         {
             StartCoroutine(UnSkippableAd(30));
         }
