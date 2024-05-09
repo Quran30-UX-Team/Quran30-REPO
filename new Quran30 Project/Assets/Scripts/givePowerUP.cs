@@ -7,6 +7,8 @@ public class givePowerUP : MonoBehaviour
     public GameObject FreezePU;
     public GameObject DoublePU;
     public GameObject HalfPU;
+    public GameObject AddTimePU;
+    public GameObject EraseOnePU;
 
     void Start()
     {
@@ -14,6 +16,7 @@ public class givePowerUP : MonoBehaviour
         SetChildObject(PlayerPrefs.GetString("Slot1"), transform);
         SetChildObject(PlayerPrefs.GetString("Slot2"), transform);
         SetChildObject(PlayerPrefs.GetString("Slot3"), transform);
+        SetChildObject(PlayerPrefs.GetString("Slot4"), transform);
     }
 
     private void SetChildObject(string powerUpName, Transform parent)
@@ -37,6 +40,12 @@ public class givePowerUP : MonoBehaviour
                 break;
             case "HalfPU(Clone)":
                 powerUpPrefab = HalfPU;
+                break;
+            case "AddTimePU(Clone)":
+                powerUpPrefab = AddTimePU;
+                break;
+            case "EraseOnePU(Clone)":
+                powerUpPrefab = EraseOnePU;
                 break;
             default:
                 Debug.LogWarning("Unknown power-up: " + powerUpName);

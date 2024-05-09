@@ -7,10 +7,12 @@ using UnityEngine.UI;
 public class AchievementPanelHandler : MonoBehaviour
 {
     public string achievementName;
+    public string achievementDescription;
     public int achievementLevel;
 
     private int achievementMaxExp;
     public TextMeshProUGUI achievementNameText;
+    public TextMeshProUGUI achievementDescriptionText;
 
     public GameObject progressContainer;
     public Image progressFillbar;
@@ -23,6 +25,7 @@ public class AchievementPanelHandler : MonoBehaviour
     private void Start()
     {
         achievementNameText.text = achievementName;
+        achievementDescriptionText.text = achievementDescription;
         CalculateMaxExp();
 
         // Check if achievement was already completed and accepted

@@ -1,11 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
-using Unity.Mathematics;
-using System;
+using UnityEngine.UI;
 
 public class timeController : MonoBehaviour
 {
@@ -37,8 +33,14 @@ public class timeController : MonoBehaviour
 
     public void Start()
     {
+        timeRemaining = PlayerPrefs.GetFloat("Timer", maxTime); // Load the timer value from PlayerPrefs
+        ResetTimer();
+    }
+
+    // Method to reset the timer to its initial value
+    public void ResetTimer()
+    {
         timeRemaining = maxTime;
-        PlayerPrefs.SetFloat("Timer", maxTime);
     }
 
     void Update()
@@ -50,7 +52,6 @@ public class timeController : MonoBehaviour
 
             if (timeRemaining > 0)
             {
-                PlayerPrefs.SetFloat("Timer", timeRemaining);
                 timeRemaining -= Time.deltaTime;
                 fillBar.fillAmount = timeRemaining / maxTime;
 
@@ -79,13 +80,16 @@ public class timeController : MonoBehaviour
                 }
             }
         }
-
         else
         {
             fillBar.gameObject.SetActive(false);
             practiceText.gameObject.SetActive(true);
         }
-        
     }
 
+    // Method to add time to the timer
+    public void AddTime(float additionalTime)
+    {
+        timeRemaining += additionalTime;
+    }
 }

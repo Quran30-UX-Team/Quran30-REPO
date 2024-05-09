@@ -5,12 +5,15 @@ using UnityEngine.UI;
 public class SceneEnterAchievement : MonoBehaviour
 {
     public string achievementName;
+    public string achievementDescription;
     public int requiredSceneEntries = 1; // Number of scene entries required to complete the achievement
 
     private int sceneEntriesCount = 0; // Counter for scene entries
     private bool isCompleted = false; // Track if achievement is completed
 
     public TextMeshProUGUI achievementNameText;
+    public TextMeshProUGUI achievementDescriptionText;
+
     public GameObject progressContainer;
     public Image progressFillbar;
     public GameObject Badge;
@@ -19,6 +22,7 @@ public class SceneEnterAchievement : MonoBehaviour
     private void Start()
     {
         achievementNameText.text = achievementName;
+        achievementDescriptionText.text = achievementDescription;
 
         // Load completion state
         isCompleted = PlayerPrefs.GetInt("Achievement_" + achievementName + "_Completed", 0) == 1;

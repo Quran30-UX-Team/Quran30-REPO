@@ -3301,6 +3301,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 828493679}
     m_Modifications:
+    - target: {fileID: 1391626199865033214, guid: 59a621d58f8506346b4e98fd6d19f86e, type: 3}
+      propertyPath: AddTimePU
+      value: 
+      objectReference: {fileID: 1344001417063611114, guid: d9d4525a47f972541a38ac1c1f868b45, type: 3}
+    - target: {fileID: 1391626199865033214, guid: 59a621d58f8506346b4e98fd6d19f86e, type: 3}
+      propertyPath: EraseOnePU
+      value: 
+      objectReference: {fileID: 5661770424052962289, guid: 20fc2048865cfc140828e333f1d0ff69, type: 3}
     - target: {fileID: 2715752510375924706, guid: 59a621d58f8506346b4e98fd6d19f86e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

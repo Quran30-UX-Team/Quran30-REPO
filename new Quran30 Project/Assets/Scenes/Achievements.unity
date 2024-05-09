@@ -586,11 +586,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7713139238168058974, guid: 4d2d6529b6c21004b81c1af04c6d04d5, type: 3}
       propertyPath: achievementName
-      value: Bee Riser - Reach Level 1
+      value: Bee Riser
       objectReference: {fileID: 0}
     - target: {fileID: 7713139238168058974, guid: 4d2d6529b6c21004b81c1af04c6d04d5, type: 3}
       propertyPath: achievementLevel
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7713139238168058974, guid: 4d2d6529b6c21004b81c1af04c6d04d5, type: 3}
+      propertyPath: achievementDescription
+      value: Reach Level 1
       objectReference: {fileID: 0}
     - target: {fileID: 8224753872271556134, guid: 4d2d6529b6c21004b81c1af04c6d04d5, type: 3}
       propertyPath: m_AnchorMax.y
@@ -754,8 +758,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8444072024901543510, guid: 76960db178eb50c4082b7fe67529c427, type: 3}
+      propertyPath: achievementDesc
+      value: Get Perfect Score Thrice
+      objectReference: {fileID: 0}
+    - target: {fileID: 8444072024901543510, guid: 76960db178eb50c4082b7fe67529c427, type: 3}
       propertyPath: achievementName
-      value: Averroes Virtuoso - Get Perfect Score Thrice
+      value: Averroes Virtuoso
       objectReference: {fileID: 0}
     - target: {fileID: 8444072024901543510, guid: 76960db178eb50c4082b7fe67529c427, type: 3}
       propertyPath: requiredPerfectScoreAmount
@@ -1157,59 +1165,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4285961239522104376, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4285961239522104376, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4285961239522104376, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 245
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4285961239522104376, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -220
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4539665841263360020, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: achievementName
-      value: Focused Falcon - Complete Quiz Thrice
+      value: Focused Falcon
       objectReference: {fileID: 0}
     - target: {fileID: 4539665841263360020, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: requiredSceneEntries
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4539665841263360020, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
+      propertyPath: achievementDescription
+      value: Complete Quiz Thrice
+      objectReference: {fileID: 0}
     - target: {fileID: 8137358023946070797, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8137358023946070797, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8137358023946070797, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 245
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8137358023946070797, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -55
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8422216079171448525, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8422216079171448525, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8422216079171448525, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 245
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8422216079171448525, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -410
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9100892259361360265, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_Name
@@ -1315,55 +1327,59 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4285961239522104376, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4285961239522104376, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4285961239522104376, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 245
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4285961239522104376, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -220
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4539665841263360020, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: achievementName
-      value: Batal al-Hadid Complete First Quiz
+      value: Batal al-Hadid
+      objectReference: {fileID: 0}
+    - target: {fileID: 4539665841263360020, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
+      propertyPath: achievementDescription
+      value: Complete First Quiz
       objectReference: {fileID: 0}
     - target: {fileID: 8137358023946070797, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8137358023946070797, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8137358023946070797, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 245
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8137358023946070797, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -55
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8422216079171448525, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8422216079171448525, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8422216079171448525, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 245
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8422216079171448525, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -410
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9100892259361360265, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_Name
@@ -1390,6 +1406,30 @@ PrefabInstance:
     - target: {fileID: 280404368882119424, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_Name
       value: DeedCollectedAchievementPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364952826913759364, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364952826913759364, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364952826913759364, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364952826913759364, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364952826913759364, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364952826913759364, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2461318232020490436, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_Pivot.x
@@ -1471,57 +1511,89 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4331793061354059188, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331793061354059188, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331793061354059188, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331793061354059188, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331793061354059188, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331793061354059188, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4812189624897093428, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4812189624897093428, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4812189624897093428, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 245
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4812189624897093428, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -220
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5387877190382608239, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5387877190382608239, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5387877190382608239, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 245
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5387877190382608239, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -55
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5570463497734900709, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: achievementDesc
+      value: Collect 70 Deeds
       objectReference: {fileID: 0}
     - target: {fileID: 5570463497734900709, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: achievementName
       value: Al-Ghani - Collect 70 Total Deeds
       objectReference: {fileID: 0}
+    - target: {fileID: 5570463497734900709, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: achievementTitle
+      value: Al-Ghani/Ghani
+      objectReference: {fileID: 0}
     - target: {fileID: 8224753872271556134, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8224753872271556134, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8224753872271556134, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 245
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8224753872271556134, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -410
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1659,11 +1731,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7713139238168058974, guid: 4d2d6529b6c21004b81c1af04c6d04d5, type: 3}
       propertyPath: achievementName
-      value: Bee Riser - Reach Level 5
+      value: Bee Riser
       objectReference: {fileID: 0}
     - target: {fileID: 7713139238168058974, guid: 4d2d6529b6c21004b81c1af04c6d04d5, type: 3}
       propertyPath: achievementLevel
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7713139238168058974, guid: 4d2d6529b6c21004b81c1af04c6d04d5, type: 3}
+      propertyPath: achievementDescription
+      value: Reach Level 5
       objectReference: {fileID: 0}
     - target: {fileID: 8224753872271556134, guid: 4d2d6529b6c21004b81c1af04c6d04d5, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1894,8 +1970,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8444072024901543510, guid: 76960db178eb50c4082b7fe67529c427, type: 3}
+      propertyPath: achievementDesc
+      value: Get Perfect Score Four Times
+      objectReference: {fileID: 0}
+    - target: {fileID: 8444072024901543510, guid: 76960db178eb50c4082b7fe67529c427, type: 3}
       propertyPath: achievementName
-      value: Accurate Archer - Get Perfect Score Four Times
+      value: Accurate Archer
       objectReference: {fileID: 0}
     - target: {fileID: 8444072024901543510, guid: 76960db178eb50c4082b7fe67529c427, type: 3}
       propertyPath: requiredPerfectScoreAmount
@@ -2129,11 +2209,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7713139238168058974, guid: 4d2d6529b6c21004b81c1af04c6d04d5, type: 3}
       propertyPath: achievementName
-      value: Bee Riser - Reach Level 3
+      value: Bee Riser
       objectReference: {fileID: 0}
     - target: {fileID: 7713139238168058974, guid: 4d2d6529b6c21004b81c1af04c6d04d5, type: 3}
       propertyPath: achievementLevel
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7713139238168058974, guid: 4d2d6529b6c21004b81c1af04c6d04d5, type: 3}
+      propertyPath: achievementDescription
+      value: Reach Level 3
       objectReference: {fileID: 0}
     - target: {fileID: 8224753872271556134, guid: 4d2d6529b6c21004b81c1af04c6d04d5, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2172,6 +2256,30 @@ PrefabInstance:
     - target: {fileID: 280404368882119424, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_Name
       value: DeedCollectedAchievementPanel (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364952826913759364, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364952826913759364, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364952826913759364, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364952826913759364, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364952826913759364, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364952826913759364, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2461318232020490436, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_Pivot.x
@@ -2253,41 +2361,73 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4331793061354059188, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331793061354059188, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331793061354059188, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331793061354059188, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331793061354059188, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331793061354059188, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4812189624897093428, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4812189624897093428, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4812189624897093428, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 245
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4812189624897093428, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -220
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5387877190382608239, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5387877190382608239, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5387877190382608239, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 245
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5387877190382608239, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -55
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5570463497734900709, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: achievementDesc
+      value: Collect 100 Deeds
       objectReference: {fileID: 0}
     - target: {fileID: 5570463497734900709, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: achievementName
       value: Al-Ghani/Ghani - Collect 100 Total Deeds
+      objectReference: {fileID: 0}
+    - target: {fileID: 5570463497734900709, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: achievementTitle
+      value: Al-Ghani/Ghani
       objectReference: {fileID: 0}
     - target: {fileID: 5570463497734900709, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: totalDeedsToAchieve
@@ -2295,19 +2435,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8224753872271556134, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8224753872271556134, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8224753872271556134, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 245
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8224753872271556134, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -410
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2618,11 +2758,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7713139238168058974, guid: 4d2d6529b6c21004b81c1af04c6d04d5, type: 3}
       propertyPath: achievementName
-      value: Bee Riser - Reach Level 4
+      value: Bee Riser
       objectReference: {fileID: 0}
     - target: {fileID: 7713139238168058974, guid: 4d2d6529b6c21004b81c1af04c6d04d5, type: 3}
       propertyPath: achievementLevel
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7713139238168058974, guid: 4d2d6529b6c21004b81c1af04c6d04d5, type: 3}
+      propertyPath: achievementDescription
+      value: Reach Level 4
       objectReference: {fileID: 0}
     - target: {fileID: 8224753872271556134, guid: 4d2d6529b6c21004b81c1af04c6d04d5, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2730,6 +2874,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeedCollectedAchievementPanel (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1364952826913759364, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364952826913759364, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364952826913759364, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364952826913759364, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364952826913759364, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364952826913759364, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2461318232020490436, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2810,41 +2978,73 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4331793061354059188, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331793061354059188, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331793061354059188, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331793061354059188, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331793061354059188, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331793061354059188, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4812189624897093428, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4812189624897093428, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4812189624897093428, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 245
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4812189624897093428, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -220
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5387877190382608239, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5387877190382608239, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5387877190382608239, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 245
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5387877190382608239, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -55
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5570463497734900709, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: achievementDesc
+      value: Collect 120 Deeds
       objectReference: {fileID: 0}
     - target: {fileID: 5570463497734900709, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: achievementName
       value: The Diligent Ant - Collect 120 Total Deeds
+      objectReference: {fileID: 0}
+    - target: {fileID: 5570463497734900709, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
+      propertyPath: achievementTitle
+      value: The Diligent Ant
       objectReference: {fileID: 0}
     - target: {fileID: 5570463497734900709, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: totalDeedsToAchieve
@@ -2852,19 +3052,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8224753872271556134, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8224753872271556134, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8224753872271556134, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 245
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8224753872271556134, guid: 39aa67fe15f442e4b9792dc62b89da84, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -410
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3016,6 +3216,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8444072024901543510, guid: 76960db178eb50c4082b7fe67529c427, type: 3}
+      propertyPath: achievementDesc
+      value: Get Perfect Score Once
+      objectReference: {fileID: 0}
+    - target: {fileID: 8444072024901543510, guid: 76960db178eb50c4082b7fe67529c427, type: 3}
+      propertyPath: achievementName
+      value: Al-Faruq
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3116,59 +3324,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4285961239522104376, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4285961239522104376, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4285961239522104376, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 245
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4285961239522104376, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -220
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4539665841263360020, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: achievementName
-      value: Imam Hussain Hero - Complete Quiz Twice
+      value: Imam Hussain Hero
       objectReference: {fileID: 0}
     - target: {fileID: 4539665841263360020, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: requiredSceneEntries
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4539665841263360020, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
+      propertyPath: achievementDescription
+      value: Complete Quiz Twice
+      objectReference: {fileID: 0}
     - target: {fileID: 8137358023946070797, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8137358023946070797, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8137358023946070797, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 245
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8137358023946070797, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -55
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8422216079171448525, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8422216079171448525, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8422216079171448525, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 245
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8422216079171448525, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -410
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9100892259361360265, guid: e7531680b22284342a0115d8bc740fdb, type: 3}
       propertyPath: m_Name
@@ -3664,8 +3876,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8444072024901543510, guid: 76960db178eb50c4082b7fe67529c427, type: 3}
+      propertyPath: achievementDesc
+      value: Get Perfect Score Twice
+      objectReference: {fileID: 0}
+    - target: {fileID: 8444072024901543510, guid: 76960db178eb50c4082b7fe67529c427, type: 3}
       propertyPath: achievementName
-      value: Al-Hakim - Get Perfect Score Twice
+      value: Al-Hakim
       objectReference: {fileID: 0}
     - target: {fileID: 8444072024901543510, guid: 76960db178eb50c4082b7fe67529c427, type: 3}
       propertyPath: requiredPerfectScoreAmount
@@ -3925,11 +4141,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7713139238168058974, guid: 4d2d6529b6c21004b81c1af04c6d04d5, type: 3}
       propertyPath: achievementName
-      value: Bee Riser - Reach Level 6
+      value: Bee Riser
       objectReference: {fileID: 0}
     - target: {fileID: 7713139238168058974, guid: 4d2d6529b6c21004b81c1af04c6d04d5, type: 3}
       propertyPath: achievementLevel
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7713139238168058974, guid: 4d2d6529b6c21004b81c1af04c6d04d5, type: 3}
+      propertyPath: achievementDescription
+      value: Reach Level 6
       objectReference: {fileID: 0}
     - target: {fileID: 8224753872271556134, guid: 4d2d6529b6c21004b81c1af04c6d04d5, type: 3}
       propertyPath: m_AnchorMax.y
@@ -4083,11 +4303,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7713139238168058974, guid: 4d2d6529b6c21004b81c1af04c6d04d5, type: 3}
       propertyPath: achievementName
-      value: Bee Riser - Reach Level 2
+      value: Bee Riser
       objectReference: {fileID: 0}
     - target: {fileID: 7713139238168058974, guid: 4d2d6529b6c21004b81c1af04c6d04d5, type: 3}
       propertyPath: achievementLevel
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7713139238168058974, guid: 4d2d6529b6c21004b81c1af04c6d04d5, type: 3}
+      propertyPath: achievementDescription
+      value: Reach Level 2
       objectReference: {fileID: 0}
     - target: {fileID: 8224753872271556134, guid: 4d2d6529b6c21004b81c1af04c6d04d5, type: 3}
       propertyPath: m_AnchorMax.y

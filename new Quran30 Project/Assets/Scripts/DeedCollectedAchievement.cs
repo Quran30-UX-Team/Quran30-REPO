@@ -6,10 +6,12 @@ using UnityEngine.UI;
 
 public class DeedCollectedAchievement : MonoBehaviour
 {
-    public string achievementName;
+    public string achievementTitle;
+    public string achievementDesc;
 
     public int totalDeedsToAchieve;
-    public TextMeshProUGUI achievementNameText;
+    public TextMeshProUGUI achievementTitleText;
+    public TextMeshProUGUI achievementDescText;
 
     public GameObject progressContainer;
     public Image progressFillbar;
@@ -21,16 +23,17 @@ public class DeedCollectedAchievement : MonoBehaviour
 
     private void Start()
     {
-        achievementNameText.text = achievementName;
+        achievementTitleText.text = achievementTitle;
+        achievementDescText.text = achievementDesc;
 
         // Check if achievement was already completed and accepted
-        if (PlayerPrefs.GetInt("Achievement_" + achievementName + "_Completed") == 1)
+        if (PlayerPrefs.GetInt("Achievement_" + achievementTitle + "_Completed") == 1)
         {
             isCompleted = true;
             COMPLETED();
 
             // Check if achievement was accepted
-            if (PlayerPrefs.GetInt("Achievement_" + achievementName + "_Accepted") == 1)
+            if (PlayerPrefs.GetInt("Achievement_" + achievementTitle + "_Accepted") == 1)
             {
                 acceptAchievement();
             }
@@ -50,7 +53,7 @@ public class DeedCollectedAchievement : MonoBehaviour
         {
             isCompleted = true;
             COMPLETED();
-            PlayerPrefs.SetInt("Achievement_" + achievementName + "_Completed", 1); // Save completion state
+            PlayerPrefs.SetInt("Achievement_" + achievementTitle + "_Completed", 1); // Save completion state
         }
     }
 
@@ -64,7 +67,7 @@ public class DeedCollectedAchievement : MonoBehaviour
     {
         acceptPanel.SetActive(false);
         Badge.SetActive(true);
-        PlayerPrefs.SetInt("Achievement_" + achievementName + "_Accepted", 1); // Save acceptance state
+        PlayerPrefs.SetInt("Achievement_" + achievementTitle + "_Accepted", 1); // Save acceptance state
         this.gameObject.tag = "Claimed";
     }
 }

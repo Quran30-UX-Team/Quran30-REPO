@@ -5,12 +5,15 @@ using UnityEngine.UI;
 public class EarnPerfectScore : MonoBehaviour
 {
     public string achievementName;
+    public string achievementDesc;
     public int requiredPerfectScoreAmount = 1;
 
     private int scenePerfectScore = 0; // Counter for scene entries
     private bool isCompleted = false; // Track if achievement is completed
 
     public TextMeshProUGUI achievementNameText;
+    public TextMeshProUGUI achievementDescText;
+
     public GameObject progressContainer;
     public Image progressFillbar;
     public GameObject Badge;
@@ -19,6 +22,7 @@ public class EarnPerfectScore : MonoBehaviour
     private void Start()
     {
         achievementNameText.text = achievementName;
+        achievementDescText.text = achievementDesc;
 
         // Load completion state
         isCompleted = PlayerPrefs.GetInt("Achievement_" + achievementName + "_Completed", 0) == 1;

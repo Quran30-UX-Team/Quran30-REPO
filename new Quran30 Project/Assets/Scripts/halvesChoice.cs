@@ -13,9 +13,9 @@ public class halvesChoice : MonoBehaviour
     {
         answerButton = FindObjectOfType<answerButton>();
     }
-    public void halfWrongAnswer()
+    public void halfWrongAnswer(int amountToRemove)
     {
-        answerButton.RemoveRandomWrongAnswers(2);
+        answerButton.RemoveRandomWrongAnswers(amountToRemove);
         powerUPBtn.interactable = false;
     }
 }

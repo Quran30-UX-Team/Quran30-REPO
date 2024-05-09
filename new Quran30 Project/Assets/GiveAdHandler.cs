@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Transactions;
 using UnityEngine;
+using TMPro;
 
 public class GiveAdHandler : MonoBehaviour
 {
@@ -9,13 +9,15 @@ public class GiveAdHandler : MonoBehaviour
     public int chanceOfADType;
 
     [SerializeField] private GameObject SkippableAdPanel;
+    [SerializeField] private TextMeshProUGUI skippableAdCountdownText;
     [SerializeField] private GameObject UnSkippableAdPanel;
+    [SerializeField] private TextMeshProUGUI unskippableAdCountdownText;
 
     private void Start()
     {
         PlayerPrefs.SetInt("GiveAdCounter", PlayerPrefs.GetInt("GiveAdCounter") + 1);
 
-        print(PlayerPrefs.GetInt("GiveAdCounter"));
+        Debug.Log(PlayerPrefs.GetInt("GiveAdCounter"));
 
         if (PlayerPrefs.GetInt("GiveAdCounter") == giveAdEvery)
         {
@@ -30,7 +32,7 @@ public class GiveAdHandler : MonoBehaviour
 
         Debug.Log(randomNumber);
 
-        if (randomNumber == (chanceOfADType))
+        if (randomNumber == chanceOfADType)
         {
             StartCoroutine(UnSkippableAd(30));
         }
@@ -43,14 +45,30 @@ public class GiveAdHandler : MonoBehaviour
     IEnumerator SkippableAd(int seconds)
     {
         SkippableAdPanel.SetActive(true);
-        yield return new WaitForSeconds(seconds);
+        skippableAdCountdownText.text = seconds.ToString();
+
+        while (seconds > 0)
+        {
+            yield return new WaitForSeconds(1);
+            seconds--;
+            skippableAdCountdownText.text = seconds.ToString();
+        }
+
         SkippableAdPanel.SetActive(false);
     }
 
     IEnumerator UnSkippableAd(int seconds)
     {
         UnSkippableAdPanel.SetActive(true);
-        yield return new WaitForSeconds(seconds);
+        unskippableAdCountdownText.text = seconds.ToString();
+
+        while (seconds > 0)
+        {
+            yield return new WaitForSeconds(1);
+            seconds--;
+            unskippableAdCountdownText.text = seconds.ToString();
+        }
+
         UnSkippableAdPanel.SetActive(false);
     }
 }
