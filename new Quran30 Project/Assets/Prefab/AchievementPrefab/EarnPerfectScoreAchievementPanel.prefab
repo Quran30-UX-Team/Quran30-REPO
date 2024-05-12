@@ -241,8 +241,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3784126930343101834}
   - {fileID: 1089929601379886821}
+  - {fileID: 3784126930343101834}
   m_Father: {fileID: 1142133192752516245}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -588,7 +588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 866b750f0a677984997eb6a909ea5412, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  achievementName: Al-Faruq - Get Perfect Score Once
+  achievementName: 
   achievementDesc: 
   requiredPerfectScoreAmount: 1
   achievementNameText: {fileID: 6393894289508118409}

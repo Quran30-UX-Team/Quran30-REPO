@@ -114,6 +114,106 @@ MonoBehaviour:
     m_Localized: FEEDBACK
     m_Metadata:
       m_Items: []
+  - m_Id: 25
+    m_Localized: DISCORD SERVER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26
+    m_Localized: 'SCORES:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27
+    m_Localized: Pick a Surah to start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28
+    m_Localized: Do you want to UNLOCK with 20 <sprite index=0> ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29
+    m_Localized: You need 20 more deeds to unlock this surah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30
+    m_Localized: CANCEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31
+    m_Localized: SKIP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32
+    m_Localized: Click this button to start the Quiz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33
+    m_Localized: Click this button to see your achievements
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34
+    m_Localized: Click this button to explore other games.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35
+    m_Localized: Click this button to manage your Profile.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36
+    m_Localized: Click this button to join our discord.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37
+    m_Localized: Cllick this button to know more About Us.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38
+    m_Localized: Click this button to start Practice. No Timer, No Deeds.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39
+    m_Localized: Click this button to start Quiz. Timer Mode, Deeds Reward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40
+    m_Localized: Level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41
+    m_Localized: THEME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42
+    m_Localized: POWER UP SHOP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43
+    m_Localized: Click this button before starting a level to use Power Up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44
+    m_Localized: LEADERBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45
+    m_Localized: FROZEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46
+    m_Localized: Pick power ups for the quiz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47
+    m_Localized: Each power ups cost 10 Premium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48
+    m_Localized: SLOT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49
+    m_Localized: AUDIO
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

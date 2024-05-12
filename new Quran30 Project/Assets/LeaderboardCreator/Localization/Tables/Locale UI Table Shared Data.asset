@@ -111,6 +111,110 @@ MonoBehaviour:
     m_Key: Key_Feedback
     m_Metadata:
       m_Items: []
+  - m_Id: 25
+    m_Key: Key_DiscordServer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26
+    m_Key: Key_Scores
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27
+    m_Key: Key_PickSurah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28
+    m_Key: Key_UnlockPanel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29
+    m_Key: Key_LevelPanel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30
+    m_Key: Key_Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31
+    m_Key: Key_Skip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32
+    m_Key: Key_Tutorial1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33
+    m_Key: Key_Tutorial2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34
+    m_Key: Key_Tutorial3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35
+    m_Key: Key_Tutorial4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36
+    m_Key: Key_Tutorial5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37
+    m_Key: Key_Tutorial6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38
+    m_Key: Key_Tutorial7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39
+    m_Key: Key_Tutorial8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40
+    m_Key: Key_Level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41
+    m_Key: Key_Theme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41
+    m_Key: Key_Theme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42
+    m_Key: Key_PowerUpShop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43
+    m_Key: Key_Tutorial9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44
+    m_Key: Key_Leaderboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45
+    m_Key: Key_Frozen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46
+    m_Key: Key_PickPowerUps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47
+    m_Key: Key_PowerUpsCost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48
+    m_Key: Key_Slot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49
+    m_Key: Key_Audio
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -114,6 +114,107 @@ MonoBehaviour:
     m_Localized: MAKLUM BALAS
     m_Metadata:
       m_Items: []
+  - m_Id: 25
+    m_Localized: DISCORD SERVER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26
+    m_Localized: 'MARKAH:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27
+    m_Localized: Pilih Surah untuk memulakan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28
+    m_Localized: Adakah anda ingin MEMBUKA kunci dengan 20 <sprite index=0>?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29
+    m_Localized: Anda memerlukan 20 kebaikan lagi untuk membuka kunci surah ini
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30
+    m_Localized: BATAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31
+    m_Localized: LANGKAU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32
+    m_Localized: Klik butang ini untuk memulakan Kuiz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33
+    m_Localized: Klik butang ini untuk melihat pencapaian anda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34
+    m_Localized: Klik butang ini untuk meneroka permainan lain.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35
+    m_Localized: Klik butang ini untuk mengurus Profil anda.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36
+    m_Localized: Klik butang ini untuk menyertai Discord kami.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37
+    m_Localized: Klik butang ini untuk mengetahui lebih lanjut Mengenai Kami.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38
+    m_Localized: Klik butang ini untuk memulakan Latihan. Tiada Pemasa, Tiada Kebaikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39
+    m_Localized: Klik butang ini untuk memulakan Kuiz. Mod Pemasa, Ganjaran Kebaikan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40
+    m_Localized: Peringkat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41
+    m_Localized: TEMA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42
+    m_Localized: KEDAI TINGKAT KUASA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43
+    m_Localized: Klik butang ini sebelum memulakan tahap untuk menggunakan Tingkat
+      Kuasa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44
+    m_Localized: PAPAN PEMIMPIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45
+    m_Localized: BEKU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46
+    m_Localized: Pilih tingkat kuasa untuk kuiz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47
+    m_Localized: Setiap peningkatan kuasa berharga 10 Premium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48
+    m_Localized: SLOT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49
+    m_Localized: AUDIO
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

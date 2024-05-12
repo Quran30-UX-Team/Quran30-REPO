@@ -128,7 +128,7 @@ public class resultPage : MonoBehaviour
 
         deeds = PlayerPrefs.GetFloat("Deeds") + totalDeeds;
 
-        congratsPanelText.text = "SCORES: " + "<b>" + roundedScore + "</b>";
+        congratsPanelText.text = "<b>" + roundedScore + "</b>";
         rewardPanelText.text = "RECEIVED " + "<b>" + roundedDeed + "</b>" + " DEEDS";
 
         PlayerPrefs.SetFloat("Deeds", deeds);

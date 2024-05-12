@@ -9,8 +9,6 @@ public class confirmUnlockBtn : MonoBehaviour
     public GameObject unlockPanel;
     public void confirmUnlock()
     {
-        PlayerPrefs.SetInt(PlayerPrefs.GetString("currentLock"), 1);
-
         // Find the GameObject with the name stored in levelBtnName
         GameObject levelBtn = GameObject.Find(PlayerPrefs.GetString("currentButton"));
 
@@ -28,9 +26,6 @@ public class confirmUnlockBtn : MonoBehaviour
                 {
                     // Get the GameObject reference for the Lock
                     GameObject lockObject = lockTransform.gameObject;
-
-                    lockObject.SetActive(false);
-                    PlayerPrefs.SetInt(PlayerPrefs.GetString("currentLock"), 1);
                     unlockPanel.SetActive(false);
 
                     if (PlayerPrefs.GetFloat("Deeds") > 19)
@@ -39,6 +34,10 @@ public class confirmUnlockBtn : MonoBehaviour
                         lockObject.SetActive(false);
                         PlayerPrefs.SetInt(PlayerPrefs.GetString("currentLock"), 1);
                         unlockPanel.SetActive(false);
+                    }
+                    else
+                    {
+                        Debug.Log("Not Enough Deeds");
                     }
 
                 }
