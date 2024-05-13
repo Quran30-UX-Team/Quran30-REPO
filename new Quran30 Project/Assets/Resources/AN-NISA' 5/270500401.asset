@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 5
   surahName: AN-NISA'(AYAT 23-147)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 9b337ce4a1607304ea43abab79435f68, type: 3}
   question: Apakah yang diperintahkan Allah tentang menjadi seorang hakim?
   answers:
   - Memutuskan dengan adil dan jujur
