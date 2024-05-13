@@ -52,6 +52,7 @@ public class timeController : MonoBehaviour
 
             if (timeRemaining > 0)
             {
+                PlayerPrefs.SetFloat("Timer", timeRemaining);
                 timeRemaining -= Time.deltaTime;
                 fillBar.fillAmount = timeRemaining / maxTime;
 

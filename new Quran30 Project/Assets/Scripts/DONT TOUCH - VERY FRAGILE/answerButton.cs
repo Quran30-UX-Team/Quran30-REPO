@@ -87,6 +87,10 @@ public class answerButton : MonoBehaviour
             rightDeeds = PlayerPrefs.GetFloat("Timer") * 0.5f;
             rightScores = PlayerPrefs.GetFloat("Timer") * 0.5f;
 
+            Debug.Log("Right Timer: " + PlayerPrefs.GetFloat("Timer"));
+            Debug.Log("Right Deeds: " + rightDeeds);
+            Debug.Log("Right Scores: " + rightScores);
+
             // Save deeds and scores for the current question
             PlayerPrefs.SetFloat("Deeds_" + i, Mathf.Round(rightDeeds * 100f) / 100f);
             PlayerPrefs.SetFloat("Scores_" + i, Mathf.Round(rightScores * 100f) / 100f);
@@ -107,6 +111,11 @@ public class answerButton : MonoBehaviour
 
             wrongDeeds = PlayerPrefs.GetFloat("Timer") * 0.05f;
             wrongScores = (11f - PlayerPrefs.GetFloat("Timer")) * -0.75f;
+
+            Debug.Log("Wrong Timer: " + PlayerPrefs.GetFloat("Timer"));
+            Debug.Log("Wrong Deeds: " + wrongDeeds);
+            Debug.Log("Wrong Scores: " + wrongScores);
+
             // Save deeds and scores for the current question
             PlayerPrefs.SetFloat("Deeds_" + i, Mathf.Round(wrongDeeds * 100f) / 100f);
             PlayerPrefs.SetFloat("Scores_" + i, Mathf.Round(wrongScores * 100f) / 100f);
