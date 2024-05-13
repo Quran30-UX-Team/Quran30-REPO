@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 3
   surahName: AL-BAQARAH(AYAT 253-286)
   category: Ayat Surah
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: a837ba093e0021843b0ff982d7addf44, type: 3}
   question: Apakah perumpamaan bagi orang yang menginfakkan hartanya di jalan Allah?
   answers:
   - Seperti sebutir biji yang menumbuhkan 700 butir
