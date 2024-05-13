@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 1
   surahName: AL-BAQARAH(AYAT 1-141)
   category: Cerita
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: a55558a443d07b74aa926156ccf902c6, type: 3}
   question: Bagaimanakah sikap orang-orang munafik terhadap orang-orang beriman?
   answers:
   - Memusuhi dan mendustai

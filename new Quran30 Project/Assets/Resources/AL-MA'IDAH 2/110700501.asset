@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 7
   surahName: AL-MA'IDAH(AYAT 83-120)
   category: Hukum
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 3f7a127e2e2d872449132f0a16ac1355, type: 3}
   question: Apakah BUKAN di antara larangan ketika melakukan ihram?
   answers:
   - 'Berzina '
