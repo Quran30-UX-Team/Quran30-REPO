@@ -25,6 +25,8 @@ public class resultPage : MonoBehaviour
     public GameObject Star2;
     public GameObject Star3;
 
+    public TextMeshProUGUI Title;
+
     public TextMeshProUGUI[] deedTexts;
     public TextMeshProUGUI[] scoreTexts;
 
@@ -79,12 +81,15 @@ public class resultPage : MonoBehaviour
             Star1.SetActive(false);
             Star2.SetActive(false);
             Star3.SetActive(false);
+            Title.text = "TRY AGAIN!";
         }
         else if (totalScores < 15)
         {
             Star1.SetActive(true);
             Star2.SetActive(false);
             Star3.SetActive(false);
+            Title.text = "CONGRATULATION!";
+
             src.clip = popSFX;
             src.Play();
         }
@@ -93,6 +98,8 @@ public class resultPage : MonoBehaviour
             Star1.SetActive(true);
             Star2.SetActive(true);
             Star3.SetActive(false);
+            Title.text = "CONGRATULATION!";
+
             src.clip = popSFX;
             src.Play();
         }
@@ -101,6 +108,7 @@ public class resultPage : MonoBehaviour
             Star1.SetActive(true);
             Star2.SetActive(true);
             Star3.SetActive(true);
+            Title.text = "CONGRATULATION!";
 
             src.clip = popSFX;
             src.Play();
