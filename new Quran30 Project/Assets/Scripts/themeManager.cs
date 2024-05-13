@@ -46,7 +46,7 @@ public class ThemeManager : MonoBehaviour
                 // Define colors for theme 1
                 ColorUtility.TryParseHtmlString("#0E1C3E", out primaryColor); // Navy Blue
                 ColorUtility.TryParseHtmlString("#65C9D7", out secondaryColor); // Neon Blue
-                ColorUtility.TryParseHtmlString("#65C9D7", out tertiaryColor); // Neon Blue
+                ColorUtility.TryParseHtmlString("#068D8C", out tertiaryColor); // Turqoise
                 ColorUtility.TryParseHtmlString("#FFFFFF", out quarternaryColor); // White
 
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor1); // White
@@ -61,7 +61,7 @@ public class ThemeManager : MonoBehaviour
                 // Define colors for theme 2
                 ColorUtility.TryParseHtmlString("#D1BCDB", out primaryColor); // Light Purple
                 ColorUtility.TryParseHtmlString("#6D57A5", out secondaryColor); // Purple
-                ColorUtility.TryParseHtmlString("#6D57A5", out tertiaryColor); // Purple
+                ColorUtility.TryParseHtmlString("#47366D", out tertiaryColor); // Darker Purple
                 ColorUtility.TryParseHtmlString("#FFFFFF", out quarternaryColor); // White
 
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor1); // White
@@ -106,7 +106,7 @@ public class ThemeManager : MonoBehaviour
                 // Default theme
                 ColorUtility.TryParseHtmlString("#0E1C3E", out primaryColor); // Navy Blue
                 ColorUtility.TryParseHtmlString("#65C9D7", out secondaryColor); // Neon Blue
-                ColorUtility.TryParseHtmlString("#65C9D7", out tertiaryColor); // Neon Blue
+                ColorUtility.TryParseHtmlString("#068D8C", out tertiaryColor); // Turqoise
                 ColorUtility.TryParseHtmlString("#FFFFFF", out quarternaryColor); // White
 
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor1); // White

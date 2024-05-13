@@ -224,7 +224,7 @@ GameObject:
   - component: {fileID: 815873285540267242}
   m_Layer: 5
   m_Name: progressContainer
-  m_TagString: SetSecondaryColor
+  m_TagString: SetTertiaryColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -301,7 +301,7 @@ GameObject:
   - component: {fileID: 1522315821701569784}
   m_Layer: 5
   m_Name: acceptPanel
-  m_TagString: SetSecondaryColor
+  m_TagString: SetTertiaryColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1546,7 +1546,7 @@ GameObject:
   - component: {fileID: 8969898938151006956}
   m_Layer: 5
   m_Name: achievementPanel
-  m_TagString: SetSecondaryColor
+  m_TagString: SetTertiaryColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

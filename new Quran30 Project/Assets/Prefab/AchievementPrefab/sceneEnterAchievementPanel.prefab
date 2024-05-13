@@ -1138,7 +1138,7 @@ GameObject:
   - component: {fileID: 5033065881745867758}
   m_Layer: 5
   m_Name: achievementPanel
-  m_TagString: Untagged
+  m_TagString: SetTertiaryColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1506,8 +1506,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   achievementName: 
+  achievementDescription: 
   requiredSceneEntries: 1
   achievementNameText: {fileID: 3153361095802093033}
+  achievementDescriptionText: {fileID: 0}
   progressContainer: {fileID: 3184853000659930828}
   progressFillbar: {fileID: 8703745784976290324}
   Badge: {fileID: 9175507268792158754}
