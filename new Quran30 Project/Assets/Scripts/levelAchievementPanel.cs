@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class AchievementPanelHandler : MonoBehaviour
 {
+    private AudioManager audioManager;
+
     public string achievementName;
     public string achievementDescription;
     public int achievementLevel;
@@ -22,6 +24,10 @@ public class AchievementPanelHandler : MonoBehaviour
 
     private bool isCompleted = false; // Track if achievement is completed
 
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+    }
     private void Start()
     {
         achievementNameText.text = achievementName;
@@ -73,6 +79,7 @@ public class AchievementPanelHandler : MonoBehaviour
 
     public void acceptAchievement()
     {
+        audioManager.PlaySFX(audioManager.changePageButtonSFX);
         acceptPanel.SetActive(false);
         Badge.SetActive(true);
         PlayerPrefs.SetInt("Achievement_" + achievementName + "_Accepted", 1); // Save acceptance state

@@ -10,8 +10,7 @@ public class answerButton : MonoBehaviour
     public GameObject doublePanel;
     public GameObject blockPanel;
 
-    public AudioSource src;
-    public AudioClip rightSFX, wrongSFX;
+    public AudioManager audioManager;
 
     public doubleDeeds doubleDeeds;
 
@@ -59,6 +58,8 @@ public class answerButton : MonoBehaviour
             Debug.LogError("timeController not found in the scene!");
         }
 
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+
         blockPanel = GameObject.Find("blockPanel");
     }
 
@@ -81,8 +82,7 @@ public class answerButton : MonoBehaviour
 
         if (isCorrect)
         {
-            src.clip = rightSFX;
-            src.Play();
+            audioManager.PlaySFX(audioManager.correctAnswerSFX);
             // Calculate deeds and scores for the current question
             rightDeeds = PlayerPrefs.GetFloat("Timer") * 0.5f;
             rightScores = PlayerPrefs.GetFloat("Timer") * 0.5f;
@@ -106,8 +106,7 @@ public class answerButton : MonoBehaviour
         }
         else
         {
-            src.clip = wrongSFX;
-            src.Play();
+            audioManager.PlaySFX(audioManager.wrongAnswerSFX);
 
             wrongDeeds = PlayerPrefs.GetFloat("Timer") * 0.05f;
             wrongScores = (11f - PlayerPrefs.GetFloat("Timer")) * -0.75f;

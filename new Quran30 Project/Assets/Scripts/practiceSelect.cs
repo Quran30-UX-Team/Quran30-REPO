@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class practiceSelect : MonoBehaviour
 {
+    public AudioManager audioManager;
+
     public Button button;
 
     public GameObject Button1;
@@ -20,6 +22,10 @@ public class practiceSelect : MonoBehaviour
 
     public bool isDrop;
 
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+    }
     private void Start()
     {
         button.interactable = false;
@@ -29,6 +35,8 @@ public class practiceSelect : MonoBehaviour
 
     public void descToggle()
     {
+        audioManager.PlaySFX(audioManager.changePageButtonSFX);
+
         if (isDrop == false)
         {
             descPanel1.SetActive(true);
@@ -53,6 +61,8 @@ public class practiceSelect : MonoBehaviour
 
     public void quizDesc()
     {
+        audioManager.PlaySFX(audioManager.changePageButtonSFX);
+
         if (isDrop == true)
         {
             descPanel1.SetActive(false);

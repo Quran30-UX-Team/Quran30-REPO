@@ -6,8 +6,7 @@ using TMPro;
 
 public class resultPage : MonoBehaviour
 {
-    public AudioSource src;
-    public AudioClip popSFX;
+    public AudioManager audioManager;
 
     public ParticleSystem particleSystem;
     private LeaderboardManager leaderboard;
@@ -37,6 +36,8 @@ public class resultPage : MonoBehaviour
 
     private void Awake()
     {
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+
         Star1.SetActive(false);
         Star2.SetActive(false);
         Star3.SetActive(false);
@@ -90,8 +91,7 @@ public class resultPage : MonoBehaviour
             Star3.SetActive(false);
             Title.text = "CONGRATULATION!";
 
-            src.clip = popSFX;
-            src.Play();
+            audioManager.PlaySFX(audioManager.resultPageSFX);
         }
         else if (totalScores < 30)
         {
@@ -100,8 +100,7 @@ public class resultPage : MonoBehaviour
             Star3.SetActive(false);
             Title.text = "CONGRATULATION!";
 
-            src.clip = popSFX;
-            src.Play();
+            audioManager.PlaySFX(audioManager.resultPageSFX);
         }
         else
         {
@@ -110,8 +109,7 @@ public class resultPage : MonoBehaviour
             Star3.SetActive(true);
             Title.text = "CONGRATULATION!";
 
-            src.clip = popSFX;
-            src.Play();
+            audioManager.PlaySFX(audioManager.resultPageSFX);
         }
 
         // Activate confetti only if at least one star is active

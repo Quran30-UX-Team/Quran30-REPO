@@ -5,12 +5,18 @@ using TMPro;
 
 public class ProceedButton : MonoBehaviour
 {
+    private AudioManager audioManager;
+
     [SerializeField] private TMP_InputField nameField;
     [SerializeField] private GameObject errorText;
 
     private bool isProcessingClick = false;
     private Vector3 originalPosition;
 
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+    }
     private void Start()
     {
         // Ensure the error text is initially hidden
@@ -29,7 +35,7 @@ public class ProceedButton : MonoBehaviour
         // Check if the input field text is not empty or whitespace
         if (!string.IsNullOrWhiteSpace(nameField.text))
         {
-            SceneManager.LoadScene("MainMenu");// Check if it's the first time the app is launched
+            StartCoroutine(delayLoadScene(0.2f));
             if (!PlayerPrefs.HasKey("FirstLaunch"))
             {
 
@@ -42,10 +48,12 @@ public class ProceedButton : MonoBehaviour
             Debug.Log("Field is empty. Please enter a name.");
             errorText.SetActive(true);
             // Start the coroutine to animate and hide the error text after a delay
+            audioManager.PlaySFX(audioManager.changePageButtonSFX);
             StartCoroutine(AnimateAndHideErrorText(1.0f));
         }
 
         // End processing click after a delay (debounce time)
+        audioManager.PlaySFX(audioManager.changePageButtonSFX);
         StartCoroutine(EndProcessingClickAfterDelay(1.0f));
     }
 
@@ -81,5 +89,11 @@ public class ProceedButton : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
         isProcessingClick = false;
+    }
+
+    IEnumerator delayLoadScene(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene("MainMenu");
     }
 }
