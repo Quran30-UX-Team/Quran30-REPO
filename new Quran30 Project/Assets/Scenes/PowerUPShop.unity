@@ -449,7 +449,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1373317202839613635, guid: 6cc40368c69396949b1a8b48e18fd4b5, type: 3}
       propertyPath: m_PixelsPerUnitMultiplier
-      value: 3
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 1494350466085356270, guid: 6cc40368c69396949b1a8b48e18fd4b5, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -481,23 +481,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1979060205037633859, guid: 6cc40368c69396949b1a8b48e18fd4b5, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 270
+      value: 675
       objectReference: {fileID: 0}
     - target: {fileID: 1979060205037633859, guid: 6cc40368c69396949b1a8b48e18fd4b5, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 50
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: 1979060205037633859, guid: 6cc40368c69396949b1a8b48e18fd4b5, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1979060205037633859, guid: 6cc40368c69396949b1a8b48e18fd4b5, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1979060205037633859, guid: 6cc40368c69396949b1a8b48e18fd4b5, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1979060205037633859, guid: 6cc40368c69396949b1a8b48e18fd4b5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -533,7 +533,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1979060205037633859, guid: 6cc40368c69396949b1a8b48e18fd4b5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -823.23
+      value: -882.0772
       objectReference: {fileID: 0}
     - target: {fileID: 1979060205037633859, guid: 6cc40368c69396949b1a8b48e18fd4b5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
