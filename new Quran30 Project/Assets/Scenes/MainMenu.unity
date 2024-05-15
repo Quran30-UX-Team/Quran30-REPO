@@ -2351,7 +2351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9605d901290c0314ea469d2a786d702e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: https://discord.gg/3e4H25rE
+  url: https://discord.com/invite/9MuegKxeJV
 --- !u!114 &1561277462
 MonoBehaviour:
   m_ObjectHideFlags: 0
