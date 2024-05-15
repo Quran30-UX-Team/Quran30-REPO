@@ -3,10 +3,16 @@ using UnityEngine.Localization.Settings;
 
 public class langChanger : MonoBehaviour
 {
-    public static string SelectedLocaleKey = "SelectedLocale";
+    private AudioManager audioManager;
 
+    public static string SelectedLocaleKey = "SelectedLocale";
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+    }
     public void ChangeLocalization(string localeCode)
     {
+        audioManager.PlaySFX(audioManager.changePageButtonSFX);
         // Switch to the specified locale
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.GetLocale(localeCode);
         // Save the selected locale identifier

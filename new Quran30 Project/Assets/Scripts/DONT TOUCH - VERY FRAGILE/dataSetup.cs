@@ -34,6 +34,9 @@ public class dataSaver : MonoBehaviour
 
             PlayerPrefs.SetInt("hasSkip", 0);
 
+            PlayerPrefs.SetFloat("BGMVolume", 0.5f);
+            PlayerPrefs.SetFloat("SFXVolume", 0.5f);
+
             // Mark as initialized
             PlayerPrefs.SetInt("Initialized", 1);
 

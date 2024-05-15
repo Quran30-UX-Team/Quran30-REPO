@@ -8,7 +8,7 @@ public class resultPage : MonoBehaviour
 {
     public AudioManager audioManager;
 
-    public ParticleSystem particleSystem;
+    public ParticleSystem VFX;
     private LeaderboardManager leaderboard;
 
     [SerializeField]
@@ -112,10 +112,10 @@ public class resultPage : MonoBehaviour
             audioManager.PlaySFX(audioManager.resultPageSFX);
         }
 
-        // Activate confetti only if at least one star is active
+        // Activate Confetti only if at least one star is active
         if (Star1.activeSelf || Star2.activeSelf || Star3.activeSelf)
         {
-            StartCoroutine(confetti(0.1f));
+            StartCoroutine(Confetti(0.1f));
         }
 
         if (Star1.activeSelf == true && Star2.activeSelf == true && Star3.activeSelf == true)
@@ -149,9 +149,9 @@ public class resultPage : MonoBehaviour
         leaderboard.SetEntry(PlayerPrefs.GetString("Profile Name"), PlayerPrefs.GetInt("totalScore"));
     }
 
-    IEnumerator confetti(float seconds)
+    IEnumerator Confetti(float seconds)
     {
         yield return new WaitForSeconds(seconds);
-        particleSystem.Play();
+        VFX.Play();
     }
 }

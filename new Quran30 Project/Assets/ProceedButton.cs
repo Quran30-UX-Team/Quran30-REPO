@@ -25,7 +25,7 @@ public class ProceedButton : MonoBehaviour
         originalPosition = errorText.transform.localPosition;
     }
 
-    public void onClick()
+    public void OnClick()
     {
         if (isProcessingClick) return;
 
@@ -48,7 +48,7 @@ public class ProceedButton : MonoBehaviour
             Debug.Log("Field is empty. Please enter a name.");
             errorText.SetActive(true);
             // Start the coroutine to animate and hide the error text after a delay
-            audioManager.PlaySFX(audioManager.changePageButtonSFX);
+            audioManager.PlaySFX(audioManager.wrongAnswerSFX);
             StartCoroutine(AnimateAndHideErrorText(1.0f));
         }
 

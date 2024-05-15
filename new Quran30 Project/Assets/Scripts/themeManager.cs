@@ -7,6 +7,8 @@ using UnityEngine.UI;
 
 public class ThemeManager : MonoBehaviour
 {
+    private AudioManager audioManager;
+
     private Color primaryColor;
     private Color secondaryColor;
     private Color tertiaryColor;
@@ -31,11 +33,19 @@ public class ThemeManager : MonoBehaviour
     GameObject[] textColor5Theme;
     GameObject[] textColor6Theme;
 
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+    }
     private void Start()
     {
         ChangeTheme(PlayerPrefs.GetInt("choosenTheme"));
     }
 
+    public void clickSound()
+    {
+        audioManager.PlaySFX(audioManager.changePageButtonSFX);
+    }
     public void ChangeTheme(int themeSet)
     {
         PlayerPrefs.SetInt("choosenTheme", themeSet);

@@ -34,9 +34,6 @@ public class answerButton : MonoBehaviour
     private float wrongDeeds;
     private float wrongScores;
 
-    private float rightDeedMulti = 0.5f;
-    private float wrongDeedMulti = 0.05f;
-
     private void Awake()
     {
         // Get the TextMeshProUGUI component attached to this GameObject
