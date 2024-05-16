@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 3
   surahName: AL-BAQARAH(AYAT 253-286)
   category: Cerita
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: bae63a77ac4ffd74bbebe8ade0ade2bb, type: 3}
   question: Kitab apakah yang diturunkan kepada Nabi Muhammad SAW?
   answers:
   - Al-Quran

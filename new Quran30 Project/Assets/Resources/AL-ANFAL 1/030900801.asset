@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 9
   surahName: AL-ANFAL(AYAT 1-40)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: c5978201ed4a16b4d87ba7e92b163b3a, type: 3}
   question: Apakah yang dimaksud dengan sembahyang ?
   answers:
   - Sembahyang fardu

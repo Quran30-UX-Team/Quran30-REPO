@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 9
   surahName: AL-ANFAL(AYAT 1-40)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: e9fe5f87e027f5741abba3a59bbc893c, type: 3}
   question: Apakah yang dimaksudkan dengan Anfal?
   answers:
   - 'Harta rampasan perang '
