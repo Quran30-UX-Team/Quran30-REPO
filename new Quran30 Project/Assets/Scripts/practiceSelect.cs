@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class practiceSelect : MonoBehaviour
 {
+    public AudioManager audioManager;
+
     public Button button;
 
     public GameObject Button1;
@@ -16,8 +18,14 @@ public class practiceSelect : MonoBehaviour
     public RectTransform Button2Transform;
     public RectTransform descPanel2Transform;
 
+    static int BUTTON_DISTANCE = 120;
+
     public bool isDrop;
 
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+    }
     private void Start()
     {
         button.interactable = false;
@@ -27,13 +35,15 @@ public class practiceSelect : MonoBehaviour
 
     public void descToggle()
     {
+        audioManager.PlaySFX(audioManager.changePageButtonSFX);
+
         if (isDrop == false)
         {
             descPanel1.SetActive(true);
             button.interactable = true;
             PlayerPrefs.SetString("Level Type", "PracticeSurahSelect");
-            Button2Transform.anchoredPosition -= new Vector2(0, 100);
-            descPanel2Transform.anchoredPosition -= new Vector2(0, 100);
+            Button2Transform.anchoredPosition -= new Vector2(0, BUTTON_DISTANCE);
+            descPanel2Transform.anchoredPosition -= new Vector2(0, BUTTON_DISTANCE);
             isDrop = true;
             descPanel2.SetActive(false);
         }
@@ -43,19 +53,21 @@ public class practiceSelect : MonoBehaviour
         {
             descPanel1.SetActive(false);
             button.interactable = false;
-            Button2Transform.anchoredPosition += new Vector2(0, 100);
-            descPanel2Transform.anchoredPosition += new Vector2(0, 100);
+            Button2Transform.anchoredPosition += new Vector2(0, BUTTON_DISTANCE);
+            descPanel2Transform.anchoredPosition += new Vector2(0, BUTTON_DISTANCE);
             isDrop = false;
         }
     }
 
     public void quizDesc()
     {
+        audioManager.PlaySFX(audioManager.changePageButtonSFX);
+
         if (isDrop == true)
         {
             descPanel1.SetActive(false);
-            Button2Transform.anchoredPosition += new Vector2(0, 100);
-            descPanel2Transform.anchoredPosition += new Vector2(0, 100);
+            Button2Transform.anchoredPosition += new Vector2(0, BUTTON_DISTANCE);
+            descPanel2Transform.anchoredPosition += new Vector2(0, BUTTON_DISTANCE);
             isDrop = false;
 
             descPanel2.SetActive(true);

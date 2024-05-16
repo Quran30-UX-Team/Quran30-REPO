@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class timeController : MonoBehaviour
 {
+    private AudioManager audioManager;
+
     public GameObject doublePanel;
 
     private questionSetup questionSetup;
@@ -21,6 +23,8 @@ public class timeController : MonoBehaviour
     public float maxTime;
     public float currTime;
 
+    private bool audioPlayed = false; // New variable to track audio playing status
+
     private void Awake()
     {
         // Find the questionSetup component in the scene
@@ -29,6 +33,8 @@ public class timeController : MonoBehaviour
         {
             Debug.LogError("questionSetup not found in the scene!");
         }
+
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
     }
 
     public void Start()
@@ -41,6 +47,7 @@ public class timeController : MonoBehaviour
     public void ResetTimer()
     {
         timeRemaining = maxTime;
+        audioPlayed = false;
     }
 
     void Update()
@@ -52,6 +59,13 @@ public class timeController : MonoBehaviour
 
             if (timeRemaining > 0)
             {
+                if (!audioPlayed) // Check if audio has not been played yet
+                {
+                    audioManager.PlaySFX(audioManager.changePageButtonSFX);
+                    audioPlayed = true; // Set the flag to true to indicate audio has been played
+                }
+
+                PlayerPrefs.SetFloat("Timer", timeRemaining);
                 timeRemaining -= Time.deltaTime;
                 fillBar.fillAmount = timeRemaining / maxTime;
 

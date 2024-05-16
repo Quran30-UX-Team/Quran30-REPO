@@ -20,31 +20,26 @@ public class selectedThemeHandler : MonoBehaviour
                 SetAlpha(themeRing1, 1f);
                 SetAlpha(themeRing2, 0f);
                 SetAlpha(themeRing3, 0f);
-                SetAlpha(themeRing4, 0f);
                 break;
             case 2:
                 SetAlpha(themeRing1, 0f);
                 SetAlpha(themeRing2, 1f);
                 SetAlpha(themeRing3, 0f);
-                SetAlpha(themeRing4, 0f);
                 break;
             case 3:
                 SetAlpha(themeRing1, 0f);
                 SetAlpha(themeRing2, 0f);
                 SetAlpha(themeRing3, 1f);
-                SetAlpha(themeRing4, 0f);
                 break;
             case 4:
                 SetAlpha(themeRing1, 0f);
                 SetAlpha(themeRing2, 0f);
                 SetAlpha(themeRing3, 0f);
-                SetAlpha(themeRing4, 1f);
                 break;
             default:
                 SetAlpha(themeRing1, 1f);
                 SetAlpha(themeRing2, 0f);
                 SetAlpha(themeRing3, 0f);
-                SetAlpha(themeRing4, 0f);
                 break;
         }
     }

@@ -7,6 +7,8 @@ using TMPro;
 
 public class levelButton : MonoBehaviour
 {
+    private AudioManager audioManager;
+    
     public GameObject description;
     public GameObject lockImage;
 
@@ -18,6 +20,11 @@ public class levelButton : MonoBehaviour
     // Reference to the container holding all level buttons
     public Transform buttonContainer;
 
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+    }
+
     private void Start()
     {
         StartCoroutine(autoHide());
@@ -28,12 +35,13 @@ public class levelButton : MonoBehaviour
         if (lockImage.activeSelf == true)
         {
             Debug.Log("Button is LOCKED");
+            audioManager.PlaySFX(audioManager.changePageButtonSFX);
             controlDesc();
         }
         else
         {
             PlayerPrefs.SetString("Question Set", surahName);
-            SceneManager.LoadScene(sceneName);
+            StartCoroutine(delayLoadScene(0.2f));
         }
     }
 
@@ -87,5 +95,11 @@ public class levelButton : MonoBehaviour
                 }
             }
         }
+    }
+    IEnumerator delayLoadScene(float delay)
+    {
+        audioManager.PlaySFX(audioManager.changePageButtonSFX);
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene("Level");
     }
 }

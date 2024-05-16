@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class DeedCollectedAchievement : MonoBehaviour
 {
+    private AudioManager audioManager;
+
     public string achievementTitle;
     public string achievementDesc;
 
@@ -21,6 +23,10 @@ public class DeedCollectedAchievement : MonoBehaviour
 
     private bool isCompleted = false; // Track if achievement is completed
 
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+    }
     private void Start()
     {
         achievementTitleText.text = achievementTitle;
@@ -65,6 +71,7 @@ public class DeedCollectedAchievement : MonoBehaviour
 
     public void acceptAchievement()
     {
+        audioManager.PlaySFX(audioManager.changePageButtonSFX);
         acceptPanel.SetActive(false);
         Badge.SetActive(true);
         PlayerPrefs.SetInt("Achievement_" + achievementTitle + "_Accepted", 1); // Save acceptance state

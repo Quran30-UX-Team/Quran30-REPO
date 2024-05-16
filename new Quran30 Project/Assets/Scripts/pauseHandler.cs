@@ -6,16 +6,23 @@ using TMPro;
 
 public class pauseHandler : MonoBehaviour
 {
+    private AudioManager audioManager;
 
     public GameObject pausePanel;
     private bool isPaused;
 
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+    }
     private void Start()
     {
         StartCoroutine(autoHide());
     }
     public void pauseToggle()
     {
+        audioManager.PlaySFX(audioManager.changePageButtonSFX);
+
         if (isPaused)
         {
             unPaused();

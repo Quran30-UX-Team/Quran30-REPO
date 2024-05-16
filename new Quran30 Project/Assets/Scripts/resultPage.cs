@@ -6,10 +6,9 @@ using TMPro;
 
 public class resultPage : MonoBehaviour
 {
-    public AudioSource src;
-    public AudioClip popSFX;
+    public AudioManager audioManager;
 
-    public ParticleSystem particleSystem;
+    public ParticleSystem VFX;
     private LeaderboardManager leaderboard;
 
     [SerializeField]
@@ -25,6 +24,8 @@ public class resultPage : MonoBehaviour
     public GameObject Star2;
     public GameObject Star3;
 
+    public TextMeshProUGUI Title;
+
     public TextMeshProUGUI[] deedTexts;
     public TextMeshProUGUI[] scoreTexts;
 
@@ -35,6 +36,8 @@ public class resultPage : MonoBehaviour
 
     private void Awake()
     {
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+
         Star1.SetActive(false);
         Star2.SetActive(false);
         Star3.SetActive(false);
@@ -79,37 +82,40 @@ public class resultPage : MonoBehaviour
             Star1.SetActive(false);
             Star2.SetActive(false);
             Star3.SetActive(false);
+            Title.text = "TRY AGAIN!";
         }
         else if (totalScores < 15)
         {
             Star1.SetActive(true);
             Star2.SetActive(false);
             Star3.SetActive(false);
-            src.clip = popSFX;
-            src.Play();
+            Title.text = "CONGRATULATION!";
+
+            audioManager.PlaySFX(audioManager.resultPageSFX);
         }
         else if (totalScores < 30)
         {
             Star1.SetActive(true);
             Star2.SetActive(true);
             Star3.SetActive(false);
-            src.clip = popSFX;
-            src.Play();
+            Title.text = "CONGRATULATION!";
+
+            audioManager.PlaySFX(audioManager.resultPageSFX);
         }
         else
         {
             Star1.SetActive(true);
             Star2.SetActive(true);
             Star3.SetActive(true);
+            Title.text = "CONGRATULATION!";
 
-            src.clip = popSFX;
-            src.Play();
+            audioManager.PlaySFX(audioManager.resultPageSFX);
         }
 
-        // Activate confetti only if at least one star is active
+        // Activate Confetti only if at least one star is active
         if (Star1.activeSelf || Star2.activeSelf || Star3.activeSelf)
         {
-            StartCoroutine(confetti(0.1f));
+            StartCoroutine(Confetti(0.1f));
         }
 
         if (Star1.activeSelf == true && Star2.activeSelf == true && Star3.activeSelf == true)
@@ -143,9 +149,9 @@ public class resultPage : MonoBehaviour
         leaderboard.SetEntry(PlayerPrefs.GetString("Profile Name"), PlayerPrefs.GetInt("totalScore"));
     }
 
-    IEnumerator confetti(float seconds)
+    IEnumerator Confetti(float seconds)
     {
         yield return new WaitForSeconds(seconds);
-        particleSystem.Play();
+        VFX.Play();
     }
 }

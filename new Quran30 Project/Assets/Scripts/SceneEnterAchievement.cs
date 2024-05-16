@@ -4,6 +4,8 @@ using UnityEngine.UI;
 
 public class SceneEnterAchievement : MonoBehaviour
 {
+    private AudioManager audioManager;
+
     public string achievementName;
     public string achievementDescription;
     public int requiredSceneEntries = 1; // Number of scene entries required to complete the achievement
@@ -19,6 +21,10 @@ public class SceneEnterAchievement : MonoBehaviour
     public GameObject Badge;
     public GameObject acceptPanel;
 
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+    }
     private void Start()
     {
         achievementNameText.text = achievementName;
@@ -77,6 +83,7 @@ public class SceneEnterAchievement : MonoBehaviour
     // Method called when the player accepts the achievement
     public void AcceptAchievement()
     {
+        audioManager.PlaySFX(audioManager.changePageButtonSFX);
         acceptPanel.SetActive(false);
         Badge.SetActive(true);
         PlayerPrefs.SetInt("Achievement_" + achievementName + "_Accepted", 1); // Save acceptance state

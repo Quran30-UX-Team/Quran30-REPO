@@ -7,6 +7,14 @@ using UnityEngine.SceneManagement;
 public class saveName : MonoBehaviour
 {
     public TMP_InputField fieldText;
+
+    private void Start()
+    {
+        if (PlayerPrefs.HasKey("FirstLaunch"))
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
+    }
     public void saveGeneratedName()
     {
         if (fieldText.text == "")
@@ -18,23 +26,5 @@ public class saveName : MonoBehaviour
         {
             PlayerPrefs.SetString("Profile Name", fieldText.text);
         }
-
     }
-
-    private void Start()
-    {
-        // Check if it's the first time the app is launched
-        if (!PlayerPrefs.HasKey("FirstLaunch"))
-        {
-
-            // Set flag to indicate app has been launched
-            PlayerPrefs.SetInt("FirstLaunch", 1);
-        }
-        else
-        {
-            // If not the first launch, load the main scene directly
-            SceneManager.LoadScene("MainMenu");
-        }
-    }
-
 }

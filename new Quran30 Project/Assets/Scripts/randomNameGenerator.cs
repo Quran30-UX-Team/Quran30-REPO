@@ -7,6 +7,8 @@ using Random = UnityEngine.Random;
 
 public class randomNameGenerator : MonoBehaviour
 {
+    public AudioManager audioManager;
+
     public TextAsset _adjFile;
     public TextAsset _nounFile;
 
@@ -20,6 +22,11 @@ public class randomNameGenerator : MonoBehaviour
 
     public string generatedName;
     public TMP_InputField displayName;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+    }
     private void OnValidate()
     {
         adjArray = _adjFile.text.Split('\n');
@@ -27,6 +34,8 @@ public class randomNameGenerator : MonoBehaviour
     }
     public void randomizedName()
     {
+        audioManager.PlaySFX(audioManager.changePageButtonSFX);
+
         selectAdj = adjArray[Random.Range(0, adjArray.Length)];
         selectNoun = nounArray[Random.Range(0, nounArray.Length)];
 

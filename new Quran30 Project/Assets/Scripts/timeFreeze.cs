@@ -7,8 +7,14 @@ public class TimeFreeze : MonoBehaviour
 {
     private GameObject freezePanel;
     private timeController timeController;
+    AudioManager audioManager;
 
     public Button powerUPBtn;
+
+    public void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+    }
 
     void Start()
     {
@@ -22,6 +28,7 @@ public class TimeFreeze : MonoBehaviour
     }
     public void FreezeTimer(float setTimer)
     {
+        audioManager.PlaySFX(audioManager.changePageButtonSFX);
         StartCoroutine(FreezeForAMoment(setTimer));
     }
 

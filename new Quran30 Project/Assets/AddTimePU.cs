@@ -6,6 +6,12 @@ public class AddTimePU : MonoBehaviour
 {
     private timeController timeController;
     public Button powerUPBtn;
+    AudioManager audioManager;
+
+    public void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+    }
 
     void Start()
     {
@@ -19,6 +25,7 @@ public class AddTimePU : MonoBehaviour
 
     public void AddTime(float AddTime)
     {
+        audioManager.PlaySFX(audioManager.changePageButtonSFX);
         powerUPBtn.interactable = false;
         timeController.AddTime(AddTime); // Call AddTime method in timeController and pass the AddTime value
     }

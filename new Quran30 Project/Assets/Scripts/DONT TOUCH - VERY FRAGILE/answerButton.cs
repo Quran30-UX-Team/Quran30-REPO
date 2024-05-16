@@ -10,8 +10,7 @@ public class answerButton : MonoBehaviour
     public GameObject doublePanel;
     public GameObject blockPanel;
 
-    public AudioSource src;
-    public AudioClip rightSFX, wrongSFX;
+    public AudioManager audioManager;
 
     public doubleDeeds doubleDeeds;
 
@@ -35,9 +34,6 @@ public class answerButton : MonoBehaviour
     private float wrongDeeds;
     private float wrongScores;
 
-    private float rightDeedMulti = 0.5f;
-    private float wrongDeedMulti = 0.05f;
-
     private void Awake()
     {
         // Get the TextMeshProUGUI component attached to this GameObject
@@ -58,6 +54,8 @@ public class answerButton : MonoBehaviour
         {
             Debug.LogError("timeController not found in the scene!");
         }
+
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
 
         blockPanel = GameObject.Find("blockPanel");
     }
@@ -81,11 +79,14 @@ public class answerButton : MonoBehaviour
 
         if (isCorrect)
         {
-            src.clip = rightSFX;
-            src.Play();
+            audioManager.PlaySFX(audioManager.correctAnswerSFX);
             // Calculate deeds and scores for the current question
             rightDeeds = PlayerPrefs.GetFloat("Timer") * 0.5f;
             rightScores = PlayerPrefs.GetFloat("Timer") * 0.5f;
+
+            Debug.Log("Right Timer: " + PlayerPrefs.GetFloat("Timer"));
+            Debug.Log("Right Deeds: " + rightDeeds);
+            Debug.Log("Right Scores: " + rightScores);
 
             // Save deeds and scores for the current question
             PlayerPrefs.SetFloat("Deeds_" + i, Mathf.Round(rightDeeds * 100f) / 100f);
@@ -102,11 +103,15 @@ public class answerButton : MonoBehaviour
         }
         else
         {
-            src.clip = wrongSFX;
-            src.Play();
+            audioManager.PlaySFX(audioManager.wrongAnswerSFX);
 
             wrongDeeds = PlayerPrefs.GetFloat("Timer") * 0.05f;
             wrongScores = (11f - PlayerPrefs.GetFloat("Timer")) * -0.75f;
+
+            Debug.Log("Wrong Timer: " + PlayerPrefs.GetFloat("Timer"));
+            Debug.Log("Wrong Deeds: " + wrongDeeds);
+            Debug.Log("Wrong Scores: " + wrongScores);
+
             // Save deeds and scores for the current question
             PlayerPrefs.SetFloat("Deeds_" + i, Mathf.Round(wrongDeeds * 100f) / 100f);
             PlayerPrefs.SetFloat("Scores_" + i, Mathf.Round(wrongScores * 100f) / 100f);

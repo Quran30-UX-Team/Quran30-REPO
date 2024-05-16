@@ -7,6 +7,8 @@ using Unity.VisualScripting;
 
 public class unlockButton : MonoBehaviour
 {
+    private AudioManager audioManager;
+
     public GameObject unlockPanel;
     public GameObject unlockBGPanel;
 
@@ -19,6 +21,7 @@ public class unlockButton : MonoBehaviour
 
     private void Awake()
     {
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
         unlockKey = "LockUnlocked_" + lockCode.name;
         StartCoroutine(findPanel());
     }
@@ -34,6 +37,7 @@ public class unlockButton : MonoBehaviour
 
     public void openUnlockPanel()
     {
+        audioManager.PlaySFX(audioManager.changePageButtonSFX);
         unlockPanel.SetActive(true);
         unlockBGPanel.SetActive(true);
         panel.SetActive(false);
