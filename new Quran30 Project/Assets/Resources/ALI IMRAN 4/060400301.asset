@@ -20,6 +20,6 @@ MonoBehaviour:
   question: 'Siapakah yang tidak akan mendapat kemurkaan Allah SWT? '
   answers:
   - Orang-orang yang tidak menyekutukan Allah SWT
-  - 'Orang-orang yang berbuat kebaikan '
-  - 'Orang-orang yang beriman kepada Al-Quran '
-  - ' Orang-orang yang selalu bersabar '
+  - 'Orang-orang yang berpura-pura melakukan kebaikan '
+  - 'Orang-orang yang tidak beriman kepada Al-Quran '
+  - ' Orang-orang yang hilang sabar'

@@ -19,7 +19,7 @@ MonoBehaviour:
   image: {fileID: 0}
   question: Apakah yang diperintahkan kepada penulis dalam pencatatan hutang?
   answers:
-  - Hendaknya penulis tidak menolak menulisnya
-  - Hendaknya mencatatnya dengan izin kedua belah pihak
-  - Hendaknya mencatatnya dengan jujur sesuai ajaran Allah
-  - Hendaknya tidak menyembunyikan bagian apapun darinya
+  - Hendaknya penulis tidak menolak untuk menulisnya
+  - Makruh mencatatnya dengan izin kedua belah pihak
+  - Sunat mencatatnya dengan jujur sesuai ajaran Allah
+  - Hendaknya menyembunyikan bahagian apapun darinya

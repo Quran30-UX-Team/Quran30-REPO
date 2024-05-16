@@ -20,6 +20,6 @@ MonoBehaviour:
   question: 'Siapakah yang dimaksud dengan ''Kaum yang mengingkari ayat-ayat Allah''? '
   answers:
   - 'Kaum Bani Israil '
-  - 'Kaum musyrikin Mekah '
-  - Kaum munafik
-  - Kaum yang tidak beriman kepada rasul sebelumnya
+  - Kaum Ansar
+  - Kaum Muhajirin
+  - Penduduk Madinah

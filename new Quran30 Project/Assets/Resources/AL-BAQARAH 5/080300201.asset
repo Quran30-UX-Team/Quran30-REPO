@@ -17,10 +17,9 @@ MonoBehaviour:
   surahName: AL-BAQARAH(AYAT 253-286)
   category: Cerita
   image: {fileID: 0}
-  question: Apakah perumpamaan yang digunakan oleh Allah untuk menggambarkan keimanan
-    Nabi Ibrahim AS?
+  question: Siapakah yang menjadi wali bagi orang-orang kafir?
   answers:
-  - Seperti orang yang sesat lalu mendapat petunjuk
-  - Seperti bintang yang bersinar
-  - Seperti matahari yang terang
-  - Seperti lautan yang luas
+  - Taghut
+  - Jin
+  - Allah
+  - Nabi

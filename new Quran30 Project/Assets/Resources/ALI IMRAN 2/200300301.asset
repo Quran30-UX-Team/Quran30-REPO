@@ -17,7 +17,8 @@ MonoBehaviour:
   surahName: ALI IMRAN(AYAT 1-92)
   category: Cerita
   image: {fileID: 0}
-  question: Allah SWT menyeru untuk mendebat dengan cara yang baik kepada...
+  question: Di dalam surah ini, Allah SWT menyeru untuk berdebat dengan cara yang
+    baik kepada siapa?
   answers:
   - 'Bani Israil yang ingkar '
   - Orang-orang musyrik Mekah

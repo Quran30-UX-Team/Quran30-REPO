@@ -19,7 +19,8 @@ MonoBehaviour:
   image: {fileID: 0}
   question: 'Bagaimana perintah Allah SWT kepada orang-orang beriman? '
   answers:
-  - Untuk tidak membebani mereka melebihi kesanggupannya
-  - 'Untuk berjihad di jalan Allah '
-  - 'Untuk berinfak di jalan-Nya '
-  - 'Untuk beribadah kepadaNya semata '
+  - Perintah Allah tidak akan membebani mereka melebihi kesanggupannya
+  - Perintah Allah hanyalah untuk berjihad di jalan yang kita kehendaki
+  - 'Perintah Allah hanya untuk berinfak di jalan yang tidak benar '
+  - Perintah Allah adalah hanya beribadah kepadaNya semata-mata tanpa peduli perihal
+    duniawi

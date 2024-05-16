@@ -17,10 +17,10 @@ MonoBehaviour:
   surahName: ALI IMRAN(AYAT 1-92)
   category: Fakta
   image: {fileID: 0}
-  question: 'Apa yang disebutkan dalam surah Ali Imran sebagai konsekuensi bagi siapa
-    yang berpaling setelah mengambil perjanjian tersebut? '
+  question: '"Apa yang disebutkan dalam surah Ali Imran sebagai konsekuensi bagi
+    siapa yang berpaling  setelah mengambil perjanjian setia dari Nabi-nabi? "'
   answers:
-  - 'Mereka termasuk orang-orang yang rugi '
+  - Mereka termasuk orang-orang yang fasik
   - Mereka tergolong orang-orang yang kafir
-  - 'Mereka terancam dijauhkan dari rahmat Allah '
-  - Mereka adalah golongan yang sesat lagi derhaka
+  - 'Mereka mendapat rahmat Allah '
+  - Mereka adalah golongan yang dirahmati Allah

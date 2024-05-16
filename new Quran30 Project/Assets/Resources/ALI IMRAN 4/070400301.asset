@@ -17,10 +17,10 @@ MonoBehaviour:
   surahName: ALI IMRAN(AYAT 93-200)
   category: Cerita
   image: {fileID: 0}
-  question: Apakah yang berlaku kepada dua golongan dari kalangan orang-orang mukmin
-    ketika hendak berperang?
+  question: Apakah tindakan Nabi Muhammad SAW pada pagi hari Perang Uhud seperti
+    yang disebut dalam Ali Imran
   answers:
-  - Satu golongan hampir cemas dan ragu
-  - ' Satu golongan hampir murtad'
-  - Satu golongan hampir lari daripada peperangan
-  - Satu golongan hampir ingkar janji
+  - Agar mereka mendapat pertolongan
+  - Agar mereka mendapat kekalahan
+  - Agar mereka takut
+  - Agar mereka bimbang

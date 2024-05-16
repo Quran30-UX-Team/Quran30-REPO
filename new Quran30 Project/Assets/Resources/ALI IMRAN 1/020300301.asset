@@ -19,7 +19,7 @@ MonoBehaviour:
   image: {fileID: 0}
   question: 'Kitab-kitab terdahulu yang dimaksudkan oleh Al-Quran? '
   answers:
-  - Injil Zabur Taurat
-  - Injil Zabur Furqan
-  - Zabur Taurat Suhuf
-  - Taurat Suhuf Furqan
+  - Injil, Zabur, Taurat
+  - Injil, Zabur, Furqan
+  - Zabur, Taurat, Suhuf
+  - Taurat, Suhuf, Furqan

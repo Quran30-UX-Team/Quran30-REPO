@@ -19,7 +19,7 @@ MonoBehaviour:
   image: {fileID: 0}
   question: Bagaimana cara melakukan pencatatan hutang dan pengutang?
   answers:
-  - Dicatat dan didiktekan kepada penulis
+  - Dicatat dan dibacakan kepada penulis
   - 'Dicatat dan diikrarkan kepada penulis '
   - Dicatat dengan jelas dan jangan meragukannya
   - Dicatat dengan mempunyai jangka waktu tertentu

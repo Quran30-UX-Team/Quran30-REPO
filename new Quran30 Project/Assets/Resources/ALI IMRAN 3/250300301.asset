@@ -17,7 +17,7 @@ MonoBehaviour:
   surahName: ALI IMRAN(AYAT 1-92)
   category: Fakta
   image: {fileID: 0}
-  question: 'Allah SWT menegaskan bahwa tidak mungkin bagi seorang manusia untuk...? '
+  question: 'Allah SWT menegaskan bahawa tidak mungkin bagi seorang manusia untuk...? '
   answers:
   - 'Diseru menjadi seorang nabi setelah diutus para rasul '
   - Digolongkan sebagai orang yang sesat

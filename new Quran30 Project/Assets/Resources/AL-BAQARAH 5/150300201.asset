@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AL-BAQARAH(AYAT 253-286)
   category: Fakta
   image: {fileID: 0}
-  question: Bagaimana sifat syaitan dalam menggambarkan riba?
+  question: Apakah yang dapat dikatakan tentang syaitan dan riba?
   answers:
-  - Syaitan menjerumuskan ke dalam riba
-  - Syaitan menganjurkan riba
+  - Syaitan menggalakkan untuk menjerumuskan diri ke dalam amalan riba
+  - Syaitan tidak menganjurkan riba
   - Syaitan melarang riba
-  - Syaitan menyesatkan dari riba
+  - Syaitan membenci amalan riba

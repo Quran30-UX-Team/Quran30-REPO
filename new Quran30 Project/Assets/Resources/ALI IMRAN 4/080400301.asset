@@ -17,9 +17,10 @@ MonoBehaviour:
   surahName: ALI IMRAN(AYAT 93-200)
   category: Fakta
   image: {fileID: 0}
-  question: Mengapakah orang-orang mukmin disuruh bertawakal kepada Allah?
+  question: Mengapakah orang-orang mukmin disuruh bertawakal kepada Allah ketika
+    dalam Perang Badar?
   answers:
   - Agar mereka mendapat pertolongan
-  - Agar mereka mendapat kemenangan
-  - Agar mereka tidak takut
-  - Agar mereka tidak bimbang
+  - Agar mereka mendapat kekalahan
+  - Agar mereka takut
+  - Agar mereka bimbang

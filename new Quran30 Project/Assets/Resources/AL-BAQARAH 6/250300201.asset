@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AL-BAQARAH(AYAT 253-286)
   category: Fakta
   image: {fileID: 0}
-  question: 'Apakah yang dimohonkan seorang mukmin kepada Allah SWT? '
+  question: 'Apakah yang dipohon oleh seorang mukmin kepada Allah SWT? '
   answers:
-  - Untuk mendapat ampunan dan rahmat Allah
-  - ' Supaya dimasukkan ke dalam syurga'
-  - ' Agar diberi rezeki yang banyak '
-  - Untuk mendapat petunjuk dari Allah
+  - Untuk mendapat keampunan dan rahmat Allah
+  - ' Supaya diberi kemewahan di dunia'
+  - ' Agar diberi makanan yang banyak'
+  - Untuk mendapat pasangan yang cantik atau kacak
