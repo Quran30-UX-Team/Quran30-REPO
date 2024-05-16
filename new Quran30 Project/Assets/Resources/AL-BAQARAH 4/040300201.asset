@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 3
   surahName: AL-BAQARAH(AYAT 253-286)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 120b20c554446394ca34a4a4b52fefbd, type: 3}
   question: Siapakah yang berada dalam kegelapan dan siapakah yang diberi petunjuk
     oleh Allah SWT?
   answers:

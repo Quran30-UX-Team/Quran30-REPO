@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 1
   surahName: AL-BAQARAH(AYAT 1-141)
   category: Cerita
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 85410864368262743a11c4da5f94da9c, type: 3}
   question: Siapakah yang dimaksud dengan orang-orang yang mengatakan bahawa mereka
     beriman dengan mulutnya padahal hati mereka tidak beriman?
   answers:
