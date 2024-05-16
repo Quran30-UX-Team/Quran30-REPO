@@ -17,7 +17,8 @@ MonoBehaviour:
   surahName: AL-BAQARAH(AYAT 1-141)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah yang dimaksudkan dengan kitab yang diturunkan dalam ayat pertama?
+  question: Apakah yang dimaksudkan dengan "kitab yang diturunkan" dalam ayat kedua
+    surah Al-Baqarah?
   answers:
   - Al-Quran
   - Taurat
