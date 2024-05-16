@@ -19,7 +19,7 @@ MonoBehaviour:
   image: {fileID: 2800000, guid: aabd948363cc02147a7eeda33d29ad4e, type: 3}
   question: Apakah keistimewaan bulan Ramadan?
   answers:
-  - Al-Quran diturunkan di bulan itu
-  - Dibukanya pintu-pintu syurga
-  - Semua amal diterima di bulan itu
-  - Kewajiban ibadah puasa di bulan itu
+  - Al-Quran diturunkan pada bulan Ramadhan
+  - Pintu-pintu syurga ditutup
+  - Semua amal buruk diterima pada bulan Ramadhan
+  - Dapat melakukan diet

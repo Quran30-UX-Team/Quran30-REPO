@@ -20,6 +20,6 @@ MonoBehaviour:
   question: Apakah hukuman yang ditetapkan terhadap kes pembunuhan?
   answers:
   - Diqisas(dibalas dengan hukuman yang setimpal)
-  - Hukuman mati
-  - Penjara seumur hidup
-  - Membayar denda
+  - Hukuman mati secara kejam
+  - Penjara separuh hidup
+  - Membayar denda sedikit sahaja

@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AL-BAQARAH(AYAT 142-252)
   category: Ayat Surah
   image: {fileID: 0}
-  question: Apakah yang dimaksud dengan kalimah?
+  question: Apakah maksud "Ghafururrahim"?
   answers:
-  - Janji kepada Allah SWT
-  - Doa kepada Allah SWT
-  - Sumpah kepada diri sendiri
-  - Ucapan kepada manusia
+  - Allah Maha Pengampun, lagi Maha Mengasihani
+  - Allah Maha Penyayang, lagi Maha Mengasihani
+  - Allah Maha Pengasih, lagi Maha Penyayang
+  - Allah Maha Berkuasa, lagi Maha Mengasihani

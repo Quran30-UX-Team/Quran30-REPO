@@ -20,7 +20,7 @@ MonoBehaviour:
   question: Siapakah yang berada dalam kegelapan dan siapakah yang diberi petunjuk
     oleh Allah SWT?
   answers:
-  - Orang kafir dalam kegelapan orang beriman diberi petunjuk
-  - Orang beriman dalam kegelapan orang kafir diberi petunjuk
+  - Orang kafir dalam kegelapan, orang beriman diberi petunjuk
+  - Orang beriman dalam kegelapan, orang kafir diberi petunjuk
   - Semua manusia dalam kegelapan
   - Semua manusia diberi petunjuk

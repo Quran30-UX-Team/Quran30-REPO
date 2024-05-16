@@ -17,9 +17,10 @@ MonoBehaviour:
   surahName: AL-BAQARAH(AYAT 1-141)
   category: Cerita
   image: {fileID: 0}
-  question: Mengapa Bani Israil dilarang memasuki sebuah negeri?
+  question: Apakah jenis makanan yang dimaksudkan dalam ayat ini sebagai 'makanan
+    dari langit'?
   answers:
-  - Kerana penduduknya sangat kuat
-  - Kerana negerinya sangat makmur
-  - Kerana negerinya penuh kemaksiatan
-  - Kerana penduduknya sangat zalim
+  - Manna dan Salwa
+  - Sayur-sayuran dan buah-buahan
+  - Gandum dan beras
+  - Roti dan keju

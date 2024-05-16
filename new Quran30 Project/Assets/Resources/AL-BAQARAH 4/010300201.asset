@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AL-BAQARAH(AYAT 253-286)
   category: Cerita
   image: {fileID: 0}
-  question: Apakah kelebihan yang diberikan Allah SWT kepada sebagian rasul-rasul?
+  question: Apakah kelebihan yang diberikan Allah SWT kepada sebahagian rasul-rasul?
   answers:
   - Kelebihan ilmu
   - Kelebihan harta
-  - Kelebihan kekuatan fisik
+  - Kelebihan kekuatan fizikal
   - Kelebihan pangkat dan kedudukan
