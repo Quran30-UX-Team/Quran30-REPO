@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AN-NISA'(AYAT 148-176)
   category: Cerita
   image: {fileID: 0}
-  question: Apakah yang ditolak oleh putera yang membunuh saudaranya?
+  question: Mengapakah Qabil membunuh saudaranya, Habil?
   answers:
-  - Menerima kebenaran dari Allah
-  - Menikahi saudara perempuannya
-  - Membunuh seekor burung gagak
-  - Menyembelih korban persembahan
+  - Kerana iri hati
+  - Kerana merupakan perintah iblis
+  - Kerana terpaksa untuk melindungi Nabi Adam
+  - Kerana itu merupakan permintaan Habil

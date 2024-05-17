@@ -19,7 +19,7 @@ MonoBehaviour:
   image: {fileID: 0}
   question: Apakah tugas Rasulullah SAW?
   answers:
-  - Menyampaikan risalah dari Allah
+  - Menyampaikan wahyu dari Allah
   - Memimpin umat Islam
-  - ' Memerangi orang-orang kafir'
+  - Memerangi orang-orang kafir
   - Menghukum orang-orang munafik

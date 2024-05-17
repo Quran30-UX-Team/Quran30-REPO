@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AN-NISA'(AYAT 1-23)
   category: Hukum
   image: {fileID: 0}
-  question: Apa yang dilarang berkaitan dengan mantan isteri ayah (ibu tiri)?
+  question: Apa yang dilarang berkaitan dengan bekas isteri ayah (ibu tiri)?
   answers:
   - Menikahi mereka
   - Memandang mereka
-  - Memberi mereka maskawin
-  - Bergaul dengan mereka
+  - Memberi mereka hadiah
+  - Berbaik dengan mereka

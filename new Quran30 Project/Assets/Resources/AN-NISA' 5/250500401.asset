@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AN-NISA'(AYAT 23-147)
   category: Cerita
   image: {fileID: 0}
-  question: Apakah kewajiban bagi orang-orang yang dizalimi di muka bumi ini?
+  question: Siapakah yang dikecualikan daripada berjihad menurut Surah an-Nisa?
   answers:
-  - Berhijrah ke negeri yang aman
-  - Tetap bersabar dan tidak melawan
-  - Memerangi orang-orang yang menzalimi
-  - Mengasingkan diri dari masyarakat
+  - ' Orang yang mempunyai uzur seperti buta atau tempang'
+  - Orang yang sibuk dengan pekerjaan
+  - Orang yang sedang melanjutkan pelajaran
+  - Orang kaya

@@ -19,7 +19,7 @@ MonoBehaviour:
   image: {fileID: 0}
   question: Bagaimana gambaran orang-orang mukmin sejati?
   answers:
-  - Mereka yang beriman bersabar dan berbuat kebaikan
+  - Mereka yang beriman, bersabar dan berbuat kebaikan
   - Mereka yang taat beribadah saja
   - Mereka yang banyak bersedekah
   - Mereka yang suka menyendiri dan berzikir

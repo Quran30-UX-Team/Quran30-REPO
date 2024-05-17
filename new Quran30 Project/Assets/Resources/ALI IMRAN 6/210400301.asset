@@ -17,8 +17,9 @@ MonoBehaviour:
   surahName: ALI IMRAN(AYAT 93-200)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah sifat utama yang harus dimiliki oleh seorang Rasul menurut ayat
-    ini?
+  question: '"Apakah sifat utama yang harus dimiliki oleh seorang Rasul menurut ayat
+    di bawah?  ""Tidak mungkin seorang nabi berkhianat, barangsiapa berkhianat, nescaya
+    pada hari Kiamat dia akan datang membawa apa yang dikhianatkannya itu."" "'
   answers:
   - Siddiq (jujur) dan amanah
   - Tawaduk (rendah hati) dan pemaaf

@@ -18,9 +18,9 @@ MonoBehaviour:
   category: Fakta
   image: {fileID: 0}
   question: Apakah yang diperintahkan kepada orang-orang beriman dalam Surah An-Nisa'
-    berkaitan dengan wanita-wanita yang bukan muhrim?
+    berkaitan dengan wanita-wanita yang bukan mahramm?
   answers:
-  - Boleh menikahi mereka dengan membayar maskawin
-  - Tidak boleh menikahi mereka tanpa membayar maskawin
+  - Boleh menikahi mereka dengan membayar mas kahwin
+  - Tidak boleh menikahi mereka tanpa membayar mas kahwin
   - Boleh menikahi mereka tanpa batasan
   - Tidak boleh menikahi mereka dalam keadaan apapun

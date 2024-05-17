@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AN-NISA'(AYAT 148-176)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah janji Allah bagi orang-orang yang beriman kepadaNya?
+  question: Apa yang akan terjadi kepada orang-orang kafir yang telah berbuat zalim?
   answers:
-  - Akan dimasukkan ke dalam syurga yang diberkati
-  - Akan disiksa di akhirat
-  - Akan diberikan kehinaan di dunia
-  - Tidak akan diberi apa-apa
+  - Mereka akan kekal di dalam neraka selama-lamanya
+  - Mereka akan diberikan hidayah oleh Allah
+  - Mereka akan dimasukkan ke dalam syurga
+  - Mereka akan diampuni dosa-dosanya oleh Allah

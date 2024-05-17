@@ -17,10 +17,10 @@ MonoBehaviour:
   surahName: AN-NISA'(AYAT 148-176)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah yang diperintahkan kepada orang-orang beriman terkait binatang
-    ternak?
+  question: Apakah yang dimaksudkan dengan "orang-orang yang teguh serta mendalam
+    ilmu pengetahuannya"?
   answers:
-  - Menunaikan perjanjian terkait binatang ternak
-  - Mendirikan rumah untuk binatang ternak
-  - Memberi makan binatang ternak dengan baik
-  - Tidak membunuh binatang ternak sewenang-wenang
+  - Orang-orang yang memiliki ilmu agama yang mendalam
+  - Orang-orang yang hanya mengamalkan ilmu dunia
+  - Orang-orang yang memiliki kekayaan material yang banyak
+  - Orang-orang yang hanya mengamalkan ilmu agama secara teori

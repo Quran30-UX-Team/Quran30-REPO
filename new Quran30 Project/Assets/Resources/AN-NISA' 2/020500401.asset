@@ -19,7 +19,7 @@ MonoBehaviour:
   image: {fileID: 0}
   question: Apakah yang dilarang oleh Allah SWT?
   answers:
-  - Memakan harta orang lain dengan cara yang batil
-  - Makan harta anak yatim
-  - Melakukan riba
-  - Berjudi
+  - Memakan harta orang lain dengan cara yang tidak benar
+  - Memberi makan anak yatim
+  - Melakukan amal soleh
+  - Bersedekah

@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AN-NISA'(AYAT 23-147)
   category: Cerita
   image: {fileID: 0}
-  question: Siapakah yang dijadikan perantara oleh Allah SWT?
+  question: Mengapakah Allah meminta Nabi Muhammad untuk memberi nasihat secara peribadi?
   answers:
-  - Orang-orang beriman
-  - Malaikat
-  - Rasulullah SAW
-  - Hakim
+  - Supaya mereka tidak merasa malu di hadapan orang lain
+  - Supaya mereka boleh membalas balik
+  - Supaya mereka boleh berpura-pura baik
+  - Supaya mereka dapat tidur dengan tenang

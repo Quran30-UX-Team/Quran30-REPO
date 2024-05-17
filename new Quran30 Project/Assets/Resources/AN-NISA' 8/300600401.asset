@@ -17,7 +17,8 @@ MonoBehaviour:
   surahName: AN-NISA'(AYAT 148-176)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah sebutan untuk orang-orang Yahudi yang mengikuti hawa nafsu?
+  question: Apakah sebutan untuk mereka yang berpura-pura mengikuti ajaran agama
+    namun sebenarnya tidak mengakuinya dalam hatinya?
   answers:
   - Munafik
   - Kafir

@@ -19,7 +19,7 @@ MonoBehaviour:
   image: {fileID: 0}
   question: Bagaimana pembahagian warisan untuk anak laki-laki dan perempuan?
   answers:
-  - Anak laki-laki mendapat dua bagian anak perempuan mendapat satu bagian
-  - Anak perempuan mendapat dua bagian anak laki-laki mendapat satu bagian
-  - Anak laki-laki dan perempuan mendapat bagian sama rata
+  - Anak laki-laki mendapat dua bahagian anak perempuan mendapat satu bahagian
+  - Anak perempuan mendapat dua bahagian anak laki-laki mendapat satu bahagian
+  - Anak laki-laki dan perempuan mendapat bahagian sama rata
   - Anak laki-laki tidak mendapat warisan

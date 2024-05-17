@@ -17,9 +17,10 @@ MonoBehaviour:
   surahName: AN-NISA'(AYAT 23-147)
   category: Fakta
   image: {fileID: 0}
-  question: ' Jika terjadi perselisihan apa yang harus dilakukan?'
+  question: Apakah maksud "mereka itu orang-orang yang diketahui oleh Allah akan
+    apa yang ada dalam hati mereka"?
   answers:
-  - Menyerahkan sepenuhnya kepada Allah dan Rasul
-  - Mengikuti pendapat pemimpin
-  - Menyelesaikan dengan kekerasan
-  - Menyerahkan kepada hakim/pengadilan
+  - Allah mengetahui bahawa mereka sebenarnya munafik
+  - Allah tidak tahu isi hati mereka
+  - Malaikat mengetahui isi hati mereka
+  - Mereka adalah orang yang jujur

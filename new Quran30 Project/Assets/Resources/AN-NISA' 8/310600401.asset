@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AN-NISA'(AYAT 148-176)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah yang dikatakan sebagai bukti kesesatan orang-orang Yahudi?
+  question: Apakah yang dimaksudkan dengan "ghuluw" dalam agama?
   answers:
-  - Mencari keputusan kepada hakim Jahiliyah
-  - Mencari keputusan kepada berhala
-  - Mencari keputusan kepada dukun
-  - Mencari keputusan kepada orang-orang musyrik
+  - Memperlebih-lebihkan dalam agama
+  - Menghina agama orang lain
+  - Menolak ajaran agama
+  - Menyembah berhala

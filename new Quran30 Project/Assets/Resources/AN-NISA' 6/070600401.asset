@@ -17,10 +17,9 @@ MonoBehaviour:
   surahName: AN-NISA'(AYAT 148-176)
   category: Cerita
   image: {fileID: 0}
-  question: Siapakah golongan Ahli Kitab yang disebut beriman kepada Allah dan Hari
-    Akhirat?
+  question: "Mengapa Allah \u200Emengharamkan makanan tertentu bagi orang-orang Yahudi?"
   answers:
-  - Orang-orang yang beriman di antara mereka
-  - Kaum Nasrani
-  - Kaum Yahudi
-  - Kaum Majusi
+  - Kerana mereka banyak melanggar peraturan Allah
+  - Kerana kezaliman mereka dalam menyebarkan ilmu agama
+  - Kerana kezaliman mereka dalam mengambil riba
+  - Kerana mereka menggalakkan manusia menuju ke jalan Allah

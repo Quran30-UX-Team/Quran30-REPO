@@ -17,10 +17,10 @@ MonoBehaviour:
   surahName: AN-NISA'(AYAT 1-23)
   category: Hukum
   image: {fileID: 0}
-  question: Apakah yang dikhawatirkan jika seseorang tidak berlaku adil terhadap
-    anak yatim?
+  question: Apakah yang dirisaukan jika seseorang tidak berlaku adil terhadap anak
+    yatim?
   answers:
-  - Kita akan diseksa di akhirat kelak
-  - ' Mereka akan mengambil harta kita'
-  - Mereka akan membenci kita
-  - Kerabat kita akan marah
+  - Seseorang itu akan diseksa di akhirat kelak
+  - ' Seseorang itu akan mengambil harta anak yatim'
+  - Seseorang itu akan membenci anak yatim
+  - Kerabat anak yatim akan marah

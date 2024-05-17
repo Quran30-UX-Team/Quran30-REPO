@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AN-NISA'(AYAT 23-147)
   category: Hukum
   image: {fileID: 0}
-  question: Perbuatan apakah yang paling diharamkan?
+  question: Perbuatan apakah yang paling diharamkan dalam Islam?
   answers:
   - Membunuh diri sendiri
-  - Mencuri
-  - Berzina
-  - Membunuh anak
+  - Mencuri kerana terpaksa
+  - Membuang sampah merata
+  - Ketawa dengan kuat

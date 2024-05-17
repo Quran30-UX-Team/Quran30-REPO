@@ -19,7 +19,7 @@ MonoBehaviour:
   image: {fileID: 0}
   question: Mengapa dilarang menikahi perempuan-perempuan tertentu dalam Islam?
   answers:
-  - Untuk menjaga kehormatan dan keutuhan keluarga
+  - Untuk menjaga kehormatan dan keharmonian dalam keluarga
   - Kerana itu tradisi Arab
-  - Semata-mata perintah Allah
-  - Untuk menjaga gen tidak bercampur
+  - Kerana dipandang baik oleh masyarakat
+  - Untuk menjaga status sosial dalam masyarakat

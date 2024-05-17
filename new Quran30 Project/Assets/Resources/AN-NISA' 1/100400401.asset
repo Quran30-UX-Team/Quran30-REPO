@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AN-NISA'(AYAT 1-23)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah hikmah di balik pembagian waris dalam Islam?
+  question: Apakah hikmah di balik pembahagian waris dalam Islam?
   answers:
   - Agar terjadi keadilan
-  - Agar tidak ada konflik keluarga
+  - Agar ada konflik kekeluargaan
   - Agar yang kuat mendapat lebih banyak
   - Agar harta tidak jatuh ke tangan musuh

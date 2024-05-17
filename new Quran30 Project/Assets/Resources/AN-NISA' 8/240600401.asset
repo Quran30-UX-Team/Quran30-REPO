@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AN-NISA'(AYAT 148-176)
   category: Hukum
   image: {fileID: 0}
-  question: Apakah hukuman yang diterima oleh orang-orang Yahudi yang ingkar perjanjian?
+  question: Apakah yang ditegaskan oleh ayat tersebut tentang sifat-sifat malaikat?
   answers:
-  - Dilaknat dan dijauhkan dari rahmat Allah
-  - Dihukum mati
-  - Diusir dari negeri mereka
-  - Dipenjarakan seumur hidup
+  - Mereka adalah hamba-hamba Allah
+  - Mereka sombong dan enggan beribadat kepada Allah
+  - Mereka adalah anak-anak Allah
+  - Mereka adalah penolong Allah

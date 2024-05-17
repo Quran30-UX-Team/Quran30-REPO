@@ -17,9 +17,10 @@ MonoBehaviour:
   surahName: AN-NISA'(AYAT 23-147)
   category: Cerita
   image: {fileID: 0}
-  question: Siapakah yang digolongkan sebagai orang-orang yang merugikan?
+  question: Apakah kelebihan yang dijanjikan kepada mujahidin berbanding mereka yang
+    tidak berjihad?
   answers:
-  - Orang yang bertahan di negeri kaum musyrikin
-  - Orang yang berhijrah di jalan Allah
-  - Orang yang meninggalkan kampung halaman
-  - Orang yang memerangi kaum musyrikin
+  - Kelebihan satu darjat dan pahala yang amat besar
+  - Lebih banyak harta di dunia
+  - Kelebihan berkuasa di dunia
+  - Kehidupan yang lebih panjang

@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AN-NISA'(AYAT 23-147)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah yang dijanjikan Syaitan terhadap manusia agar menjadi kawan setianya?
+  question: Siapakah yang mendapat pahala lebih besar menurut Surah an-Nisa?
   answers:
-  - Menyesatkan dan mengharapkan yang kosong
-  - Memberikan kekayaan dan kemuliaan
-  - Memberikan kekayaan dan kemuliaan
-  - Membantu manusia menuju kebenaran
+  - Mereka yang berjihad dengan harta dan jiwa mereka
+  - Mereka yang tinggal di rumah tanpa sebab
+  - Mereka yang uzur dan tidak pergi berjihad
+  - Mereka yang bekerja untuk nafkah keluarga
