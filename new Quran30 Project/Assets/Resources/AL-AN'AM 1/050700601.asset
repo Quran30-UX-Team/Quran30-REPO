@@ -17,10 +17,9 @@ MonoBehaviour:
   surahName: AL-AN'AM(AYAT 1-110)
   category: Cerita
   image: {fileID: 0}
-  question: Apakah yang akan berlaku jika Allah turunkan malaikat seperti permintaan
-    orang-orang musyrik?
+  question: Apa yang dinyatakan oleh Allah tentang syaitan?
   answers:
-  - 'Segala urusan akan diputuskan '
-  - 'Mereka akan beriman '
-  - 'Mereka akan diberi penangguhan '
-  - Tiada sebarang keputusan
+  - Syaitan adalah musuh manusia
+  - Syaitan adalah teman baik manusia
+  - Syaitan mempunyai kekuatan untuk memberikan hidup
+  - Syaitan tidak dapat mempengaruhi manusia

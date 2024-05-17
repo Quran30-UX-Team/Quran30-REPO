@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AL-MA'IDAH(AYAT 83-120)
   category: Cerita
   image: {fileID: 0}
-  question: 'Siapakah yang bertanya kepada Nabi Isa pada hari kiamat? '
+  question: Apakah yang dilakukan Nabi Isa AS terhadap Kitab Taurat?
   answers:
-  - Allah SWT
-  - Para hawariyun
-  - 'Nabi Muhammad SAW '
-  - 'Para malaikat '
+  - Baginda membenarkan Kitab Taurat dan menjelaskan kandungannya kepada Bani Israel
+  - Baginda membatalkan Kitab Taurat sepenuhnya
+  - Baginda menambahkan hukum-hukum baru yang bertentangan dengan Kitab Taurat
+  - Baginda tidak memberi perhatian kepada Kitab Taurat

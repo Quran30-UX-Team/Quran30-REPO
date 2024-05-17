@@ -17,8 +17,7 @@ MonoBehaviour:
   surahName: AL-MA'IDAH(AYAT 83-120)
   category: Hukum
   image: {fileID: 0}
-  question: Apakah kaffarah (denda bagi orang yang membunuh binatang buruan ketika
-    ihram?
+  question: Apakah kaffarah bagi orang yang membunuh binatang buruan ketika ihram?
   answers:
   - 'Menyembelih binatang sembelihan '
   - 'Berpuasa '

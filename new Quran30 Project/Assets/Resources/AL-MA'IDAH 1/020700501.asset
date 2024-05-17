@@ -17,9 +17,10 @@ MonoBehaviour:
   surahName: AL-MA'IDAH(AYAT 83-120)
   category: Ayat Surah
   image: {fileID: 0}
-  question: Apakah yang dimaksud dengan tipu daya?
+  question: Apakah yang tidak boleh dimakan walaupun binatang itu disembelih atas
+    nama Allah?
   answers:
-  - Pendustaan terhadap ayat-ayat Allah
-  - Perbuatan sihir
-  - Perbuatan syirik
-  - Percobaan menghalangi keimanan orang lain
+  - Binatang yang ditembak menggunakan anak panah
+  - Binatang yang disembelih pada hari raya korban
+  - Binatang yang disembelih oleh Muslim
+  - 'Ikan dan makanan laut '

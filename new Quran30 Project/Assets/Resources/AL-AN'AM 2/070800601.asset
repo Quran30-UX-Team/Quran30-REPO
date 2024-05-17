@@ -20,7 +20,7 @@ MonoBehaviour:
   question: 'Kaum manakah yang disebutkan telah mengingkari rasul-rasul yang diutus
     kepada mereka? '
   answers:
-  - 'Kaum Nabi Nuh Shalih Luth Syu''aib dan Musa. '
-  - 'Kaum Nabi Ibrahim Ismail Ishak dan Ya''qub. '
-  - 'Kaum Nabi Muhammad s.a.w. '
-  - Kaum Nabi Isa a.s.
+  - Kaum Nabi Nuh
+  - Kaum Ansar
+  - Bani Khazraj
+  - Umat Islam

@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AL-AN'AM(AYAT 1-110)
   category: Fakta
   image: {fileID: 0}
-  question: 'Apakah yang dikatakan oleh Allah sebagai bukti kebesaran dan keagungan-Nya? '
+  question: Apa yang dimaksudkan oleh "hidupkan negeri yang mati"?
   answers:
-  - Daratan dan lautan
-  - 'Bintang-bintang di langit '
-  - Pergantian musim
-  - Pergantian siang dan malam
+  - Membangunkan kembali negeri yang pernah musnah
+  - Mencipta kehidupan sosial yang aktif
+  - Mencipta kestabilan politik
+  - Membangunkan ekonomi yang merosot

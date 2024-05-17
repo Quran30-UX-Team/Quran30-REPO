@@ -17,7 +17,8 @@ MonoBehaviour:
   surahName: AL-AN'AM(AYAT 1-110)
   category: Fakta
   image: {fileID: 0}
-  question: 'Apakah yang dinyatakan diturunkan dari Allah menurut? '
+  question: 'Apakah yang dinyatakan diturunkan dari Allah pada bulan Ramadhan menurut
+    surah ini? '
   answers:
   - Al-Quran
   - 'Injil '

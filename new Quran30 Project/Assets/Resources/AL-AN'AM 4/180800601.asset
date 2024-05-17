@@ -19,7 +19,7 @@ MonoBehaviour:
   image: {fileID: 0}
   question: Apakah yang diperintahkan kepada orang-orang beriman?
   answers:
-  - Untuk menyembelih hewan dengan menyebut nama Allah.
+  - Untuk menyembelih haiwan dengan menyebut nama Allah.
   - 'Untuk memakan makanan haram. '
   - 'Untuk berpuasa setiap hari. '
-  - 'Untuk menyembelih hewan dengan menyebut nama selain Allah. '
+  - 'Untuk menyembelih haiwan dengan menyebut nama selain Allah. '

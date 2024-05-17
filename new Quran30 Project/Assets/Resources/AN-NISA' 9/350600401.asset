@@ -17,9 +17,10 @@ MonoBehaviour:
   surahName: AN-NISA'(AYAT 148-176)
   category: Fakta
   image: {fileID: 0}
-  question: Siapakah yang seharusnya menjadi hakim/pembuat hukum bagi kaum mukminin?
+  question: Apa yang akan terjadi kepada orang-orang yang kufur dan mati dalam keadaan
+    kufur?
   answers:
-  - ' Rasulullah SAW'
-  - Para ulama
-  - Pemerintah
-  - Pemimpin suku
+  - Mereka akan kekal di dalam neraka selama-lamanya
+  - Mereka akan dimaafkan oleh Allah
+  - ' Mereka akan dihukum sementara di neraka'
+  - Mereka akan diberikan kesempatan kedua untuk bertaubat

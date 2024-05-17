@@ -17,10 +17,9 @@ MonoBehaviour:
   surahName: AN-NISA'(AYAT 148-176)
   category: Cerita
   image: {fileID: 0}
-  question: Apakah sebab mengapa sebagian Nasrani mendapat pujian Kerana kedekatan
-    mereka dengan orang-orang mukmin?
+  question: Mengapa sebahagian Nasrani mendapat pujian di dalam surah ini?
   answers:
   - Kerana kerendahan hati dan ketidaksombongan mereka
   - Kerana kesalehan mereka
   - Kerana kekayaan mereka
-  - Kerana kekuatan militer mereka
+  - Kerana kekuatan tentera mereka

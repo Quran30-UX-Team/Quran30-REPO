@@ -17,9 +17,10 @@ MonoBehaviour:
   surahName: AL-MA'IDAH(AYAT 83-120)
   category: Cerita
   image: {fileID: 0}
-  question: Bagaimanakah Allah SWT memanggil Nabi Isa AS?
+  question: Siapakah salah seorang dari para nabi yang disebutkan dalam Al-Quran
+    yang membenarkan Kitab Taurat dan diberi Kitab Injil?
   answers:
-  - 'Wahai hamba-Ku '
-  - Ya Tuhanku
-  - Wahai Nabi
-  - Wahai Rasul-Ku
+  - Nabi Isa
+  - Nabi Musa
+  - Nabi Muhammad
+  - Nabi Ibrahim

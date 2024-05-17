@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AL-AN'AM(AYAT 1-110)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah yang dimiliki oleh Allah kunci-kuncinya?
+  question: Apa hukuman bagi orang yang berdusta di akhirat?
   answers:
-  - Kunci langit dan bumi
-  - Kunci syurga dan neraka
-  - Kunci rezeki dan bahaya
-  - Kunci keampunan dan azab
+  - Mereka akan dihukum dengan seksa yang pedih
+  - Mereka akan mendapat kemuliaan dan kekayaan
+  - Mereka akan dihukum dengan seksaan ringan
+  - Mereka akan diampuni oleh Allah
