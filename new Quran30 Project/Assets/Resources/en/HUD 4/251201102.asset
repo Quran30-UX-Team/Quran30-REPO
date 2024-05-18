@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 251201102
+  m_EditorClassIdentifier: 
+  questionCode: 251201102
+  juz: 12
+  surahName: HUD(AYAT 6-123)
+  category: Chapter Verses
+  image: {fileID: 0}
+  question: What is God's advice to Prophet Muhammad in Surah Hud verse 112?
+  answers:
+  - Stay firm on the right path
+  - Be patient in the face of the polytheists' interference
+  - Do not pay attention to the disobedience of the people
+  - Leave your disobedient people

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 280900702
+  m_EditorClassIdentifier: 
+  questionCode: 280900702
+  juz: 9
+  surahName: AL-A'RAF(AYAT 88-206)
+  category: Fact
+  image: {fileID: 0}
+  question: Why does Allah take testimony from Adam's grandchildren in the spirit
+    world?
+  answers:
+  - So that they do not say in the afterlife that they do not know the oneness of
+    God
+  - So that they follow the teachings of the apostles later on
+  - So that they worship idols according to grandmother's tradition ancestor
+  - So that they follow the steps of the devil in the world

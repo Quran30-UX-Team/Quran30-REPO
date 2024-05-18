@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 160400402
+  m_EditorClassIdentifier: 
+  questionCode: 160400402
+  juz: 4
+  surahName: AN-NISA'(AYAT 1-23)
+  category: Hukum
+  image: {fileID: 0}
+  question: What is prohibited in relation to the father's ex-wife (stepmother)?
+  answers:
+  - Marry them
+  - Looking at them
+  - Give them a gift
+  - Be nice to them

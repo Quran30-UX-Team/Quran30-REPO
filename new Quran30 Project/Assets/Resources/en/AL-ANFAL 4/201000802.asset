@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 201000802
+  m_EditorClassIdentifier: 
+  questionCode: 201000802
+  juz: 10
+  surahName: AL-ANFAL(AYAT 41-75)
+  category: Story
+  image: {fileID: 0}
+  question: What is the effect if Muslims take the spoils of war?
+  answers:
+  - They see it as a gift from God as a result of victory in the war for the benefit
+    of Muslims.
+  - They consider it as a form of urgent need of Muslims
+  - They feel that it is an immoral act and not in accordance with the teachings
+    of Islam
+  - They use the spoils of war as a source of personal income without considering
+    the principles of Islamic justice

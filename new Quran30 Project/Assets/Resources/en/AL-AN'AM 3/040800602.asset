@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 040800602
+  m_EditorClassIdentifier: 
+  questionCode: 040800602
+  juz: 8
+  surahName: AL-AN'AM(AYAT 111-165)
+  category: Hukum
+  image: {fileID: 0}
+  question: What consequences will be received by those who commit fraud?
+  answers:
+  - They will be humiliated in the sight of Allah and a very heavy punishment
+  - They will be forgiven by Allah
+  - They will go to heaven
+  - They will be guided by Allah

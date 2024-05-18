@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 091401502
+  m_EditorClassIdentifier: 
+  questionCode: 091401502
+  juz: 14
+  surahName: AL-HIJR (AYAT 1-99)
+  category: Chapter Verses
+  image: {fileID: 0}
+  question: What is the criteria of the person who enters the first Gate of Hell?
+  answers:
+  - Those who do injustice to themselves
+  - Those who believe in God
+  - Those who fast
+  - Those who do good to others

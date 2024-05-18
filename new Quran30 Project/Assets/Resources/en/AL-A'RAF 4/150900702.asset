@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 150900702
+  m_EditorClassIdentifier: 
+  questionCode: 150900702
+  juz: 9
+  surahName: AL-A'RAF(AYAT 88-206)
+  category: Story
+  image: {fileID: 0}
+  question: Why did Prophet Musa ask to see Allah directly?
+  answers:
+  - Because Prophet Musa wanted to show the greatness of God to his people
+  - Because Prophet Musa doubted the existence of Allah
+  - Because Prophet Musa wanted to ensure the greatness of Allah
+  - Because Prophet Musa was deceived by the whispers of the devil

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 011101102
+  m_EditorClassIdentifier: 
+  questionCode: 011101102
+  juz: 11
+  surahName: HUD(AYAT 1-5)
+  category: Chapter Verses
+  image: {fileID: 0}
+  question: What is the meaning of the separate letters Alif Laam Raa at the beginning
+    of this surah?
+  answers:
+  - Secret letters whose meaning is known only to Allah
+  - The initial letters of the Prophet Muhammad's name
+  - The letters that represent the attributes of Allah
+  - The letters that show that the Quran was revealed gradually

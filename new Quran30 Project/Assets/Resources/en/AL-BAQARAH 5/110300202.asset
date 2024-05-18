@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 110300202
+  m_EditorClassIdentifier: 
+  questionCode: 110300202
+  juz: 3
+  surahName: AL-BAQARAH(AYAT 253-286)
+  category: Fact
+  image: {fileID: 0}
+  question: For whom does God multiply the reward?
+  answers:
+  - For those who spend and do good deeds
+  - Only for the rich
+  - For the poor only
+  - For the generous only

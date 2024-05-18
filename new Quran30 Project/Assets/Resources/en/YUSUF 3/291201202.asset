@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 291201202
+  m_EditorClassIdentifier: 
+  questionCode: 291201202
+  juz: 12
+  surahName: YUSUF(AYAT 1-52)
+  category: Story
+  image: {fileID: 0}
+  question: What did the King of Egypt see in his dream?
+  answers:
+  - 7 fat cows and 7 thin cows
+  - 7 stalks of green wheat and 7 stalks of dry wheat
+  - 7 big stars and 7 small stars
+  - 7 white clouds and 7 black clouds

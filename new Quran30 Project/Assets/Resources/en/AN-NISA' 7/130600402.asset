@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 130600402
+  m_EditorClassIdentifier: 
+  questionCode: 130600402
+  juz: 6
+  surahName: AN-NISA'(AYAT 148-176)
+  category: Fact
+  image: {fileID: 0}
+  question: What is the status of Prophet Isa pbuh emphasized?
+  answers:
+  - A messenger of Allah
+  - God other than Allah
+  - Son of Allah
+  - Allah's highest angel

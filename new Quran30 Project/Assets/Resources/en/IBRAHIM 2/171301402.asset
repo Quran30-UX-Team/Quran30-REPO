@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 171301402
+  m_EditorClassIdentifier: 
+  questionCode: 171301402
+  juz: 13
+  surahName: IBRAHIM(AYAT 1-53)
+  category: Fact
+  image: {fileID: 0}
+  question: Who is the group that cannot hear and accept Allah's warning?
+  answers:
+  - People who are spiritually deaf
+  - People who are physically deaf
+  - People who are blind
+  - People who believe in Allah

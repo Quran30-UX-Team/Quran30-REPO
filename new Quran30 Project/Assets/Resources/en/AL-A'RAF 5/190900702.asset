@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 190900702
+  m_EditorClassIdentifier: 
+  questionCode: 190900702
+  juz: 9
+  surahName: AL-A'RAF(AYAT 88-206)
+  category: Story
+  image: {fileID: 0}
+  question: What is Prophet Musa's advice to the Children of Israel so that they
+    repent?
+  answers:
+  - Ask Allah for forgiveness
+  - Kill yourselves
+  - Leave Egypt forever
+  - Worship the image of the calf

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 230500402
+  m_EditorClassIdentifier: 
+  questionCode: 230500402
+  juz: 5
+  surahName: AN-NISA'(AYAT 23-147)
+  category: Story
+  image: {fileID: 0}
+  question: What is the action ordered by God against people who want to migrate
+    from the polytheists?
+  answers:
+  - Receive the person well
+  - Killed him
+  - Drive him out of the country
+  - Rejected his Islam
