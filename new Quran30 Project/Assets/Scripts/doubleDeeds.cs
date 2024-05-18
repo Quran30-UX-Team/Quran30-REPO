@@ -6,11 +6,13 @@ public class doubleDeeds : MonoBehaviour
 {
     private GameObject doublePanel;
     AudioManager audioManager;
+    public GameObject blockPanel;
 
     public Button powerUPBtn;
     private void Awake()
     {
         audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+        blockPanel = GameObject.Find("PUBlockPanel");
     }
 
     public void Start()
@@ -21,6 +23,7 @@ public class doubleDeeds : MonoBehaviour
 
     public void onClick()
     {
+        blockPanel.SetActive(true);
         audioManager.PlaySFX(audioManager.changePageButtonSFX);
         doublePanel.SetActive(true);
 

@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class halvesChoice : MonoBehaviour
 {
     private answerButton answerButton;
+    public GameObject blockPanel;
     AudioManager audioManager;
 
     public Button powerUPBtn;
@@ -13,6 +14,7 @@ public class halvesChoice : MonoBehaviour
     public void Awake()
     {
         audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+        blockPanel = GameObject.Find("PUBlockPanel");
     }
 
     private void Start()
@@ -21,8 +23,10 @@ public class halvesChoice : MonoBehaviour
     }
     public void halfWrongAnswer(int amountToRemove)
     {
+        blockPanel.SetActive(true);
         audioManager.PlaySFX(audioManager.changePageButtonSFX);
         answerButton.RemoveRandomWrongAnswers(amountToRemove);
         powerUPBtn.interactable = false;
     }
+
 }

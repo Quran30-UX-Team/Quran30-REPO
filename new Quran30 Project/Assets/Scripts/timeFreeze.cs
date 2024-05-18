@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class TimeFreeze : MonoBehaviour
 {
     private GameObject freezePanel;
+    public GameObject blockPanel;
     private timeController timeController;
     AudioManager audioManager;
 
@@ -14,6 +15,7 @@ public class TimeFreeze : MonoBehaviour
     public void Awake()
     {
         audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+        blockPanel = GameObject.Find("PUBlockPanel");
     }
 
     void Start()
@@ -28,6 +30,7 @@ public class TimeFreeze : MonoBehaviour
     }
     public void FreezeTimer(float setTimer)
     {
+        blockPanel.SetActive(true);
         audioManager.PlaySFX(audioManager.changePageButtonSFX);
         StartCoroutine(FreezeForAMoment(setTimer));
     }
