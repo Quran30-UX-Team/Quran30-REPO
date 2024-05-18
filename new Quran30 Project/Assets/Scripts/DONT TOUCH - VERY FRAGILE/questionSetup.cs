@@ -51,7 +51,7 @@ public class questionSetup : MonoBehaviour
 
     void GetQuestionAsset()
     {
-        questionFilePath = PlayerPrefs.GetString("Question Set");
+        questionFilePath = "EnglishQuestion/" + PlayerPrefs.GetString("Question Set");
         questions = new List<questionData>(Resources.LoadAll<questionData>(questionFilePath));
     }
 
