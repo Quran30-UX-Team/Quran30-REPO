@@ -32,6 +32,8 @@ public class dataSaver : MonoBehaviour
 
             PlayerPrefs.SetInt("choosenTheme", 1);
 
+            PlayerPrefs.SetString("SelectedLocale", "en");
+
             PlayerPrefs.SetInt("hasSkip", 0);
 
             PlayerPrefs.SetFloat("BGMVolume", 0.5f);

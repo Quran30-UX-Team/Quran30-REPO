@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 300300302
+  m_EditorClassIdentifier: 
+  questionCode: 300300302
+  juz: 3
+  surahName: ALI IMRAN(AYAT 1-92)
+  category: Fact
+  image: {fileID: 0}
+  question: What is meant by repentance will not be accepted for unbelievers?
+  answers:
+  - His repentance was not accepted after death approached
+  - His repentance will not be accepted for a while
+  - His repentance will be accepted if he is truly sincere and sincere
+  - His repentance will be accepted if he leaves polytheism

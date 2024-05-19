@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 121401602
+  m_EditorClassIdentifier: 
+  questionCode: 121401602
+  juz: 14
+  surahName: AN-NAHL(AYAT 1-128)
+  category: Fact
+  image: {fileID: 0}
+  question: Why did Allah create a couple for humans according to verses 41-50 of
+    Surah Al-Nahl?
+  answers:
+  - For people to be at peace
+  - For people to have fun
+  - For people to be grateful
+  - For people to grow

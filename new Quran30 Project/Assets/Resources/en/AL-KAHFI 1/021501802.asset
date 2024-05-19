@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 021501802
+  m_EditorClassIdentifier: 
+  questionCode: 021501802
+  juz: 15
+  surahName: AL-KAHFI(AYAT 1-74)
+  category: Fact
+  image: {fileID: 0}
+  question: According to verse 2 of Surah Al-Kahfi what is Allah's promise to those
+    who believe and do righteous deeds?
+  answers:
+  - They will be given a good reward
+  - They will be admitted to Heaven
+  - They will be given forgiveness of sins
+  - They will be given abundant wealth

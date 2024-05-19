@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 161501802
+  m_EditorClassIdentifier: 
+  questionCode: 161501802
+  juz: 15
+  surahName: AL-KAHFI(AYAT 1-74)
+  category: Story
+  image: {fileID: 0}
+  question: Why did Prophet Musa accompany the pious servant according to Surah Al-Kahfi?
+  answers:
+  - To learn some of the knowledge that was taught to him
+  - To help travel in search of food
+  - To find the hidden treasure
+  - To find a way back to his people

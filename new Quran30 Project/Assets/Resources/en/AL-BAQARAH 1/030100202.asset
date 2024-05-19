@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 030100202
+  m_EditorClassIdentifier: 
+  questionCode: 030100202
+  juz: 1
+  surahName: AL-BAQARAH(AYAT 1-141)
+  category: Fact
+  image: {fileID: 0}
+  question: What are the main characteristics of pious people mentioned in surah
+    Al-Baqarah?
+  answers:
+  - Establishing prayer and paying zakat
+  - Perform Sunnah fasting
+  - Performing Hajj
+  - Reading the al-Quran

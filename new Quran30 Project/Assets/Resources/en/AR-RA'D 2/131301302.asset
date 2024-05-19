@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 131301302
+  m_EditorClassIdentifier: 
+  questionCode: 131301302
+  juz: 13
+  surahName: AR-RA'D(AYAT 1-43)
+  category: Fact
+  image: {fileID: 0}
+  question: What is the purpose of Allah giving examples of parables through the
+    verses of the Qur'an?
+  answers:
+  - To warn and teach people
+  - To make fun of people
+  - To test people's faith
+  - To show the greatness of the Arabic language

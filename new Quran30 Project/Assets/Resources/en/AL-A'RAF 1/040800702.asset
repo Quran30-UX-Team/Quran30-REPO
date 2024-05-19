@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 040800702
+  m_EditorClassIdentifier: 
+  questionCode: 040800702
+  juz: 8
+  surahName: AL-A'RAF(AYAT 1-87)
+  category: Chapter Verses
+  image: {fileID: 0}
+  question: What is meant by garment of piety based on the verse below?O children
+    of Adam! Indeed We have sent down to you (materials for) clothes to cover your
+    private parts and clothes for jewelry; and the clothes that are in the form of
+    piety are the best. That is one of the signs (of abundant grace) ) Allah (and
+    His mercy to His servants) so that they remember him (and be grateful).
+  answers:
+  - Do obedience to Allah
+  - Clothes that cover the aurat perfectly
+  - Beautiful clothes to decorate
+  - Clothes that protect yourself from heat and cold
