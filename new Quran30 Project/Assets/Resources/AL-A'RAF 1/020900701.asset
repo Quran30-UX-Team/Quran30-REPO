@@ -17,10 +17,10 @@ MonoBehaviour:
   surahName: AL-A'RAF(AYAT 88-206)
   category: Cerita
   image: {fileID: 0}
-  question: Apakah alasan Nabi Suhaib untuk tetap tinggal di kota Madyan meskipun
+  question: Apakah alasan Nabi Shu'aib untuk tetap tinggal di kota Madyan meskipun
     diancam?
   answers:
   - 'Kerana ia berharap kaum Madyan akan beriman '
   - 'Kerana Madyan adalah tanah kelahirannya '
-  - 'Kerana ia takut kepada manusia '
-  - Kerana ia menyukai kehidupan di Madyan
+  - 'Kerana baginda takut kepada manusia '
+  - Kerana baginda menyukai kehidupan di Madyan

@@ -19,7 +19,7 @@ MonoBehaviour:
   image: {fileID: 0}
   question: 'Siapakah Nabi yang diutuskan kepada kaum Madyan? '
   answers:
-  - 'Nabi Suhaib '
+  - 'Nabi Syu''aib '
   - 'Nabi Musa  '
   - ' Nabi Luth'
   - Nabi Hud

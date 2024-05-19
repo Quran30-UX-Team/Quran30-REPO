@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AL-AN'AM(AYAT 1-110)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah tugas utama yang diberikan kepada Nabi Muhammad SAW?
+  question: Apa yang dimaksudkan dengan "sumbatan di telinga mereka"?
   answers:
-  - 'Menyampaikan risalah Allah '
-  - 'Memerangi orang-orang kafir '
-  - Memaksa manusia beriman
-  - Mengutuk orang-orang musyrik
+  - Mereka menjadi pekak terhadap ayat-ayat Allah
+  - Mereka mendengar dengan jelas dan faham
+  - Mereka memiliki telinga yang sensitif terhadap kebenaran
+  - Mereka tidak mampu mendengar ayat-ayat Al-Quran

@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AL-AN'AM(AYAT 1-110)
   category: Cerita
   image: {fileID: 0}
-  question: ' Mengapa mereka tidak mahu beriman kepada Rasulullah SAW? '
+  question: ' Mengapa orang-orang kafir tidak mahu beriman kepada Rasulullah SAW? '
   answers:
   - Kesombongan mereka
-  - Keingkaran mereka
-  - 'Kemunafikan mereka '
-  - Kekufuran mereka
+  - Kerendahan hati mereka
+  - Pengaruh nenek moyang
+  - Tiada sebab

@@ -19,7 +19,7 @@ MonoBehaviour:
   image: {fileID: 0}
   question: Mengapa kaum muslimin dilarang untuk bersikap sombong dan berpecah belah?
   answers:
-  - Agar mereka tetap kuat dan satu barisan
+  - Agar mereka tetap kuat dalam menghadapi musuh
   - 'Agar mereka mudah dikalahkan musuh '
   - 'Agar menjadi ujian bagi mereka '
-  - 'Agar mendapat kemenangan '
+  - 'Agar musuh mendapat kemenangan '

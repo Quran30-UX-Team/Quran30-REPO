@@ -19,7 +19,7 @@ MonoBehaviour:
   image: {fileID: 0}
   question: Siapakah golongan yang paling buruk di sisi Allah?
   answers:
-  - Orang yang buta dan pekak
+  - Orang yang buta dan pekak yang tidak mahu memahami apapun
   - 'Orang yang beriman '
   - 'Orang yang taat '
   - 'Orang yang tuli dan bisu '

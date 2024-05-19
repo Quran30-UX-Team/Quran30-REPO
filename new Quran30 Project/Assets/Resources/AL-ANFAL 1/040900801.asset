@@ -17,9 +17,10 @@ MonoBehaviour:
   surahName: AL-ANFAL(AYAT 1-40)
   category: Cerita
   image: {fileID: 0}
-  question: Mengapa orang-orang munafik berkata kepada Nabi Muhammad SAW?
+  question: Apakah yang telah dikatakan oleh orang-orang munafik kepada Nabi Muhammad
+    SAW?
   answers:
-  - Ingin menghalau Nabi Muhammad SAW dari Madinah
-  - ' Ingin memahami Islam dengan sebenar-benarnya '
-  - 'Ingin membuat Nabi Muhammad SAW tertawa '
-  - 'ingin menampakkan keimanan mereka '
+  - Mereka ingin menghalau Nabi Muhammad SAW dari Madinah
+  - ' Mereka ingin memahami Islam dengan sebenar-benarnya '
+  - Mereka ingin membuat Nabi Muhammad SAW ketawa
+  - 'Ingin menampakkan keimanan mereka '

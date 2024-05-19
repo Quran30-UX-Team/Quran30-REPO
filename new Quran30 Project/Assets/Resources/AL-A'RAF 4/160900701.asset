@@ -19,7 +19,7 @@ MonoBehaviour:
   image: {fileID: 0}
   question: Apakah yang terjadi kepada Nabi Musa setelah meminta melihat Allah?
   answers:
-  - 'Nabi Musa pangsan Kerana tidak sanggup melihat keagungan Allah '
-  - 'Nabi Musa terkena petir Kerana melanggar perintah Allah '
+  - 'Nabi Musa pengsan kerana tidak sanggup melihat keagungan Allah '
+  - 'Nabi Musa dipanah petir kerana melanggar perintah Allah '
   - Nabi Musa berhasil melihat Allah secara langsung
-  - Nabi Musa disiksa Kerana meragukan keberadaan Allah
+  - Nabi Musa diseksa kerana meragukan keberadaan Allah

@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AL-A'RAF(AYAT 1-87)
   category: Cerita
   image: {fileID: 0}
-  question: 'Bagaimanakah reaksi kaum Madyan terhadap seruan Nabi Suhaib? '
+  question: 'Bagaimanakah reaksi kaum Madyan terhadap seruan Nabi Syu''aib? '
   answers:
   - 'Mereka mendustakan dan mengancamnya '
   - 'Mereka beriman dan menyembah Allah '
-  - 'Mereka mengusir Nabi Suhaib dari kota mereka '
+  - 'Mereka mengusir Nabi Syu''aib dari kota mereka '
   - Mereka tidak menghiraukannya

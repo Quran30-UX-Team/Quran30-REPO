@@ -17,9 +17,10 @@ MonoBehaviour:
   surahName: AL-AN'AM(AYAT 111-165)
   category: Hukum
   image: {fileID: 0}
-  question: Mengapakah larangan membunuh anak-anak kerana takut terhadap kemiskinan?
+  question: Mengapakah terdapat larangan membunuh anak-anak kerana takut terhadap
+    kemiskinan?
   answers:
-  - 'Kerana Allah akan memberikan rezeki kepada mereka. '
-  - 'Kerana membunuh anak-anak adalah dosa besar. '
-  - 'Kerana anak-anak adalah anugerah dari Allah. '
-  - Alasannya tidak dijelaskan dalam ayat tersebut.
+  - 'Kerana anak-anak adalah anugerah dari Allah '
+  - Kerana membunuh anak-anak adalah dosa kecil
+  - Kerana anak-anak adalah beban
+  - Alasannya tidak dijelaskan dalam ayat tersebut

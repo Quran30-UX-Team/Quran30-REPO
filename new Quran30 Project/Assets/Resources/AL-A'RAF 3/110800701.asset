@@ -19,7 +19,7 @@ MonoBehaviour:
   image: {fileID: 0}
   question: 'Bagaimanakah reaksi kaum ''Aad terhadap seruan Nabi Hud? '
   answers:
-  - 'Mereka mendustakan dan mengingkari risalahnya '
+  - 'Mereka mendustakan dan mengingkari perintah Allah '
   - Mereka beriman dan menyembah Allah
   - 'Mereka mengusirnya dari kota mereka '
   - Mereka tidak menghiraukannya

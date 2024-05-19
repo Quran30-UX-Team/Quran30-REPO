@@ -17,8 +17,8 @@ MonoBehaviour:
   surahName: AL-A'RAF(AYAT 88-206)
   category: Fakta
   image: {fileID: 0}
-  question: Bagaimana keadaan orang-orang yang berpecah belah dalam agama menurut
-    ayat ini?
+  question: Apakah yang akan terjadi kepada orang-orang yang berpecah belah dalam
+    agama?
   answers:
   - 'Mereka akan dijauhkan dari rahmat Allah '
   - 'Mereka akan mendapat petunjuk dari Allah '

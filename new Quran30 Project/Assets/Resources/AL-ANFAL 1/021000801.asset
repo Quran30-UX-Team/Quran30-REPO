@@ -17,9 +17,11 @@ MonoBehaviour:
   surahName: AL-ANFAL(AYAT 41-75)
   category: Cerita
   image: {fileID: 0}
-  question: Mengapa Allah menampakkan jumlah tentera musuh lebih banyak?
+  question: Mengapa Allah menampakkan jumlah tentera musuh lebih sedikit ketika Perang
+    Badar di dalam mimpi Rasulullah?
   answers:
-  - Agar menjadi ujian bagi kaum muslimin
-  - 'Agar kaum muslimin gentar '
-  - Agar kaum muslimin menyerah
-  - Agar kaum muslimin berperang
+  - Supaya Nabi SAW sampaikan kepada para sahabat supaya mereka tidak takut untuk
+    berperang
+  - Supaya kaum Muslim menjadi angkuh
+  - Agar tiada peperangan terjadi
+  - Agar kaum muslim berperang

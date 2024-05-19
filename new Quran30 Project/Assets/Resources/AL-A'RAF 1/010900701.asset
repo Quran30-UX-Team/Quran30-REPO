@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AL-A'RAF(AYAT 88-206)
   category: Cerita
   image: {fileID: 0}
-  question: 'Apakah ancaman kaum Madyan kepada Nabi Suhaib dan pengikutnya? '
+  question: 'Apakah ancaman kaum Madyan kepada Nabi Shu''aib dan pengikutnya? '
   answers:
   - 'Mereka akan diusir dari kota Madyan '
-  - 'Mereka akan dirajam dengan batu '
+  - 'Mereka akan direjam dengan batu '
   - Mereka akan dipenjarakan
   - ' Mereka akan dibunuh'

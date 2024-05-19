@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AL-ANFAL(AYAT 1-40)
   category: Fakta
   image: {fileID: 0}
-  question: Siapakah ciri-ciri orang yang beriman?
+  question: Apakah ciri-ciri orang yang beriman?
   answers:
   - Apabila disebut nama Allah gementarlah hati mereka
-  - 'Mereka berdosa '
-  - 'Mereka munafik '
-  - 'Mereka kufur '
+  - Mereka tetap menjalankan urusan mereka walaupun azan berkumandang
+  - Mereka mendirikan solat secara sambil lewa
+  - Mereka kurang berzikir

@@ -17,10 +17,10 @@ MonoBehaviour:
   surahName: AL-A'RAF(AYAT 88-206)
   category: Cerita
   image: {fileID: 0}
-  question: 'Apakah yang diminta Nabi Suhaib kepada kaumnya agar mereka selamat dari
-    azab? '
+  question: 'Apakah yang diminta Nabi Syu''aib kepada kaumnya agar mereka selamat
+    dari azab? '
   answers:
   - 'Bertaubat dan mengikuti agamanya '
   - Meninggalkan kota Madyan
   - Menyembah berhala-berhala
-  - 'Membayar denda kepada Nabi Suhaib '
+  - 'Membayar denda kepada Nabi Syu''aib '

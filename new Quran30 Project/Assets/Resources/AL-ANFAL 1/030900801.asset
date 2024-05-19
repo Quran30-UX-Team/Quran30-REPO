@@ -17,9 +17,10 @@ MonoBehaviour:
   surahName: AL-ANFAL(AYAT 1-40)
   category: Fakta
   image: {fileID: 2800000, guid: c5978201ed4a16b4d87ba7e92b163b3a, type: 3}
-  question: Apakah yang dimaksud dengan sembahyang ?
+  question: Apakah yang dimaksud dengan solat?
   answers:
-  - Sembahyang fardu
-  - Sembahyang Isyak
-  - 'Sembahyang Subuh '
-  - Sembahyang sunat
+  - Solat adalah bentuk ibadah yang melibatkan komunikasi langsung antara manusia
+    dan Allah
+  - Solat adalah hanya sekadar gerakan fizikal yang dilakukan sebagai tradisi
+  - Solat adalah cara untuk menunjukkan kekuatan seseorang
+  - Solat adalah ritual sosial yang dijalankan untuk memperoleh kekayaan

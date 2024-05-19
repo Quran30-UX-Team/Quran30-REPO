@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AL-AN'AM(AYAT 1-110)
   category: Fakta
   image: {fileID: 0}
-  question: Bagaimanakah keadaan mereka di akhirat nanti?
+  question: Bagaimanakah keadaan orang musyrik di akhirat nanti?
   answers:
   - ' Dihina dan direndahkan '
   - 'Berada di tempat kediaman yang kekal '
   - Mendapat kemuliaan
-  - Mendapat balasan yang setimpal
+  - 'Mendapat balasan yang setimpal '
