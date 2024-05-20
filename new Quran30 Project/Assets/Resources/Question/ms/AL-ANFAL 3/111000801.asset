@@ -17,10 +17,10 @@ MonoBehaviour:
   surahName: AL-ANFAL(AYAT 41-75)
   category: Ayat Surah
   image: {fileID: 0}
-  question: 'Apakah yang dimaksudkan dengan membunuh nabi-nabi tanpa alasan yang
-    benar? '
+  question: Apa yang terjadi kepada orang-orang kafir yang terkena hentaman daripada
+    malaikat?
   answers:
-  - ' Mengingkari dan menolak ajaran para nabi '
-  - 'Benar-benar membunuh para nabi '
-  - Berbuat maksiat kepada Allah
-  - Menyembah selain Allah
+  - Semuanya terlihat kegelapan dan mereka dalam kebingungan
+  - Mereka terjatuh pengsan
+  - Mereka mengalami kegembiraan dan ketenangan
+  - Mereka ingin bertaubat

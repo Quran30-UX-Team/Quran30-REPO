@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AL-ANFAL(AYAT 41-75)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah yang ditegaskan mengenai kehormatan dan kemuliaan?
+  question: Mengapa Allah menurunkan malaikat dalam Perang Badar?
   answers:
-  - Hanya Allah dan Rasul-Nya yang memilikinya
-  - 'Didapat dengan harta dan jabatan '
-  - Didapat dengan kesombongan
-  - Didapat dengan ilmu pengetahuan
+  - Sebagai khabar gembira dan untuk menenangkan hati umat Islam
+  - Untuk mengalahkan semua musuh secara langsung
+  - Untuk menunjukkan kehebatan malaikat
+  - Untuk menakut-nakutkan umat Islam

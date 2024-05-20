@@ -17,8 +17,8 @@ MonoBehaviour:
   surahName: HUD(AYAT 6-123)
   category: Ayat Surah
   image: {fileID: 0}
-  question: Apakah yang dimaksudkan dengan kehancuran kaum-kaum yang telah dibinasakan
-    itu hanyalah sebahagian kecil dari azab (yang diterima di akhirat)?
+  question: '"Apakah yang dimaksudkan dengan ""kehancuran kaum-kaum yang telah dibinasakan
+    itu  hanyalah sebahagian kecil dari azab (yang diterima di akhirat)?"'
   answers:
   - 'Azab di dunia lebih ringan dari azab akhirat '
   - 'Azab di dunia lebih berat dari azab akhirat '

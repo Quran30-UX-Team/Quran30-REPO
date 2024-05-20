@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AN-NAHL(AYAT 1-128)
   category: Fakta
   image: {fileID: 0}
-  question: Bagaimana gangguan orang kafir digambarkan dalam ayat 100-110 Surah Al-Nahl?
+  question: Apa tindakan yang disarankan dalam ayat ini berkaitan dengan makanan?
   answers:
-  - Menyusahkan
-  - Mengasyikkan
-  - Menyenangkan
-  - Menggembirakan
+  - Berdoa sebelum makan
+  - Makan hanya makanan organik
+  - Makan hanya makanan dari negara Islam
+  - Membuang makanan yang berlebihan

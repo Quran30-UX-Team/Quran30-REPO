@@ -19,7 +19,7 @@ MonoBehaviour:
   image: {fileID: 0}
   question: Kepada siapakah Nabi Yusuf memberitahu identiti sebenarnya?
   answers:
-  - Kepada Bunyamin sahaja
   - Kepada saudara-saudaranya
-  - Kepada ayahnya Nabi Yaakub
+  - Kepada Nabi Yaaqub sahaja
+  - Kepada ibu baginda
   - Kepada rakyat Mesir

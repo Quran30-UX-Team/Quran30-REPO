@@ -17,10 +17,10 @@ MonoBehaviour:
   surahName: AT-TAUBAH(AYAT 1-92)
   category: Ayat Surah
   image: {fileID: 0}
-  question: Apakah yang dimaksudkan dengan Tidak akan memberati mereka kehausan kepanasan
-    dan kelaparan pada jalan Allah?
+  question: Apakah yang dimaksudkan dengan "Tidak akan memberi mereka kehausan, kepanasan
+    dan kelaparan pada jalan Allah"?
   answers:
-  - ' Mereka tidak akan mengalami kehausan kepanasan dan kelaparan semasa berjihad '
-  - Mereka akan mengalami kehausan kepanasan dan kelaparan semasa berjihad
+  - ' Mereka tidak akan mengalami kehausan, kepanasan dan kelaparan semasa berjihad  '
+  - '"Mereka akan mengalami kehausan, kesejukan dan kekenyangan semasa berjihad"'
   - ' Mereka akan mengalami kelaparan semasa berjihad '
   - Mereka akan mengalami kepanasan semasa berjihad

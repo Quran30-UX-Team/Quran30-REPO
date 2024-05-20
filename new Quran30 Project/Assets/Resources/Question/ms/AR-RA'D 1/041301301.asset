@@ -17,7 +17,7 @@ MonoBehaviour:
   surahName: AR-RA'D(AYAT 1-43)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah nasihat yang diberikan dalam ayat-ayat ini kepada manusia?
+  question: Apakah nasihat Allah kepada manusia melalui surah ini?
   answers:
   - Agar berpegang kepada petunjuk Al-Quran dan tidak mengikut langkah syaitan
   - Agar mengikut langkah syaitan

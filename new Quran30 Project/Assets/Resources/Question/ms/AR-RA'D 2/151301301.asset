@@ -17,10 +17,9 @@ MonoBehaviour:
   surahName: AR-RA'D(AYAT 1-43)
   category: Fakta
   image: {fileID: 0}
-  question: Bagaimanakah digambarkan keadaan pahala yang diterima oleh orang-orang
-    beriman?
+  question: Siapakah yang memperlihatkan kilat kepada manusia?
   answers:
-  - Kebahagiaan dan tempat kembali yang baik
-  - Kekayaan yang melimpah ruah
-  - Kekuasaan di dunia
-  - ' Umur yang panjang'
+  - Allah SWT
+  - Malaikat
+  - Jin
+  - Manusia

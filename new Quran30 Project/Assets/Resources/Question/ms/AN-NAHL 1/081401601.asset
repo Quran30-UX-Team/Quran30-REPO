@@ -17,10 +17,9 @@ MonoBehaviour:
   surahName: AN-NAHL(AYAT 1-128)
   category: Hukum
   image: {fileID: 0}
-  question: Apakah balasan bagi orang kafir yang enggan beriman menurut ayat 26-40
-    Surah Al-Nahl?
+  question: Apakah manfaat lain gunung selain sebagai pasak bumi?
   answers:
-  - Diseksa di neraka
-  - Keampunan dari Allah
-  - Masuk syurga
-  - Diberi peluang lagi untuk beriman
+  - Menyediakan tempat perlindungan bagi manusia
+  - Menjadi sumber tenaga elektrik
+  - Menghalang hujan ribut dari laut
+  - Menjadi habitat untuk para jin

@@ -17,9 +17,12 @@ MonoBehaviour:
   surahName: AT-TAUBAH(AYAT 93-129)
   category: Cerita
   image: {fileID: 0}
-  question: Apakah yang menjadi alasan kaum Badwi (kaum Badui)?
+  question: Apakah alasan kaum Badwi menolak ajaran Islam?
   answers:
-  - Mereka lemah dan miskin
-  - 'Mereka sakit '
-  - 'Mereka sibuk berdagang '
-  - Mereka takut berperang
+  - Merasa bahawa ajaran Islam bertentangan dengan gaya hidup nomad dan kebebasan
+    mereka
+  - Menganggap agama Islam merupakan agama yang mengatur kehidupan sehari-hari mereka
+  - Memiliki konflik kepentingan dengan nilai-nilai Islam terutamanya terkait perubahan
+    dalam pola hidup dan tata cara sosial
+  - Menganggap bahawa ajaran Islam tidak relevan dengan kehidupan mereka yang berfokus
+    pada kehidupan gurun dan perburuan

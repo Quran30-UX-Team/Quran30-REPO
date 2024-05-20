@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AT-TAUBAH(AYAT 1-92)
   category: Cerita
   image: {fileID: 0}
-  question: Siapakah yang dimaksudkan dengan dan orang-orang yang beriman bersama-samanya?
+  question: Siapakah yang dimaksudkan dengan "dan orang-orang yang beriman bersama-selamanya"?
   answers:
   - 'Golongan yang berjihad '
   - 'Golongan yang tidak mahu berjihad '
   - Golongan yang zalim
-  - Golongan yang bertaubat
+  - Golongan cendekiawan

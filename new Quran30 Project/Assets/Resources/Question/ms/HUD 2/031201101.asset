@@ -17,7 +17,8 @@ MonoBehaviour:
   surahName: HUD(AYAT 6-123)
   category: Cerita
   image: {fileID: 0}
-  question: Apakah yang dilakukan Allah ketika banjir besar melanda?
+  question: Apakah yang dilakukan Allah ketika banjir besar melanda dalam kisah Nabi
+    Nuh?
   answers:
   - Menenggelamkan kaum yang ingkar
   - ' Menyelamatkan kaum yang ingkar '

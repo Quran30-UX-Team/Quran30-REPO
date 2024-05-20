@@ -17,10 +17,10 @@ MonoBehaviour:
   surahName: AL-HIJR (AYAT 1-99)
   category: Ayat Surah
   image: {fileID: 0}
-  question: "Apakah yang dimaksudkan dengan \u0645\u064F\u062A\u064E\u0642\u064E\u0644\u064E\u0651\u0628\u064E\u0643\u064E
-    dalam ayat 85?"
+  question: Apakah nasib isteri Nabi Luth AS setelah Allah menurunkan azabNya ke
+    atas kaum Sodom?
   answers:
-  - Tempat kamu kembali
-  - Tempat kamu berpindah
-  - Tempat kamu tinggal
-  - Tempat kamu berasal
+  - Dia akan tertinggal bersama orang kafir
+  - Dia akan selamat bersama keluarganya
+  - Dia akan menjadi pemimpin kaumnya
+  - Dia akan menjadi utusan Allah

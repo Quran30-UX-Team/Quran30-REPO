@@ -17,8 +17,8 @@ MonoBehaviour:
   surahName: AT-TAUBAH(AYAT 1-92)
   category: Cerita
   image: {fileID: 0}
-  question: Siapakah yang dimaksudkan dengan Maka bergembiralah dengan perdagangan
-    yang telah kamu lakukan itu?
+  question: Siapakah yang dimaksudkan dengan "Maka bergembiralah dengan perdagangan
+    yang telah kamu lakukan itu"?
   answers:
   - ' Mereka dicemuh kerana memilih berdagang berbanding berjihad '
   - 'Mereka disukai kerana berdagang '

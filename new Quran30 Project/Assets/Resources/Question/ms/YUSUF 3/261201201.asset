@@ -17,7 +17,8 @@ MonoBehaviour:
   surahName: YUSUF(AYAT 1-52)
   category: Cerita
   image: {fileID: 0}
-  question: Kepada siapa Nabi Yusuf meminta untuk menyampaikan kisahnya?
+  question: Kepada siapa Nabi Yusuf meminta untuk menyampaikan kisahnya untuk baginda
+    keluar dari penjara?
   answers:
   - 'Kepada orang yang akan dibebaskan '
   - Kepada penjaga penjara

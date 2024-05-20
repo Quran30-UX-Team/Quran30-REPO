@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AN-NAHL(AYAT 1-128)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah tugas utama Nabi Muhammad SAW menurut ayat 84-89 Surah Al-Nahl?
+  question: Mengapa penting untuk memakan makanan yang halal dan baik?
   answers:
-  - Menyampaikan risalah
-  - Memerangi orang kafir
-  - Membina kerajaan Islam
-  - Mengutip zakat
+  - Kerana makanan yang halal dan baik memberi kekuatan kepada badan dan jiwa
+  - Kerana ia lebih enak
+  - Kerana ia mendapat pujian dari kawan-kawan
+  - Kerana ia lebih mahal

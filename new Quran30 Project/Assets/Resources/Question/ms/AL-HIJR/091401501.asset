@@ -17,10 +17,10 @@ MonoBehaviour:
   surahName: AL-HIJR (AYAT 1-99)
   category: Ayat Surah
   image: {fileID: 0}
-  question: "Apakah yang diibaratkan sebagai \u0646\u064E\u0630\u0650\u064A\u0631\u064B\u0627
-    dalam ayat 58?"
+  question: Apa yang merupakan kriteria orang yang masuk ke dalam Pintu Neraka yang
+    pertama?
   answers:
-  - Pemberi peringatan
-  - Rasul
-  - Petunjuk
-  - Berita gembira
+  - Mereka yang berbuat kezaliman terhadap diri mereka sendiri
+  - Mereka yang beriman kepada Allah
+  - Mereka yang berpuasa
+  - Mereka yang berbuat baik kepada orang lain

@@ -17,8 +17,8 @@ MonoBehaviour:
   surahName: AT-TAUBAH(AYAT 93-129)
   category: Ayat Surah
   image: {fileID: 0}
-  question: Apakah yang dimaksudkan dengan Dan mereka akan menyembunyikan diri daripadamu
-    apabila kamu kembali kepada mereka?
+  question: Apakah yang dimaksudkan dengan "Mereka akan menyatakan uzur kepada kamu,
+    apabila kamu kembali kepada mereka"?
   answers:
   - 'Mereka akan mengelak dari tugas untuk berperang '
   - 'Mereka akan bersembunyi daripada menentang Rasulullah '

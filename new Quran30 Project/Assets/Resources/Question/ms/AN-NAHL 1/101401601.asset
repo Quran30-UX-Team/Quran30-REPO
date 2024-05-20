@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AN-NAHL(AYAT 1-128)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah seruan Allah dalam ayat 41-50 Surah Al-Nahl?
+  question: Selain ikan, apa lagi yang Allah sebut boleh dimanfaatkan dari laut?
   answers:
-  - Berdakwah dengan hikmah
-  - Berdakwah dengan kekerasan
-  - Berdakwah dengan harta
-  - Berdakwah dengan pedang
+  - Perhiasan
+  - Pembuatan fabrik
+  - Kenderaan
+  - Minuman

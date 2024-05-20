@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AL-ANFAL(AYAT 1-40)
   category: Fakta
   image: {fileID: 2800000, guid: ac5c36a0df79aaf43ae7a1a7ba34376a, type: 3}
-  question: Apakah yang dimaksudkan dengan ujian?
+  question: Apakah tujuan utama di sebalik ujian yang diberikan oleh Allah SWT?
   answers:
-  - Cobaan dari Allah SWT
-  - 'Godaan dari syaitan '
-  - 'Fitnah dari orang-orang munafik '
+  - Untuk menguji iman dan kesabaran seseorang
+  - Untuk menghukum orang yang berdosa
+  - Untuk menunjukkan kekuatan manusia kepada iblis
   - Semua jawapan betul

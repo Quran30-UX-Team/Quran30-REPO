@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AT-TAUBAH(AYAT 1-92)
   category: Ayat Surah
   image: {fileID: 0}
-  question: Apakah perumpamaan yang diberikan untuk orang-orang munafik?
+  question: Mengapa perbuatan baik Musyrikin Mekah tidak diterima oleh Allah?
   answers:
-  - 'Seperti keldai yang memikul kitab-kitab '
-  - 'seperti binatang ternak yang tidak mengerti apa-apa '
-  - 'Seperti batu yang tidak bergerak '
-  - Seperti abu yang dihembus angin
+  - Mereka melakukan syirik
+  - ' Mereka mengucapkan syahadah'
+  - Mereka tidak berbuat baik kepada orang miskin
+  - Mereka tidak menunaikan haji

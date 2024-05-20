@@ -17,9 +17,10 @@ MonoBehaviour:
   surahName: IBRAHIM(AYAT 1-53)
   category: Ayat Surah
   image: {fileID: 0}
-  question: Manakala bagi golongan kafir pula apakah perumpamaan yang diberikan?
+  question: Apakah tujuan sebenar Iblis dalam khutbahnya kepada Allah dalam Surah
+    Ibrahim?
   answers:
-  - Seperti debu yang ditiup angin
-  - Seperti pohon yang kering dan tidak berbuah
-  - Seperti awan yang kosong tanpa hujan
-  - Seperti lautan yang dangkal dan keruh
+  - ' Untuk menghina dan menyesatkan manusia'
+  - Untuk memohon keampunan dari Allah
+  - Untuk menyesali perbuatannya yang salah
+  - Untuk memberi pujian kepada Allah

@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AN-NAHL(AYAT 1-128)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah nasihat utama yang diberikan dalam ayat 111-112 Surah Al-Nahl?
+  question: Yang manakah perbuatan yang digalakkan untuk orang yang beriman?
   answers:
   - Jangan mudah percaya kepada orang lain dalam hal akidah
-  - Bertakwalah kepada Allah
-  - Bersyukurlah kepada Allah
-  - Bertaubatlah kepada Allah
+  - Makan sehingga kenyang
+  - Bersyukurlah kepada Malaikat
+  - Bertaubatlah kepada Rasul

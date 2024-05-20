@@ -17,8 +17,8 @@ MonoBehaviour:
   surahName: AT-TAUBAH(AYAT 93-129)
   category: Cerita
   image: {fileID: 0}
-  question: Siapakah yang dimaksudkan dengan Dan orang-orang yang terdahulu lagi
-    yang mula-mula masuk Islam?
+  question: Siapakah yang dimaksudkan dengan "Dan orang-orang yang terdahulu lagi
+    yang pertama-tama memasuki Islam"?
   answers:
   - Orang-orang Ansar dan Muhajirin
   - 'Orang-orang munafik '

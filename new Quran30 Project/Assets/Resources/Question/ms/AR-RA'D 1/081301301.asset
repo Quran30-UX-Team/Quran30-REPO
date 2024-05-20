@@ -17,10 +17,9 @@ MonoBehaviour:
   surahName: AR-RA'D(AYAT 1-43)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah yang dimaksudkan dengan petir dalam ayat 13 yang menjadi salah
-    satu tanda kekuasaan Allah?
+  question: Apakah yang dimaksudkan dengan istiwa' Allah dalam Surah ar-Ra'd?
   answers:
-  - Kilat
-  - Ribut petir
-  - 'Hujan lebat '
-  - Badai
+  - Duduk di atas 'Arasy
+  - Naik ke langit
+  - Mengatur urusan semesta
+  - Menundukkan matahari dan bulan

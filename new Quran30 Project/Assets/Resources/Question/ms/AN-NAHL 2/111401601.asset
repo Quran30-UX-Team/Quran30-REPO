@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AN-NAHL(AYAT 1-128)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah yang dikuasai oleh Allah menurut ayat 41-50 Surah Al-Nahl?
+  question: Apakah yang dikuasai oleh Allah?
   answers:
-  - Makhluk-Nya
+  - Semua jawapan adalah benar
   - Manusia
   - 'Malaikat '
   - Alam semesta

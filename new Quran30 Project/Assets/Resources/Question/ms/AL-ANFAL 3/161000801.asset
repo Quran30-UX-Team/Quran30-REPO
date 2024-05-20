@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AL-ANFAL(AYAT 41-75)
   category: Fakta
   image: {fileID: 0}
-  question: Mengapakah Allah mencukupkan Nabi Muhammad dalam berperang?
+  question: Apa yang dikatakan tentang malaikat?
   answers:
-  - Untuk menolong kaum muslimin yang lemah
-  - Rasulullah dapat mengalahkan musuh sendirian
-  - . Rasulullah diutus untuk berperang saja
-  - Untuk menguji keimanan kaum muslimin
+  - Malaikat itu patuh kepada perintah Allah tanpa perasaan belas kasihan
+  - Malaikat itu bersifat kasar dan kejam
+  - Malaikat itu mempunyai perasaan marah dan dendam
+  - Malaikat tidak akan memberi keampunan kepada orang kafir

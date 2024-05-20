@@ -17,7 +17,7 @@ MonoBehaviour:
   surahName: YUNUS(AYAT 1-109)
   category: Ayat Surah
   image: {fileID: 0}
-  question: 'Apakah yang dimaksud dengan tempat kembali dalam ayat 4 surah Yunus? '
+  question: 'Apakah yang dimaksud dengan "tempat kembali" dalam ayat 4 surah Yunus? '
   answers:
   - 'Akhirat '
   - 'Kampung halaman '

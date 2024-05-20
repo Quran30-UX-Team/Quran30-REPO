@@ -17,8 +17,8 @@ MonoBehaviour:
   surahName: AT-TAUBAH(AYAT 93-129)
   category: Ayat Surah
   image: {fileID: 0}
-  question: Apakah yang dimaksudkan dengan Mereka bersumpah kepada kamu supaya kamu
-    membiarkan mereka?
+  question: Apakah yang dimaksudkan dengan "Mereka bersumpah kepada kamu supaya kamu
+    membiarkan mereka"?
   answers:
   - 'Mereka bersumpah untuk tidak berperang '
   - 'Mereka bersumpah untuk ikut berperang '

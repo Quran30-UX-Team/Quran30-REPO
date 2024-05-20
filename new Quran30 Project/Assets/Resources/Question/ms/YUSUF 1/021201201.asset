@@ -19,7 +19,7 @@ MonoBehaviour:
   image: {fileID: 0}
   question: Mengapa Al-Quran diturunkan dalam bahasa Arab?
   answers:
-  - 'Agar mudah difahami oleh semua manusia '
-  - Agar sukar difahami kecuali bagi orang Arab
   - 'Kerana Nabi Muhammad berbangsa Arab '
+  - Supaya senang difahami oleh orang musyrik
+  - Agar kaum Ansar memahaminya
   - Tiada sebab dijelaskan dalam ayat

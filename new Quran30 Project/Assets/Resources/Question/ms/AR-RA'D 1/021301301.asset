@@ -19,7 +19,7 @@ MonoBehaviour:
   image: {fileID: 0}
   question: Apakah yang dimaksudkan dengan Allah meninggikan langit tanpa bertiang?
   answers:
-  - Langit disangga oleh kuasa Allah semata-mata
+  - Langit disokong oleh kuasa Allah semata-mata
   - Langit tidak memerlukan tiang penyangga
-  - Langit disangga oleh tiang-tiang yang tidak dapat dilihat
-  - Langit disangga oleh bintang-bintang di angkasa
+  - Langit disokong oleh tiang-tiang yang tidak dapat dilihat
+  - Langit disokong oleh bintang-bintang di angkasa

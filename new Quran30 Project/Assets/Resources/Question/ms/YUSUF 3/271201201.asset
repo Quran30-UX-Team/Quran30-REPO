@@ -17,7 +17,8 @@ MonoBehaviour:
   surahName: YUSUF(AYAT 1-52)
   category: Cerita
   image: {fileID: 0}
-  question: Mengapa Nabi Yusuf meminta kisahnya disampaikan?
+  question: Mengapa Nabi Yusuf meminta kisahnya disampaikan setelah seorang khadam
+    raja bebas dari penjara?
   answers:
   - 'Agar dirinya dikeluarkan dari penjara '
   - 'Agar dirinya dihukum mati '

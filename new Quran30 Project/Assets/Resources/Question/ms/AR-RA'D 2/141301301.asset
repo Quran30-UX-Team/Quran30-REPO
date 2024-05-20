@@ -17,10 +17,9 @@ MonoBehaviour:
   surahName: AR-RA'D(AYAT 1-43)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah golongan yang mendapat petunjuk melalui perumpamaan-perumpamaan
-    itu?
+  question: Apakah maksud ketakutan dan harapan yang timbul dari kilat?
   answers:
-  - Orang-orang beriman
-  - Orang-orang kafir
-  - Orang-orang munafik
-  - Semua golongan manusia
+  - Orang yang takut kepada kilat dan orang yang berharap pada hujan
+  - Semua orang takut dan tidak ada harapan
+  - Hanya orang yang takut kepada Allah dan tidak ada harapan
+  - Orang yang takut kepada guruh dan orang yang berharap pada kemarau

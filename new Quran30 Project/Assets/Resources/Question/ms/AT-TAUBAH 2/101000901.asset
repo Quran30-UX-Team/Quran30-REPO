@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AT-TAUBAH(AYAT 1-92)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah akibat dari mengundur-undur bulan haram?
+  question: Apakah akibat dari mengundur-undur bulan haram menurut surah At-Taubah?
   answers:
   - 'Menambah kekafiran '
-  - Dosa yang besar
-  - 'Diazab di akhirat '
-  - 'Diazab di akhirat '
+  - Dosa yang kecil
+  - 'Diazab di dunia '
+  - Didenda di Mahkanah

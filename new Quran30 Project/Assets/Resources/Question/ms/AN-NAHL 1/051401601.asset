@@ -17,10 +17,10 @@ MonoBehaviour:
   surahName: AN-NAHL(AYAT 1-128)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah nikmat Allah yang disebutkan dalam ayat 8-18 Surah Al-Nahl yang
-    menunjukkan kekuasaan-Nya?
+  question: Apa yang Allah ciptakan dalam ayat 16 Surah an-Nahl untuk kegunaan manusia
+    dalam navigasi?
   answers:
-  - Malam dan siang.
-  - Binatang ternakan.
-  - Buah-buahan.
-  - Lebah.
+  - Bintang
+  - Awan
+  - Angin
+  - Matahari

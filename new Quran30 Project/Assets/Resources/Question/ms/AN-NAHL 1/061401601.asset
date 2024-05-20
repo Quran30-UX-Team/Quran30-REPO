@@ -17,9 +17,10 @@ MonoBehaviour:
   surahName: AN-NAHL(AYAT 1-128)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah perintah Allah dalam ayat 19-25 Surah Al-Nahl?
+  question: Dalam ayat 17 Surah an-Nahl, Allah mengingatkan tentang nikmat-nikmat
+    yang diberikan kepada manusia. Apakah respon yang seharusnya diberikan oleh manusia?
   answers:
-  - Bersyukur kepada Allah.
-  - Menyembah berhala.
-  - ' Mengikut hawa nafsu.'
-  - Tidak ada perintah dalam ayat tersebut.
+  - Mensyukuri nikmat tersebut
+  - Mengeluh tentang kekurangan nikmat
+  - Membandingkan nikmat dengan orang lain
+  - Mengabaikan nikmat tersebut

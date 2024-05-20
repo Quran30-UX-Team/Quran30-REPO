@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AL-ANFAL(AYAT 41-75)
   category: Cerita
   image: {fileID: 0}
-  question: Apakah yang diingatkan kepada kaum muslimin?
+  question: Apakah yang diingatkan kepada kaum muslim ketika berperang?
   answers:
   - Jangan berkhianat dan mengingkari janji
-  - 'Jangan menyerah kepada musuh '
+  - 'Jangan menyerah musuh jika diserang terlebih dahulu '
   - 'Jangan menginginkan harta rampasan perang '
   - Jangan menghormati perjanjian dengan musuh

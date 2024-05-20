@@ -17,10 +17,9 @@ MonoBehaviour:
   surahName: YUSUF(AYAT 53-111)
   category: Cerita
   image: {fileID: 0}
-  question: Mengikut ayat 53-57 Surah Yusuf apakah usaha yang dilakukan Nabi Yusuf
-    untuk menghindari diri dari perbuatan maksiat?
+  question: Di mana koyaknya baju Yusuf?
   answers:
-  - Memohon perlindungan kepada Allah dan menghindari godaan syaitan
-  - Berdiam diri dan tidak melakukan apa-apa
-  - Berusaha untuk memenuhi ajakan isteri Al-Aziz
-  - Melarikan diri dari tempat kejadian
+  - Di belakang
+  - Di hadapan
+  - Di bahu
+  - Di tepi

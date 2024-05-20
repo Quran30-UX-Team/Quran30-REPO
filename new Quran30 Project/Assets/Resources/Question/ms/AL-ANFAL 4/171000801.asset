@@ -17,10 +17,10 @@ MonoBehaviour:
   surahName: AL-ANFAL(AYAT 41-75)
   category: Cerita
   image: {fileID: 0}
-  question: 'Apakah keutamaan yang dimiliki orang-orang yang bersabar menghadapi
-    musuh? '
+  question: Dalam Surah Anfal, apakah yang Allah SWT turunkan dari langit untuk menyucikan
+    umat Islam dalam Perang Badar?
   answers:
-  - Mereka dapat mengalahkan dua ratus orang musuh
-  - 'Mereka dapat mengalahkan seribu orang musuh '
-  - ' Mereka tidak akan pernah dikalahkan musuh '
-  - Mereka akan selalu menang berperang
+  - Hujan
+  - Salji
+  - Cahaya
+  - Malaikat

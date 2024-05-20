@@ -17,9 +17,10 @@ MonoBehaviour:
   surahName: HUD(AYAT 1-5)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah yang dijanjikan Allah akan terjadi kepada setiap jiwa?
+  question: Apakah yang dikatakan oleh orang-orang kafir tentang kebangkitan semula
+    dalam Surah Hud?
   answers:
-  - ' Akan menerima balasan amalnya '
-  - 'Akan diberi petunjuk '
-  - Akan diberi rahmat
-  - Akan diampuni dosanya
+  - Mereka menyatakan itu hanyalah sihir yang nyata
+  - Mereka percaya sepenuhnya
+  - Mereka mengatakan itu adalah pengetahuan yang hebat
+  - Mereka tidak berkata apa-apa

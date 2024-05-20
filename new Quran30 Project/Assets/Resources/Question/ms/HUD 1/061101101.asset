@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: HUD(AYAT 1-5)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah janji Allah kepada orang-orang yang bertakwa ?
+  question: Apakah tujuan utama Allah menciptakan langit dan bumi?
   answers:
-  - 'Akan mendapat kebahagiaan di dunia dan akhirat '
-  - ' Akan dimasukkan ke dalam syurga '
-  - 'Akan dilindungi dari azab neraka '
-  - Akan diberi pahala berlipat ganda
+  - Untuk diuji siapa yang lebih baik amalnya
+  - Untuk bermain-main
+  - Untuk menunjukkan kekuasaan malaikat
+  - Untuk memperlihatkan kebolehan manusia

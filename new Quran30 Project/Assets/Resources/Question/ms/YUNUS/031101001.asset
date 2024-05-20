@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: YUNUS(AYAT 1-109)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah janji Allah kepada orang yang bertakwa?
+  question: Siapakah yang berkuasa mengatur urusan alam semesta?
   answers:
-  - Akan diberi kebahagiaan
-  - 'Akan diberi petunjuk '
-  - 'Akan diampuni dosa-dosanya '
-  - Akan ditempatkan di syurga
+  - Allah SWT
+  - Nabi Muhammad SAW
+  - Malaikat
+  - Dewa

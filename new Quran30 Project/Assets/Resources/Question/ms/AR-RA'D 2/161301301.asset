@@ -17,7 +17,9 @@ MonoBehaviour:
   surahName: AR-RA'D(AYAT 1-43)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah seruan yang diberikan dalam ayat-ayat ini kepada manusia?
+  question: '"Apakah seruan yang diberikan dalam ayat di bawah kepada manusia?  ""Dan
+    apa yang telah diturunkan kepadamu (Muhammad) dari Tuhanmu itu? Dialah kebenaran
+    itu sendiri. Maka janganlah kamu Termasuk orang yang ragu-ragu."" "'
   answers:
   - Agar bertaqwa kepada Allah dan tidak mengikut pengikut syaitan
   - Agar mengikut langkah syaitan

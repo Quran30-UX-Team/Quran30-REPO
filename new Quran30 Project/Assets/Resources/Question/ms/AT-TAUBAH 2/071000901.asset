@@ -19,7 +19,8 @@ MonoBehaviour:
   image: {fileID: 0}
   question: Siapakah yang dimuliakan Allah?
   answers:
-  - 'Orang-orang yang berhijrah dan berjuang di jalan Allah '
-  - 'Orang-orang yang mendirikan solat dan menunaikan zakat '
-  - 'Orang-orang yang beriman dan bertakwa '
+  - Orang-orang beriman yang berhijrah untuk berjihad di jalan Allah dengan harta,
+    benda dan diri mereka
+  - Orang-orang yang mendirikan solat sepanjang waktu tanpa peduli keadaan sekeliling
+  - Orang-orang yang sentiasa bersedekah dengan menggunakan harta anak yatim
   - Semua golongan

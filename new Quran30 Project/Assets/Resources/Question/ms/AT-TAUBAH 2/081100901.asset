@@ -17,7 +17,8 @@ MonoBehaviour:
   surahName: AT-TAUBAH(AYAT 93-129)
   category: Cerita
   image: {fileID: 0}
-  question: Mengapa Allah redha terhadap mereka dan mereka redha kepada Allah?
+  question: Mengapa Allah redha terhadap tiga golongan yang disebut di dalam surah
+    ini?
   answers:
   - Kerana mereka gigih berjuang untuk Islam
   - 'Kerana mereka menjadi pelopor Islam '

@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AN-NAHL(AYAT 1-128)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah nasihat yang diberikan dalam ayat 100-110 Surah Al-Nahl?
+  question: Berikut merupakan perbuatan yang dilarang oleh Islam KECUALI?
   answers:
   - Mengikut ajaran Nabi dan bersabar
   - Menyembah berhala
-  - Mengganggu orang kafir
+  - Memerangi orang kafir
   - Meninggalkan agama Islam

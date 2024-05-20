@@ -17,9 +17,10 @@ MonoBehaviour:
   surahName: HUD(AYAT 6-123)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah balasan yang dijanjikan Allah untuk orang-orang yang beriman?
+  question: Apakah tujuan disampaikannya kisah-kisah para Nabi dalam Al-Quran?
   answers:
-  - 'Pahala dan syurga '
-  - 'Kemenangan di dunia '
-  - Kekayaan melimpah
-  - ' Perlindungan dari azab '
+  - Untuk meneguhkan hati pembaca dan memberikan pengajaran kepada orang-orang yang
+    beriman
+  - Untuk menghibur pembaca Al-Quran
+  - Untuk memberikan informasi sejarah yang menarik
+  - Untuk membingungkan pembaca dengan kisah yang tidak jelas

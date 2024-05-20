@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: HUD(AYAT 1-5)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah sifat Allah yang disebutkan dalam surah Hud?
+  question: Mengapa Allah menyebut langit terlebih dahulu dalam banyak ayat Al-Quran?
   answers:
-  - 'Maha Perkasa dan Maha Bijaksana '
-  - 'Maha Pengasih dan Maha Penyayang '
-  - Maha Mengetahui dan Maha Melihat
-  - Maha Kuasa dan Maha Mendengar
+  - Kerana langit menunjukkan kehebatan dan kemuliaan Allah
+  - Kerana langit lebih mudah diciptakan
+  - Kerana manusia lebih suka melihat langit
+  - Kerana langit lebih kecil dari bumi

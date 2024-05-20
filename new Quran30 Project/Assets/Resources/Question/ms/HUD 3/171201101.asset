@@ -17,9 +17,10 @@ MonoBehaviour:
   surahName: HUD(AYAT 6-123)
   category: Ayat Surah
   image: {fileID: 0}
-  question: 'Apakah maksud Naungan awan yang disebutkan dalam Surah Hud ayat 94? '
+  question: 'Apakah maksud "dan orang-orang yang zalim dibinasakan oleh satu suara
+    yang mengguntur" yang disebutkan dalam Surah Hud ayat 94? '
   answers:
-  - 'Awan panas yang membakar mereka '
+  - Azab tempikan daripada Malaikat Jibril
   - 'Hujan lebat yang membasahi mereka '
-  - 'Hari yang amat panas terik '
+  - Bunyi guruh yang kuat
   - Awan yang menaungi mereka dari panas matahari

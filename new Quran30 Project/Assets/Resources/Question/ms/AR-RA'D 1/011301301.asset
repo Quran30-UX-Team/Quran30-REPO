@@ -17,10 +17,9 @@ MonoBehaviour:
   surahName: AR-RA'D(AYAT 1-43)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah bukti yang disebutkan dalam ayat-ayat ini tentang kebesaran dan
-    keesaan Allah?
+  question: Mengapakah Allah memperlihatkan kilat kepada manusia?
   answers:
-  - Ciptaan-Nya di langit dan bumi
-  - Keindahan alam semesta
-  - mukjizat Al-Quran
-  - ' Kehidupan para nabi'
+  - Untuk menakutkan dan memberi harapan kepada manusia
+  - Untuk menyakiti syaitan
+  - Untuk menggembirakan manusia
+  - Untuk mengganggu manusia yang tidak beriman

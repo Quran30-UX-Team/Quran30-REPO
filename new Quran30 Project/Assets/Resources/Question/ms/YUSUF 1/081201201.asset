@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: YUSUF(AYAT 1-52)
   category: Cerita
   image: {fileID: 0}
-  question: Mengapa mereka ingin Nabi Yusuf dilemparkan ke perigi?
+  question: Bagaimana reaksi ayah mereka (Nabi Ya'kub) ketika dimintai izin?
   answers:
-  - 'Agar ayah mereka hanya menyayangi mereka '
-  - 'Agar mereka terbebas dari kecemburuan '
-  - 'Agar membalas dendam kepada Nabi Yusuf '
-  - Agar bisa hidup tenang tanpa Nabi Yusuf
+  - ' Mengizinkan dengan syarat menjaganya '
+  - 'Melarang keras '
+  - 'Tidak mengizinkan sama sekali '
+  - Mengizinkan tanpa syarat

@@ -17,8 +17,8 @@ MonoBehaviour:
   surahName: AT-TAUBAH(AYAT 1-92)
   category: Ayat Surah
   image: {fileID: 0}
-  question: Apakah yang dimaksudkan dengan sesungguhnya negeri yang tidak didiami
-    melainkan oleh kaum yang zalim itu adalah binasa?
+  question: '"Apakah yang dimaksudkan dengan ""sesungguhnya negeri yang tidak didiami
+    melainkan oleh kaum  yang zalim itu adalah binasa""?"'
   answers:
   - 'Negeri itu didiami oleh golongan yang zalim dan akan dibinasakan '
   - 'Negeri itu tidak didiami oleh golongan yang zalim '

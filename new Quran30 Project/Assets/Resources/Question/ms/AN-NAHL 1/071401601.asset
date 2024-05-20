@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AN-NAHL(AYAT 1-128)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah yang dibincangkan dalam ayat 26-40 Surah Al-Nahl?
+  question: Apakah yang Allah ciptakan di bumi supaya ia tidak bergoncang?
   answers:
-  - Iman dan kekufuran
-  - Nikmat-nikmat Allah
-  - Sejarah Nabi Muhammad SAW
-  - Kehidupan di akhirat
+  - Bukit-bakau
+  - Lautan
+  - Sungai
+  - Padang pasir

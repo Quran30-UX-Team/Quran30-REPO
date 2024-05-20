@@ -17,10 +17,10 @@ MonoBehaviour:
   surahName: AL-HIJR (AYAT 1-99)
   category: Ayat Surah
   image: {fileID: 0}
-  question: Apakah yang dimaksudkan dengan Kamu masuk ke dalamnya dengan keadaan
-    hina dalam Ayat 72?
+  question: Apakah arahan yang diberikan kepada Nabi Luth oleh Allah SWT setelah
+    kaum Sodom masih mengingkari perintah Allah?
   answers:
-  - Mereka tidak akan dipandang hina oleh Allah di akhirat kelak.
-  - Mereka akan masuk neraka dengan keadaan yang dihina.
-  - Mereka tidak akan dihormati oleh penghuni neraka.
-  - Mereka akan dipandang hina oleh Allah di akhirat kelak.
+  - Keluar pada sebahagian malam dengan membawa keluarganya
+  - Tinggal di kota bersama keluarganya
+  - Menyerang kaumnya pada waktu subuh
+  - Menghadapi kaumnya dengan bantuan malaikat

@@ -19,7 +19,8 @@ MonoBehaviour:
   image: {fileID: 0}
   question: Kepada siapakah zakat itu diperuntukkan?
   answers:
-  - 'Fakir miskin amil muallaf hamba sahaya gharimin fisabilillah dan ibnu sabil '
+  - Fakir, miskin, amil, muallaf, hamba sahaya, gharimin, fisabilillah dan ibnu sabil
+    sahaja
   - 'Fakir dan miskin saja '
-  - Fakir miskin amil dan muallaf saja
+  - Fakir, miskin, amil dan muallaf saja
   - Kaum kerabat Rasulullah saja

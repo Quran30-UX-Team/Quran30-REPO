@@ -17,9 +17,9 @@ MonoBehaviour:
   surahName: AT-TAUBAH(AYAT 1-92)
   category: Cerita
   image: {fileID: 0}
-  question: 'Apakah yang diperintahkan kepada kaum muslimin untuk dilakukan terhadap
-    orang-orang musyrik yang melanggar perjanjian selepas habis masa tenggang empat
-    bulan? '
+  question: '"Apakah yang diperintahkan kepada kaum muslim untuk dilakukan terhadap
+    orang-orang musyrik  yang melanggar perjanjian selepas habis tempoh empat bulan?
+    "'
   answers:
   - 'Membunuh mereka di mana saja bertemu '
   - 'Menangkap dan menawan mereka '

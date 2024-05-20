@@ -17,9 +17,10 @@ MonoBehaviour:
   surahName: AL-ANFAL(AYAT 41-75)
   category: Cerita
   image: {fileID: 0}
-  question: 'Mengapa para tawanan perang tidak boleh dibebaskan? '
+  question: Apakah yang Allah SWT jadikan sebagai penenteraman bagi umat Islam dalam
+    peperangan Badar?
   answers:
-  - ' Agar peperangan berlanjut dengan dahsyat '
-  - 'Agar mereka mengakui kekalahan '
-  - 'Agar mereka masuk Islam '
-  - Agar harta rampasan perang tidak jatuh ke tangan musuh
+  - Rasa mengantuk
+  - Rasa kenyang
+  - Rasa takut
+  - Rasa teruja

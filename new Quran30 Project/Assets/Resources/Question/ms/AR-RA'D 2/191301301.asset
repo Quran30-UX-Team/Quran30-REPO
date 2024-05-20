@@ -17,9 +17,10 @@ MonoBehaviour:
   surahName: AR-RA'D(AYAT 1-43)
   category: Fakta
   image: {fileID: 0}
-  question: Apakah ganjaran bagi orang-orang beriman?
+  question: Apakah tindakan yang dianjurkan jika seseorang hampir hilang kesabaran
+    ketika menghadapi ujian Allah?
   answers:
-  - Mereka akan mendapat syurga yang mengalir di bawahnya sungai-sungai
-  - Mereka akan diberi kekayaan yang melimpah di dunia
-  - Mereka akan dihormati dan disegani di kalangan manusia
-  - Mereka akan diberi keampunan dan pahala yang besar
+  - Berdoa kepada Allah untuk membebaskan dari kesukaran
+  - Menyerah dan menghindar
+  - Menangis sekuat hati
+  - Mengambil tindakan tergesa-gesa
