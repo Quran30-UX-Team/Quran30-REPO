@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 1
   surahName: AL-BAQARAH(AYAT 1-141)
   category: Story
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 7bd82a4e3c88c504d9ae8eae51386007, type: 3}
   question: Who is meant by a people whose hearts have been blinded?
   answers:
   - The Jews

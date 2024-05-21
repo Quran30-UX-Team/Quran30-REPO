@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 9
   surahName: AL-ANFAL(AYAT 1-40)
   category: Fact
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: a8d2e5a3d7cea974d9cf9fe5470b07a1, type: 3}
   question: What is the attitude of the infidels towards the Muslims as told in Surah
     An-Nafal?
   answers:

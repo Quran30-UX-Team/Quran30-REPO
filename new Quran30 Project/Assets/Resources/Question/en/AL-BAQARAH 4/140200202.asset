@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 2
   surahName: AL-BAQARAH(AYAT 142-252)
   category: Fact
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: b20833720f9a41a4d86e6137f6b9fb1e, type: 3}
   question: Why does God forbid forcing people to convert to Islam?
   answers:
   - There is no compulsion in religion

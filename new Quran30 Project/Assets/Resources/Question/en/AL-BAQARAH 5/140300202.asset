@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 3
   surahName: AL-BAQARAH(AYAT 253-286)
   category: Fact
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 9318485b7342b2a4193a42f8c796cf18, type: 3}
   question: What is forbidden to donate?
   answers:
   - Bad property

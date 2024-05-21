@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 3
   surahName: AL-BAQARAH(AYAT 253-286)
   category: Chapter Verses
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: a837ba093e0021843b0ff982d7addf44, type: 3}
   question: What is the parable for the person who spends his wealth in the way of
     God?
   answers:

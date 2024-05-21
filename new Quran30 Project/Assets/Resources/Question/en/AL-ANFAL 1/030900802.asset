@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 9
   surahName: AL-ANFAL(AYAT 1-40)
   category: Fact
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: c5978201ed4a16b4d87ba7e92b163b3a, type: 3}
   question: What is meant by prayer?
   answers:
   - Prayer is a form of worship that involves direct communication between humans

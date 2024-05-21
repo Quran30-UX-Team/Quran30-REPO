@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 2
   surahName: AL-BAQARAH(AYAT 142-252)
   category: Fact
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 34b4918ed2e60b140a567ee6151096c3, type: 3}
   question: Who does not receive forgiveness from Allah SWT?
   answers:
   - People who worship other God other than Allah

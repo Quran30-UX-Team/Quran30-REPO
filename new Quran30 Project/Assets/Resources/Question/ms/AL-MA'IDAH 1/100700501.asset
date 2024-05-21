@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 7
   surahName: AL-MA'IDAH(AYAT 83-120)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 0ffbc166036f97047bc93dd54acb7b37, type: 3}
   question: Apakah yang dijadikan sebagai tempat masyhur untuk manusia mengerjakan
     haji?
   answers:

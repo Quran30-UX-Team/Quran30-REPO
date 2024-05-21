@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 3
   surahName: AL-BAQARAH(AYAT 253-286)
   category: Story
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: e6f7386d5b050c543a031388f564fb2b, type: 3}
   question: How did Prophet Ibrahim pbuh revive dead birds?
   answers:
   - By calling it back after being cut

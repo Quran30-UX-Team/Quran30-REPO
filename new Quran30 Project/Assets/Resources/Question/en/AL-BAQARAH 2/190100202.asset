@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 1
   surahName: AL-BAQARAH(AYAT 1-141)
   category: Story
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 0856204d32b00c8469e29c4dd8cf0eaa, type: 3}
   question: Why did Allah SWT order Prophet Ibrahim pbuh to pray?
   answers:
   - To send a messenger from his descendants

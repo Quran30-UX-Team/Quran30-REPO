@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 9
   surahName: AL-ANFAL(AYAT 1-40)
   category: Fact
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: ac5c36a0df79aaf43ae7a1a7ba34376a, type: 3}
   question: What is the main purpose behind the test given by Allah SWT?
   answers:
   - To test one's faith and patience

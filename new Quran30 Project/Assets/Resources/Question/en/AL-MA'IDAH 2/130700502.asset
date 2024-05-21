@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 7
   surahName: AL-MA'IDAH(AYAT 83-120)
   category: Fact
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 3ecd045e6f77db74293afe8fd2ce9b24, type: 3}
   question: What does Allah prescribe as the Qiblah for the believers?
   answers:
   - Kaabah

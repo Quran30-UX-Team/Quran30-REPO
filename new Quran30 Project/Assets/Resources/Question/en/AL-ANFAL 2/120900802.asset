@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 9
   surahName: AL-ANFAL(AYAT 1-40)
   category: Story
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 6f5b0315bbb1b8047889d18dfca676fd, type: 3}
   question: What happened to the hypocrites in the Battle of Badr?
   answers:
   - Insulted

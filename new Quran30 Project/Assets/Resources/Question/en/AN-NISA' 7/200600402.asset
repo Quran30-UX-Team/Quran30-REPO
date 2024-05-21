@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 6
   surahName: AN-NISA'(AYAT 148-176)
   category: Fact
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: da3e3513697bf424987125046a8473d1, type: 3}
   question: What does Allah command the believers before starting prayer?
   answers:
   - Wudhu

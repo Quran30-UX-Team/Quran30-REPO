@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 2
   surahName: AL-BAQARAH(AYAT 142-252)
   category: Fact
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: ef7db823818822f409bb5806557a0cad, type: 3}
   question: What is the recommended attitude in jihad in the path of Allah SWT?
   answers:
   - Be forgiving

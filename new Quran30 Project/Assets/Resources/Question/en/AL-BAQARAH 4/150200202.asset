@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 2
   surahName: AL-BAQARAH(AYAT 142-252)
   category: Fact
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: aabd948363cc02147a7eeda33d29ad4e, type: 3}
   question: What are the special month of Ramadan?
   answers:
   - The Quran was revealed in that month of Ramadhan

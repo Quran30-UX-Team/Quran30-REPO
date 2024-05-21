@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 2
   surahName: AL-BAQARAH(AYAT 142-252)
   category: Hukum
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: b93ae06b8b3ecc14486db01cfe239d44, type: 3}
   question: What is the law for a husband to approach his wife on the night of the
     fasting month?
   answers:

@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 7
   surahName: AL-MA'IDAH(AYAT 83-120)
   category: Fact
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: aca7ad1883ec1344b920881de917c706, type: 3}
   question: What is meant by the old place of prayer in this surah?
   answers:
   - Masjidil Haram

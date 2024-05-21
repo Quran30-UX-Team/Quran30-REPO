@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 2
   surahName: AL-BAQARAH(AYAT 142-252)
   category: Fact
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: badf863de13544d449a509bff9fb1ff4, type: 3}
   question: What is meant by qibla?
   answers:
   - Direction to face when praying

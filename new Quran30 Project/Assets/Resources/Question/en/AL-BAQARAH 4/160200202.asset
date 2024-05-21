@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 2
   surahName: AL-BAQARAH(AYAT 142-252)
   category: Fact
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 75162cf728a7d4249b341d0d0b62a078, type: 3}
   question: In what way are we commanded to jihad?
   answers:
   - In the way of Allah SWT
