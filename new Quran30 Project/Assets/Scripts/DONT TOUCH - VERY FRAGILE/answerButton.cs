@@ -16,14 +16,21 @@ public class answerButton : MonoBehaviour
 
     private bool isCorrect;
     private TextMeshProUGUI answerText;
-    private Button buttonComponent;
 
     private questionSetup questionSetup;
     private timeController timeController;
 
-    [SerializeField] private Color defaultColor = Color.white;
-    [SerializeField] private Color correctColor = Color.green;
-    [SerializeField] private Color wrongColor = Color.red;
+    [SerializeField] private Color correctColor1;
+    [SerializeField] private Color correctColor2;
+
+    [SerializeField] private Color wrongColor1;
+    [SerializeField] private Color wrongColor2;
+
+    public Image buttonP1;
+    public Image buttonP2;
+
+    private Color defaultColor1;
+    private Color defaultColor2;
 
     [SerializeField]
     private int score;
@@ -38,9 +45,6 @@ public class answerButton : MonoBehaviour
     {
         // Get the TextMeshProUGUI component attached to this GameObject
         answerText = GetComponentInChildren<TextMeshProUGUI>();
-
-        // Get the Button component attached to this GameObject
-        buttonComponent = GetComponent<Button>();
 
         // Find the questionSetup component in the scene
         questionSetup = FindObjectOfType<questionSetup>();
@@ -60,6 +64,11 @@ public class answerButton : MonoBehaviour
         blockPanel = GameObject.Find("blockPanel");
     }
 
+    private void Start()
+    {
+        defaultColor1 = buttonP1.color;
+        defaultColor2 = buttonP2.color;
+    }
     public void SetAnswerText(string newText)
     {
         answerText.text = newText;
@@ -147,18 +156,22 @@ public class answerButton : MonoBehaviour
 
     IEnumerator turnGreen()
     {
-        buttonComponent.image.color = correctColor;
+        buttonP1.color = correctColor1;
+        buttonP2.color = correctColor2;
         yield return new WaitForSeconds(0.75f);
-        buttonComponent.image.color = defaultColor;
+        buttonP1.color = defaultColor1;
+        buttonP2.color = defaultColor2;
         PlayerPrefs.SetInt("currentExp", PlayerPrefs.GetInt("currentExp") + 5);
         PlayerPrefs.SetInt("totalExp", PlayerPrefs.GetInt("totalExp") + 5);
     }
 
     IEnumerator turnRed()
     {
-        buttonComponent.image.color = wrongColor;
+        buttonP1.color = wrongColor1;
+        buttonP2.color = wrongColor2;
         yield return new WaitForSeconds(0.75f);
-        buttonComponent.image.color = defaultColor;
+        buttonP1.color = defaultColor1;
+        buttonP2.color = defaultColor2;
         PlayerPrefs.SetInt("currentExp", PlayerPrefs.GetInt("currentExp") + 5);
         PlayerPrefs.SetInt("totalExp", PlayerPrefs.GetInt("totalExp") + 5);
     }
