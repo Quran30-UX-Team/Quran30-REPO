@@ -52,7 +52,5 @@ public class getPowerUPInfo : MonoBehaviour
             }
             PlayerPrefs.SetString("Slot3", powerUpName3);
         }
-
-        Debug.Log(powerUpName1 + " " + powerUpName2 + " " + powerUpName3);
     }
 }
