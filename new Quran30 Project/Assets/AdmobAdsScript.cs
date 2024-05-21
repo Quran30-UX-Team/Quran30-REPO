@@ -3,11 +3,10 @@ using GoogleMobileAds.Api;
 using TMPro;
 using UnityEngine.UI;
 using System;
+using System.Collections;
 
 public class AdmobAdsScript : MonoBehaviour
 {
-    public TextMeshProUGUI totalCoinsTxt;
-
     public string appId = "ca-app-pub-1385093244148841~5602672977";// "ca-app-pub-3940256099942544~3347511713";
 
 
@@ -29,14 +28,14 @@ public class AdmobAdsScript : MonoBehaviour
     InterstitialAd interstitialAd;
     RewardedAd rewardedAd;
 
-
     private void Start()
     {
         MobileAds.RaiseAdEventsOnUnityMainThread = true;
         MobileAds.Initialize(initStatus => {
 
+            LoadRewardedAd();
+            LoadInterstitialAd();
             print("Ads Initialised !!");
-
         });
     }
 
@@ -154,7 +153,6 @@ public class AdmobAdsScript : MonoBehaviour
     }
     public void ShowInterstitialAd()
     {
-
         if (interstitialAd != null && interstitialAd.CanShowAd())
         {
             interstitialAd.Show();
@@ -231,7 +229,6 @@ public class AdmobAdsScript : MonoBehaviour
     }
     public void ShowRewardedAd()
     {
-
         if (rewardedAd != null && rewardedAd.CanShowAd())
         {
             rewardedAd.Show((Reward reward) =>
@@ -239,6 +236,7 @@ public class AdmobAdsScript : MonoBehaviour
                 print("Give reward to player !!");
 
                 GrantPremiums(30f);
+                LoadRewardedAd();
 
             });
         }
@@ -295,6 +293,12 @@ public class AdmobAdsScript : MonoBehaviour
         PlayerPrefs.SetFloat("Premium", currentPremiums);
     }
 
+    IEnumerator LoadandShowAD(float seconds)
+    {
+        LoadInterstitialAd();
+        yield return new WaitForSeconds(seconds);
+        ShowInterstitialAd();
+    }
 
     #endregion
 

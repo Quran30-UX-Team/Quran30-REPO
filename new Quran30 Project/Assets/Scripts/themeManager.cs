@@ -86,7 +86,7 @@ public class ThemeManager : MonoBehaviour
                 // Define colors for theme 3
                 ColorUtility.TryParseHtmlString("#68C9FF", out primaryColor); // Light Blue
                 ColorUtility.TryParseHtmlString("#FFFFFF", out secondaryColor); // White
-                ColorUtility.TryParseHtmlString("#68C9FF", out tertiaryColor); // Light Blue
+                ColorUtility.TryParseHtmlString("#848585", out tertiaryColor); // Light Gray
                 ColorUtility.TryParseHtmlString("#FFFFFF", out quarternaryColor); // White
 
                 ColorUtility.TryParseHtmlString("#231F20", out textColor1); // Black
