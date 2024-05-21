@@ -4,11 +4,13 @@ using TMPro;
 using UnityEngine.UI;
 using System;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class AdmobAdsScript : MonoBehaviour
 {
     public string appId = "ca-app-pub-1385093244148841~5602672977";// "ca-app-pub-3940256099942544~3347511713";
 
+    private int sceneEnterCount;
 
 #if UNITY_ANDROID
     string bannerId = "ca-app-pub-1385093244148841/2952458907";
@@ -37,6 +39,31 @@ public class AdmobAdsScript : MonoBehaviour
             LoadInterstitialAd();
             print("Ads Initialised !!");
         });
+
+        OnEntered();
+     }
+
+    private void OnEntered()
+    {
+        // Retrieve the scene enter count from PlayerPrefs
+        sceneEnterCount = PlayerPrefs.GetInt("SceneEnterCountKey", 0);
+
+        // Increment the count since the player is entering the scene
+        if (SceneManager.GetActiveScene().name == "Result")
+        {
+            sceneEnterCount++;
+        }
+
+        // Save the updated count to PlayerPrefs
+        PlayerPrefs.SetInt("SceneEnterCountKey", sceneEnterCount);
+        PlayerPrefs.Save();
+
+        // Check if the count has reached the trigger count
+        if (sceneEnterCount >= 3)
+        {
+            ShowInterstitialAd();
+            PlayerPrefs.SetInt("SceneEnterCountKey", 0);
+        }
     }
 
     #region Banner
