@@ -2,10 +2,14 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 using UnityEngine.UI;
+using System.Collections.Generic;
+using System.Collections;
 
 public class timeController : MonoBehaviour
 {
     private AudioManager audioManager;
+
+    private AdmobAdsScript admobAdsScript;
 
     public GameObject doublePanel;
 
@@ -27,6 +31,7 @@ public class timeController : MonoBehaviour
 
     private void Awake()
     {
+        admobAdsScript = FindObjectOfType<AdmobAdsScript>();
         // Find the questionSetup component in the scene
         questionSetup = FindObjectOfType<questionSetup>();
         if (questionSetup == null)
@@ -40,6 +45,7 @@ public class timeController : MonoBehaviour
     public void Start()
     {
         timeRemaining = PlayerPrefs.GetFloat("Timer", maxTime); // Load the timer value from PlayerPrefs
+        admobAdsScript.LoadInterstitialAd();
         ResetTimer();
     }
 
@@ -90,7 +96,7 @@ public class timeController : MonoBehaviour
 
                 if (questionSetup.questions.Count == 0)
                 {
-                    SceneManager.LoadScene("Result");
+                    StartCoroutine(resultPage(1));
                 }
             }
         }
@@ -105,5 +111,12 @@ public class timeController : MonoBehaviour
     public void AddTime(float additionalTime)
     {
         timeRemaining += additionalTime;
+    }
+
+    IEnumerator resultPage(int waitTime)
+    {
+        admobAdsScript.ShowInterstitialAd();
+        yield return new WaitForSeconds(waitTime);
+        SceneManager.LoadScene("Result");
     }
 }
