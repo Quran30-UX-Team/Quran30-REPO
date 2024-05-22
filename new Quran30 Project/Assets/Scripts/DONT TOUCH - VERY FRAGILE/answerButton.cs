@@ -73,7 +73,6 @@ public class answerButton : MonoBehaviour
     {
         admobAdsScript.LoadInterstitialAd();
         defaultColor1 = buttonP1.color;
-        defaultColor2 = buttonP2.color;
     }
     public void SetAnswerText(string newText)
     {
@@ -179,7 +178,7 @@ public class answerButton : MonoBehaviour
         buttonP2.color = correctColor2;
         yield return new WaitForSeconds(0.75f);
         buttonP1.color = defaultColor1;
-        buttonP2.color = defaultColor2;
+        buttonP2.color = pickColor.GetComponent<Image>().color;
         PlayerPrefs.SetInt("currentExp", PlayerPrefs.GetInt("currentExp") + 5);
         PlayerPrefs.SetInt("totalExp", PlayerPrefs.GetInt("totalExp") + 5);
     }
@@ -190,7 +189,7 @@ public class answerButton : MonoBehaviour
         buttonP2.color = wrongColor2;
         yield return new WaitForSeconds(0.75f);
         buttonP1.color = defaultColor1;
-        buttonP2.color = defaultColor2;
+        buttonP2.color = pickColor.GetComponent<Image>().color;
         PlayerPrefs.SetInt("currentExp", PlayerPrefs.GetInt("currentExp") + 5);
         PlayerPrefs.SetInt("totalExp", PlayerPrefs.GetInt("totalExp") + 5);
     }
