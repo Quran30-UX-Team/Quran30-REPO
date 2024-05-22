@@ -142,7 +142,20 @@ public class answerButton : MonoBehaviour
         else
         {
             // If there is only one question left, change the scene
-            StartCoroutine(resultPage(1));
+            int sceneEntriesCount = PlayerPrefs.GetInt("AdSceneEntriesCount");
+            sceneEntriesCount += 1;
+            Debug.Log("Entry: "+ sceneEntriesCount);
+            PlayerPrefs.SetInt("AdSceneEntriesCount", sceneEntriesCount);
+
+            if (PlayerPrefs.GetInt("AdSceneEntriesCount") >= 3)
+            {
+                StartCoroutine(resultPageAD(1));
+                PlayerPrefs.SetInt("AdSceneEntriesCount", 0);
+            }
+            else
+            {
+                StartCoroutine(resultPage(1));
+            }
         }
     }
 
@@ -190,6 +203,12 @@ public class answerButton : MonoBehaviour
     }
 
     IEnumerator resultPage(int waitTime)
+    {
+        yield return new WaitForSeconds(waitTime);
+        SceneManager.LoadScene("Result");
+    }
+
+    IEnumerator resultPageAD(int waitTime)
     {
         admobAdsScript.ShowInterstitialAd();
         yield return new WaitForSeconds(waitTime);

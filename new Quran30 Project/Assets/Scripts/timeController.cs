@@ -31,7 +31,6 @@ public class timeController : MonoBehaviour
 
     private void Awake()
     {
-        admobAdsScript = FindObjectOfType<AdmobAdsScript>();
         // Find the questionSetup component in the scene
         questionSetup = FindObjectOfType<questionSetup>();
         if (questionSetup == null)
@@ -45,7 +44,6 @@ public class timeController : MonoBehaviour
     public void Start()
     {
         timeRemaining = PlayerPrefs.GetFloat("Timer", maxTime); // Load the timer value from PlayerPrefs
-        admobAdsScript.LoadInterstitialAd();
         ResetTimer();
     }
 
@@ -115,7 +113,6 @@ public class timeController : MonoBehaviour
 
     IEnumerator resultPage(int waitTime)
     {
-        admobAdsScript.ShowInterstitialAd();
         yield return new WaitForSeconds(waitTime);
         SceneManager.LoadScene("Result");
     }
