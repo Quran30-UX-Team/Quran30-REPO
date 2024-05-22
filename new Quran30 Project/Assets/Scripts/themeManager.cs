@@ -63,7 +63,7 @@ public class ThemeManager : MonoBehaviour
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor2); // White
                 ColorUtility.TryParseHtmlString("#231F20", out textColor3); // Black
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor4); // White
-                ColorUtility.TryParseHtmlString("#65C9D7", out textColor5); // Neon Blue
+                ColorUtility.TryParseHtmlString("#068D8C", out textColor5); // Turqoise
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor6); // New color 2
 
                 break;
@@ -93,7 +93,7 @@ public class ThemeManager : MonoBehaviour
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor2); // White
                 ColorUtility.TryParseHtmlString("#231F20", out textColor3); // Black
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor4); // White
-                ColorUtility.TryParseHtmlString("#68C9FF", out textColor5); // Light Blue
+                ColorUtility.TryParseHtmlString("#848585", out textColor5); // Light Gray
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor6); // New color 2
 
                 break;
@@ -123,7 +123,7 @@ public class ThemeManager : MonoBehaviour
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor2); // White
                 ColorUtility.TryParseHtmlString("#231F20", out textColor3); // Black
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor4); // White
-                ColorUtility.TryParseHtmlString("#65C9D7", out textColor5); // Neon Blue
+                ColorUtility.TryParseHtmlString("#068D8C", out textColor5); // Turqoise
                 ColorUtility.TryParseHtmlString("#FFFFFF", out textColor6); // New color 2
 
                 break;

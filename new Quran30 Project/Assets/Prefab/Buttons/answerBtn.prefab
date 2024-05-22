@@ -192,7 +192,6 @@ GameObject:
   - component: {fileID: 587299135964101110}
   - component: {fileID: 8784475604610935552}
   - component: {fileID: 1367505181295547927}
-  - component: {fileID: 5572266788459952624}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -257,20 +256,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 4.6
---- !u!114 &5572266788459952624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7334254019143338530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d322c000fe350a34f92cddd7c8517318, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AnsBtn2: {fileID: 1661978360040540521}
-  TargetObject: {fileID: 0}
 --- !u!1 &8780805502612666335
 GameObject:
   m_ObjectHideFlags: 0
