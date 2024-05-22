@@ -9,6 +9,8 @@ public class questionSetup : MonoBehaviour
 {
     public GameObject devPanel;
 
+    private AdmobAdsScript admobAdsScript;
+
     public GameObject answerPanel; // Reference to the answer panel
     private string questionFilePath;
 

@@ -10,6 +10,10 @@ public class answerButton : MonoBehaviour
     public GameObject doublePanel;
     public GameObject blockPanel;
 
+    private AdmobAdsScript admobAdsScript;
+
+    public GameObject pickColor;
+
     public AudioManager audioManager;
 
     public doubleDeeds doubleDeeds;
@@ -59,6 +63,7 @@ public class answerButton : MonoBehaviour
             Debug.LogError("timeController not found in the scene!");
         }
 
+        admobAdsScript = FindObjectOfType<AdmobAdsScript>();
         audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
 
         blockPanel = GameObject.Find("blockPanel");
@@ -66,6 +71,7 @@ public class answerButton : MonoBehaviour
 
     private void Start()
     {
+        admobAdsScript.LoadInterstitialAd();
         defaultColor1 = buttonP1.color;
         defaultColor2 = buttonP2.color;
     }
@@ -185,6 +191,7 @@ public class answerButton : MonoBehaviour
 
     IEnumerator resultPage(int waitTime)
     {
+        admobAdsScript.ShowInterstitialAd();
         yield return new WaitForSeconds(waitTime);
         SceneManager.LoadScene("Result");
     }
