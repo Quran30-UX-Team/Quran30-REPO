@@ -74,6 +74,7 @@ public class answerButton : MonoBehaviour
         admobAdsScript.LoadInterstitialAd();
         defaultColor1 = buttonP1.color;
     }
+
     public void SetAnswerText(string newText)
     {
         answerText.text = newText;
@@ -113,7 +114,7 @@ public class answerButton : MonoBehaviour
             }
 
             // Change the button's color to green
-            StartCoroutine(turnGreen());
+            StartCoroutine(turnGreen(0.75f));
         }
         else
         {
@@ -131,19 +132,34 @@ public class answerButton : MonoBehaviour
             PlayerPrefs.SetFloat("Scores_" + i, Mathf.Round(wrongScores * 100f) / 100f);
 
             // Change the button's color to red
-            StartCoroutine(turnRed());
+            StartCoroutine(turnRed(0.75f));
+
+            if (PlayerPrefs.GetString("Level Type") != "QuizSurahSelect")
+            {
+                // Find the correct answer button and turn it green
+                answerButton[] answerButtons = FindObjectsOfType<answerButton>();
+                answerButton correctButton = answerButtons.First(button => button.isCorrect);
+                correctButton.StartCoroutine(correctButton.turnGreen(2f));
+            }
         }
 
-        if (questionSetup.questions.Count > 0) // Changed the condition here
+        if (questionSetup.questions.Count > 0)
         {
-            StartCoroutine(reload());
+            if (PlayerPrefs.GetString("Level Type") == "QuizSurahSelect")
+            {
+                StartCoroutine(reload(1));
+            }
+            else
+            {
+                StartCoroutine(reload(isCorrect ? 1 : 2)); // Shorter delay for correct, longer for wrong answers
+            }
         }
         else
         {
             // If there is only one question left, change the scene
             int sceneEntriesCount = PlayerPrefs.GetInt("AdSceneEntriesCount");
             sceneEntriesCount += 1;
-            Debug.Log("Entry: "+ sceneEntriesCount);
+            Debug.Log("Entry: " + sceneEntriesCount);
             PlayerPrefs.SetInt("AdSceneEntriesCount", sceneEntriesCount);
 
             if (PlayerPrefs.GetInt("AdSceneEntriesCount") >= 3)
@@ -172,31 +188,31 @@ public class answerButton : MonoBehaviour
         PlayerPrefs.SetInt("DoubleDeedPU", 0);
     }
 
-    IEnumerator turnGreen()
+    IEnumerator turnGreen(float seconds)
     {
         buttonP1.color = correctColor1;
         buttonP2.color = correctColor2;
-        yield return new WaitForSeconds(0.75f);
+        yield return new WaitForSeconds(seconds);
         buttonP1.color = defaultColor1;
         buttonP2.color = pickColor.GetComponent<Image>().color;
         PlayerPrefs.SetInt("currentExp", PlayerPrefs.GetInt("currentExp") + 5);
         PlayerPrefs.SetInt("totalExp", PlayerPrefs.GetInt("totalExp") + 5);
     }
 
-    IEnumerator turnRed()
+    IEnumerator turnRed(float seconds)
     {
         buttonP1.color = wrongColor1;
         buttonP2.color = wrongColor2;
-        yield return new WaitForSeconds(0.75f);
+        yield return new WaitForSeconds(seconds);
         buttonP1.color = defaultColor1;
         buttonP2.color = pickColor.GetComponent<Image>().color;
         PlayerPrefs.SetInt("currentExp", PlayerPrefs.GetInt("currentExp") + 5);
         PlayerPrefs.SetInt("totalExp", PlayerPrefs.GetInt("totalExp") + 5);
     }
 
-    IEnumerator reload()
+    IEnumerator reload(int seconds)
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(seconds);
         questionSetup.Start();
         timeController.Start();
     }
