@@ -87,7 +87,7 @@ public class answerButton : MonoBehaviour
 
     public void onClick()
     {
-        StartCoroutine(debounce(1));
+        StartCoroutine(debounce(isCorrect ? 1 : 2));
 
         int i = questionSetup.counter;
         doublePanel.SetActive(false);
@@ -230,7 +230,7 @@ public class answerButton : MonoBehaviour
         SceneManager.LoadScene("Result");
     }
 
-    IEnumerator debounce(int waitTime)
+    IEnumerator debounce(float waitTime)
     {
         blockPanel.SetActive(true);
         yield return new WaitForSeconds(waitTime);
