@@ -23,9 +23,9 @@ public class AdmobAdsScript : MonoBehaviour
 
 #endif
 
-    BannerView bannerView;
-    InterstitialAd interstitialAd;
-    RewardedAd rewardedAd;
+    private BannerView bannerView;
+    private InterstitialAd interstitialAd;
+    private RewardedAd rewardedAd;
 
     private void Start()
     {
