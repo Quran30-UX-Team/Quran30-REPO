@@ -143,6 +143,9 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 11400000, guid: 530942c9fc0c52447bc4d903f5ee149f, type: 2}
+  - {fileID: -2401652053833635960, guid: 13baf3e80106e71409dcadf2a72d4e5e, type: 2}
+  - {fileID: 11400000, guid: 36542babb7b9d9340af86a92cbce57f8, type: 2}
+  - {fileID: 11400000, guid: 60071c242d2e7b648b63149602229b69, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -809,7 +812,7 @@ PlayerSettings:
   embeddedLinuxEnableGamepadInput: 1
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
-  apiCompatibilityLevel: 6
+  apiCompatibilityLevel: 3
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
   cloudProjectId: 
