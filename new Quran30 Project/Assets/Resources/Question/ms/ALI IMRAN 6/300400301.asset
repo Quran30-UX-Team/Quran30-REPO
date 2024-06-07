@@ -15,10 +15,13 @@ MonoBehaviour:
   questionCode: 300400301
   juz: 4
   surahName: ALI IMRAN(AYAT 93-200)
-  category: Cerita
+  category: Fakta
   image: {fileID: 0}
-  question: Siapakah yang digambarkan dalam ayat ini sebagai syaitan yang mengganggu
-    keimanan orang mukmin?
+  question: '"Siapakah yang digambarkan dalam ayat ini sebagai ""syaitan"" yang mengganggu
+    keimanan orang mukmin?  ""Sesungguhnya mereka itu tidak lain hanyalah setan yang
+    menakut-nakuti (kamu) dengan kawan-kawannya (orang-orang musyrik Quraisy), Kerana
+    itu janganlah kamu takut kepada mereka, tetapi takutlah kepadaKu, jika kamu benar-benar
+    orang yang beriman."""'
   answers:
   - Orang-orang munafik
   - Kaum musyrikin

@@ -20,6 +20,6 @@ MonoBehaviour:
   question: Bagaimana seharusnya memperlakukan isteri?
   answers:
   - Mempergauli dengan cara yang makruf (baik)
-  - Memperlakukan dengan buruk
-  - Memaksa melakukan hal yang dibenci
+  - 'Memperlakukan dengan buruk '
+  - 'Memaksa melakukan hal yang dibenci '
   - Mengambil kembali mas kahwin yang telah diberikan

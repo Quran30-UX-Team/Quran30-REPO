@@ -12,14 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
   m_Name: 030700601
   m_EditorClassIdentifier: 
-  questionCode: 030700601
-  juz: 7
-  surahName: AL-AN'AM(AYAT 1-110)
-  category: Fakta
+  questionCode: 
+  juz: 
+  surahName: 
+  category: 
   image: {fileID: 0}
-  question: Bagaimanakah sikap kebanyakan manusia?
-  answers:
-  - 'Ingkar '
-  - Beriman
-  - Redha
-  - Taat
+  question: 
+  answers: []

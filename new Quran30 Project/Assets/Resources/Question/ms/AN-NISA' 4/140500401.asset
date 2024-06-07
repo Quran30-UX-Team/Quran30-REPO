@@ -12,14 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
   m_Name: 140500401
   m_EditorClassIdentifier: 
-  questionCode: 140500401
-  juz: 5
-  surahName: AN-NISA'(AYAT 23-147)
-  category: Fakta
+  questionCode: 
+  juz: 
+  surahName: 
+  category: 
   image: {fileID: 0}
-  question: ' Apakah janji Allah bagi orang-orang yang taat kepada-Nya?'
-  answers:
-  - Akan dimasukkan ke dalam syurga bersama para nabi dan syuhada
-  - Akan dimasukkan ke dalam neraka
-  - Akan diberi kehinaan di dunia
-  - Tidak akan mendapat apa-apa
+  question: 
+  answers: []
