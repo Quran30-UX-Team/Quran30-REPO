@@ -10,17 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
-  m_Name: 230600401
+  m_Name: 200900701
   m_EditorClassIdentifier: 
-  questionCode: 230600401
-  juz: 6
-  surahName: AN-NISA'(AYAT 148-176)
+  questionCode: 200900701
+  juz: 9
+  surahName: AL-A'RAF(AYAT 88-206)
   category: Cerita
   image: {fileID: 0}
-  question: Siapakah di antara Bani Israil yang tetap beriman dan tidak mengingkari
-    perjanjian?
+  question: Bagaimana sikap Bani Israil setelah dinasihati oleh Nabi Musa?
   answers:
-  - Kaum Muslimin
-  - Kaum Nasrani
-  - Kaum Yahudi
-  - ' Tidak disebutkan'
+  - 'Mereka segera bertaubat dan meninggalkan penyembahan patung '
+  - ' Mereka tetap menyembah patung dan menolak taubat '
+  - Mereka mengusir Nabi Musa dari Mesir
+  - Mereka meminta agar Nabi Musa saja yang bertaubat

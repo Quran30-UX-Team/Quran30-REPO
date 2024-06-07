@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
   m_Name: 120700601
   m_EditorClassIdentifier: 
-  questionCode: 
-  juz: 
-  surahName: 
-  category: 
+  questionCode: 120700601
+  juz: 7
+  surahName: AL-AN'AM(AYAT 111-165)
+  category: Fakta
   image: {fileID: 0}
-  question: 
-  answers: []
+  question: Apakah yang diperintahkan Allah kepada orang-orang yang beriman?
+  answers:
+  - Mengikuti jalan yang lurus
+  - Mengikuti jalan orang kafir
+  - 'Mengikuti jalan orang musyrik '
+  - Mengikuti jalan syaitan

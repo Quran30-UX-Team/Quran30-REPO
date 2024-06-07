@@ -10,17 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
-  m_Name: 230600401
+  m_Name: 051000801
   m_EditorClassIdentifier: 
-  questionCode: 230600401
-  juz: 6
-  surahName: AN-NISA'(AYAT 148-176)
+  questionCode: 051000801
+  juz: 10
+  surahName: AL-ANFAL(AYAT 41-75)
   category: Cerita
   image: {fileID: 0}
-  question: Siapakah di antara Bani Israil yang tetap beriman dan tidak mengingkari
-    perjanjian?
+  question: Apakah yang ditegaskan agar kaum muslim tetap kuat menghadapi musuh?
   answers:
-  - Kaum Muslimin
-  - Kaum Nasrani
-  - Kaum Yahudi
-  - ' Tidak disebutkan'
+  - Bersabar dan bertawakal
+  - 'Menyerang dengan senjata '
+  - ' Mengajak bermusyawarah '
+  - 'Berselisih dan bercerai-berai '

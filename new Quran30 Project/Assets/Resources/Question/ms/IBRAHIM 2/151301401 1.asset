@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
-  m_Name: 230600401
+  m_Name: 151301401 1
   m_EditorClassIdentifier: 
-  questionCode: 230600401
-  juz: 6
-  surahName: AN-NISA'(AYAT 148-176)
-  category: Cerita
+  questionCode: 151301401
+  juz: 13
+  surahName: IBRAHIM(AYAT 1-53)
+  category: Ayat Surah
   image: {fileID: 0}
-  question: Siapakah di antara Bani Israil yang tetap beriman dan tidak mengingkari
-    perjanjian?
+  question: Apakah perumpamaan yang diberikan tentang keadaan orang-orang kafir pada
+    hari kiamat kelak?
   answers:
-  - Kaum Muslimin
-  - Kaum Nasrani
-  - Kaum Yahudi
-  - ' Tidak disebutkan'
+  - ' Seperti orang yang sesat di padang pasir'
+  - Seperti orang yang terpedaya
+  - Seperti orang yang kehausan
+  - Seperti hamba yang dibelenggu

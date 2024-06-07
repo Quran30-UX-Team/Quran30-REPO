@@ -10,17 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
-  m_Name: 230600401
+  m_Name: 110800601
   m_EditorClassIdentifier: 
-  questionCode: 230600401
-  juz: 6
-  surahName: AN-NISA'(AYAT 148-176)
-  category: Cerita
+  questionCode: 110800601
+  juz: 8
+  surahName: AL-AN'AM(AYAT 111-165)
+  category: Fakta
   image: {fileID: 0}
-  question: Siapakah di antara Bani Israil yang tetap beriman dan tidak mengingkari
-    perjanjian?
+  question: Apakah yang diperintahkan kepada orang-orang beriman?
   answers:
-  - Kaum Muslimin
-  - Kaum Nasrani
-  - Kaum Yahudi
-  - ' Tidak disebutkan'
+  - 'Untuk bersabar dan bertawakal kepada Allah '
+  - Untuk mengikuti jalan orang-orang musyrik
+  - Untuk meninggalkan keimanan mereka
+  - Untuk menyembah berhala-berhala

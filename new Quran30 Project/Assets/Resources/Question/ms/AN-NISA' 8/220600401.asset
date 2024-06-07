@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
   m_Name: 220600401
   m_EditorClassIdentifier: 
-  questionCode: 
-  juz: 
-  surahName: 
-  category: 
+  questionCode: 220600401
+  juz: 6
+  surahName: AN-NISA'(AYAT 148-176)
+  category: Cerita
   image: {fileID: 0}
-  question: 
-  answers: []
+  question: Apakah janji yang dilanggar oleh sebahagian Bani Israil?
+  answers:
+  - Beriman kepada rasul-rasul Allah
+  - Tidak menyembah berhala
+  - 'Mendirikan solat '
+  - Mengeluarkan zakat

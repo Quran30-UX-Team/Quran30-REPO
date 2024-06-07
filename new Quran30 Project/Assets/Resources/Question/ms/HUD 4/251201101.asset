@@ -10,17 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
-  m_Name: 230600401
+  m_Name: 251201101
   m_EditorClassIdentifier: 
-  questionCode: 230600401
-  juz: 6
-  surahName: AN-NISA'(AYAT 148-176)
-  category: Cerita
+  questionCode: 251201101
+  juz: 12
+  surahName: HUD(AYAT 6-123)
+  category: Ayat Surah
   image: {fileID: 0}
-  question: Siapakah di antara Bani Israil yang tetap beriman dan tidak mengingkari
-    perjanjian?
+  question: 'Apakah nasihat Allah kepada Nabi Muhammad dalam surah Hud ayat 112? '
   answers:
-  - Kaum Muslimin
-  - Kaum Nasrani
-  - Kaum Yahudi
-  - ' Tidak disebutkan'
+  - Tetap teguh di atas jalan yang betul
+  - 'Bersabarlah menghadapi gangguan kaum musyrikin '
+  - ' Jangan mempedulikan keingkaran kaum '
+  - Tinggalkan kaummu yang ingkar

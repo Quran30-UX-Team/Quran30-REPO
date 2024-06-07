@@ -12,10 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
   m_Name: 010700501
   m_EditorClassIdentifier: 
-  questionCode: 
-  juz: 
-  surahName: 
-  category: 
+  questionCode: 010700501
+  juz: 7
+  surahName: AL-MA'IDAH(AYAT 83-120)
+  category: Hukum
   image: {fileID: 0}
-  question: 
-  answers: []
+  question: Apakah balasan bagi orang-orang yang tidak beriman setelah mendengar
+    ayat-ayat Allah?
+  answers:
+  - Dilaknat dan mendapat azab yang pedih
+  - Diusir dari kampung halaman
+  - Dibunuh dengan pedang
+  - Dipenjara seumur hidup
