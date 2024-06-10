@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 5
   surahName: AN-NISA'(AYAT 23-147)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: fc698dc7f467d0b468ad8e38285ac6c4, type: 3}
   question: Apakah janji Allah bagi orang-orang yang beriman dan beramal soleh?
   answers:
   - Dimasukkan ke dalam syurga yang mengalir di dalamnya sungai-sungai

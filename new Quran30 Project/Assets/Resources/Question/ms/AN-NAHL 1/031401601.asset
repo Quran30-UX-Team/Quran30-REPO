@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 14
   surahName: AN-NAHL(AYAT 1-128)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 7ef99825cf873b845854cb8f052e026a, type: 3}
   question: Apakah tujuan Allah menciptakan langit dan bumi?
   answers:
   - Untuk kebaikan manusia.

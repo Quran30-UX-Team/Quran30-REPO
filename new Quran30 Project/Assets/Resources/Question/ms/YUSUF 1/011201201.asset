@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 12
   surahName: YUSUF(AYAT 1-52)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 79d217ec7c9cce449a2e4fe2eff927b9, type: 3}
   question: Dalam bahasa apakah Al-Quran diturunkan?
   answers:
   - 'Bahasa Arab '

@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 10
   surahName: AT-TAUBAH(AYAT 1-92)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: e389610692d4c9842adb7de2d154471b, type: 3}
   question: Apakah ancaman bagi orang-orang munafik jika mereka berpaling dari Islam?
   answers:
   - 'Akan diazab di dunia dan akhirat '

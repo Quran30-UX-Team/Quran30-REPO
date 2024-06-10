@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 5
   surahName: AN-NISA'(AYAT 23-147)
   category: Fact
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 64148428b6e48a742989c94968abb8b2, type: 3}
   question: How is the inheritance divided for sons and daughters?
   answers:
   - Sons get two shares daughters get one share

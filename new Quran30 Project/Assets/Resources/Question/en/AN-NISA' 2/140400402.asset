@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 4
   surahName: AN-NISA'(AYAT 1-23)
   category: Fact
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 7631d641ef824944986631ff1dba7754, type: 3}
   question: Why does Allah SWT accept repentance from major sins?
   answers:
   - Because Allah is Forgiving

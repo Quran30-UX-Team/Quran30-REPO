@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 3
   surahName: AL-BAQARAH(AYAT 253-286)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 5aacf7bfce6eb044aa961e642bd49906, type: 3}
   question: 'Apakah janji Allah kepada orang yang meninggalkan riba? '
   answers:
   - Diberikan rezeki yang halal

@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 5
   surahName: AN-NISA'(AYAT 23-147)
   category: Hukum
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: d325e04e5604988449bd2abfbd96f9ae, type: 3}
   question: What is mentioned about how to respond to greetings?
   answers:
   - It is recommended to answer with a better greeting

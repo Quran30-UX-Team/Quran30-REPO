@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 4
   surahName: AN-NISA'(AYAT 1-23)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 44cfa2b1b27a296438d0d8119aafb517, type: 3}
   question: Apakah nasihat terkait pengurusan harta anak yatim?
   answers:
   - Mendidik dan mengawasi mereka dengan baik

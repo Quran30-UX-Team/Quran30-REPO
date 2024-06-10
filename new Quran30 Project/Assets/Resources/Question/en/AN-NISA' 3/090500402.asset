@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 5
   surahName: AN-NISA'(AYAT 23-147)
   category: Fact
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 63361fb0674cb174a976793416f60818, type: 3}
   question: What is the order related to facing the book?
   answers:
   - Fight them

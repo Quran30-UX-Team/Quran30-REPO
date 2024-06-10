@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 3
   surahName: ALI IMRAN(AYAT 1-92)
   category: Fact
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: f586a5d990eeee64c84152bd7a4d1fb3, type: 3}
   question: For whom is the Quran a guide?
   answers:
   - Pious people

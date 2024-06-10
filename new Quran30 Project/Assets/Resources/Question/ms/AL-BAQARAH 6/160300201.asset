@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 3
   surahName: AL-BAQARAH(AYAT 253-286)
   category: Hukum
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 08a3e3b54ef85ad45b3b8b084667b08b, type: 3}
   question: Apakah balasan bagi orang yang meninggalkan riba?
   answers:
   - Terhindar dari azab neraka

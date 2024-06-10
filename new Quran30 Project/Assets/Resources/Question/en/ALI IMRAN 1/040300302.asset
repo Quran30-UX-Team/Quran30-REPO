@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 3
   surahName: ALI IMRAN(AYAT 1-92)
   category: Fact
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 1561ccd3c52c11f4ca39f3e7c146f08c, type: 3}
   question: What is not included among the characteristics of pious people?
   answers:
   - Do not spend property

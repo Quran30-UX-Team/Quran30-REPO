@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 5
   surahName: AN-NISA'(AYAT 23-147)
   category: Fact
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: fc698dc7f467d0b468ad8e38285ac6c4, type: 3}
   question: What is Allah's promise for those who believe and do righteous deeds?
   answers:
   - Entered into heaven in which rivers flow

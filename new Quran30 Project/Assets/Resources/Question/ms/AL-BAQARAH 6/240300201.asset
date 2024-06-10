@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 3
   surahName: AL-BAQARAH(AYAT 253-286)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 919eeddbedabd4740ba3b6bb34af526b, type: 3}
   question: 'Bagaimana seharusnya sikap seorang mukmin? '
   answers:
   - Beriman kepada Allah malaikat-Nya kitab-Nya dan rasul-rasulNya

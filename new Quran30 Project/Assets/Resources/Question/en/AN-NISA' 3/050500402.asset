@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 5
   surahName: AN-NISA'(AYAT 23-147)
   category: Fact
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 1b257eeec6839854296219978c28b070, type: 3}
   question: Who is entitled to inheritance?
   answers:
   - Guardians and close relatives

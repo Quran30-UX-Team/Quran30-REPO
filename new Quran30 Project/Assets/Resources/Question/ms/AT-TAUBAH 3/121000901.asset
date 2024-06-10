@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 10
   surahName: AT-TAUBAH(AYAT 1-92)
   category: Cerita
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 4df8eff2533287649a80c623a21bc3d5, type: 3}
   question: Sikap apakah yang ditunjukkan oleh orang-orang munafik ketika diminta
     untuk berjihad?
   answers:

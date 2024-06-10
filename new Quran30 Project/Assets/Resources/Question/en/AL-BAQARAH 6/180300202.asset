@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 3
   surahName: AL-BAQARAH(AYAT 253-286)
   category: Fact
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: d1ce686a7e1d3e0498d1b3e9c4421a4a, type: 3}
   question: In what circumstances is a person allowed to go into debt without being
     recorded?
   answers:

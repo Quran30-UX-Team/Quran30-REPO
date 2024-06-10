@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 3
   surahName: AL-BAQARAH(AYAT 253-286)
   category: Fact
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 291dab449324e5649937a2127379f7fa, type: 3}
   question: For whom does God multiply the reward?
   answers:
   - For those who spend and do good deeds

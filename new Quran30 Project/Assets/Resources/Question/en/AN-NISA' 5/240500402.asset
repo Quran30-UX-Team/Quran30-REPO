@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 5
   surahName: AN-NISA'(AYAT 23-147)
   category: Hukum
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 239b059fac5f7b74fa61fe28ca5b8a69, type: 3}
   question: What punishment can be given to a person who kills a believer accidentally?
   answers:
   - Paying diya and freeing slaves

@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 3
   surahName: AL-BAQARAH(AYAT 253-286)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: d1ce686a7e1d3e0498d1b3e9c4421a4a, type: 3}
   question: Dalam keadaan apakah seseorang dibolehkan berhutang tanpa dicatat?
   answers:
   - Dalam keadaan musafir

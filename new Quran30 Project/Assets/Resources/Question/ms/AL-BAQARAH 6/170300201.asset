@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 3
   surahName: AL-BAQARAH(AYAT 253-286)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 0e77ee1463cd0a646a93ca4cb9286011, type: 3}
   question: Bagaimana aturan dalam melakukan hutang piutang?
   answers:
   - Semua jawapan benar

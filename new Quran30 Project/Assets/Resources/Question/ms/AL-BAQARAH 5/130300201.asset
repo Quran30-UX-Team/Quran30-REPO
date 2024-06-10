@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 3
   surahName: AL-BAQARAH(AYAT 253-286)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: d44085af69cd4e24b990b581ef7242a7, type: 3}
   question: Sikap apakah yang dicela Allah SWT ketika berinfak?
   answers:
   - Sikap riak

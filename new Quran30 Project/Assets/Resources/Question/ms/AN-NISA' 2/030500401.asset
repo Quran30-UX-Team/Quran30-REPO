@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 5
   surahName: AN-NISA'(AYAT 23-147)
   category: Hukum
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 7cf76b730f4de364f81a318eff877186, type: 3}
   question: Perbuatan apakah yang paling diharamkan dalam Islam?
   answers:
   - Membunuh diri sendiri

@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 10
   surahName: AT-TAUBAH(AYAT 1-92)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: cd343dd453bdc654e9bd099b35186924, type: 3}
   question: Kepada siapakah zakat itu diperuntukkan?
   answers:
   - Fakir, miskin, amil, muallaf, hamba sahaya, gharimin, fisabilillah dan ibnu sabil

@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 4
   surahName: AN-NISA'(AYAT 1-23)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 7631d641ef824944986631ff1dba7754, type: 3}
   question: Mengapa Allah SWT menerima taubat dari dosa besar?
   answers:
   - Kerana Allah Maha Pengampun

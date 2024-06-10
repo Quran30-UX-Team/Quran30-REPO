@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 4
   surahName: AN-NISA'(AYAT 1-23)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 3e8cf3447c0b4af42aab8dce279ec39d, type: 3}
   question: Apakah hikmah di balik pembahagian waris dalam Islam?
   answers:
   - Agar terjadi keadilan

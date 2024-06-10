@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 5
   surahName: AN-NISA'(AYAT 23-147)
   category: Hukum
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 6abd017b655cafe4ab1894d508d65119, type: 3}
   question: What is prohibited by Allah SWT?
   answers:
   - Taking other people's property in an unrighteous way

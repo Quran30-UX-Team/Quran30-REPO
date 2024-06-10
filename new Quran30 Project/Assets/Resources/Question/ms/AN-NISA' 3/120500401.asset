@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 5
   surahName: AN-NISA'(AYAT 23-147)
   category: Fakta
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 0d19fda053db34145835cecb7dd0adfa, type: 3}
   question: Apakah yang diperintahkan jika menjadi seorang pemimpin/penguasa?
   answers:
   - Menyampaikan amanat kepada ahlinya

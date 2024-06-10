@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 6
   surahName: AN-NISA'(AYAT 148-176)
   category: Hukum
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 3ed79c7d5bd6c0b4c9a298d0e59828a4, type: 3}
   question: Apakah hukum memakan binatang yang disembelih tanpa menyebut nama Allah
     SWT?
   answers:

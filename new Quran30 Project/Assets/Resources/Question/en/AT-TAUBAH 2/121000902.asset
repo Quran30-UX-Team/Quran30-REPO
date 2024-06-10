@@ -16,7 +16,7 @@ MonoBehaviour:
   juz: 10
   surahName: AT-TAUBAH(AYAT 1-92)
   category: Story
-  image: {fileID: 0}
+  image: {fileID: 2800000, guid: 4df8eff2533287649a80c623a21bc3d5, type: 3}
   question: What attitude do the hypocrites show when asked to do jihad?
   answers:
   - Doubtful and wavering
