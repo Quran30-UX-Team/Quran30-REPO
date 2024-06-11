@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 071601802
+  m_EditorClassIdentifier: 
+  questionCode: 071601802
+  juz: 16
+  surahName: AL-KAHFI (75-110)
+  category: Story
+  image: {fileID: 0}
+  question: What can be learned about the concept of leadership contained in the
+    story of Dzulqarnain?
+  answers:
+  - '"Leadership as willingness to help and cooperation with the community to achieve
+    a good goal"'
+  - '"Leadership as a superior who does not need help or  cooperation with the community"'
+  - '"Leadership as a duty to rule and punish without  give choice to the subject"'
+  - '"Leadership as overall control of the subject without giving  alternatives for
+    decisions"'
