@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 061601902
+  m_EditorClassIdentifier: 
+  questionCode: 061601902
+  juz: 16
+  surahName: MARYAM (1-98)
+  category: Story
+  image: {fileID: 0}
+  question: Why did Maryam isolate herself when she was pregnant with Prophet Isa
+    a.s?
+  answers:
+  - Because he does not want to tarnish the good name of his religion and his family
+  - Because he felt ashamed
+  - Because he does not want to face the birth process of his son
+  - Because he did not want to meet the angel Jibril

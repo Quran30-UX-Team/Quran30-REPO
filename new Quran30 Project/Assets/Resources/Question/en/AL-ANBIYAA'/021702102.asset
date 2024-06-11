@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 021702102
+  m_EditorClassIdentifier: 
+  questionCode: 021702102
+  juz: 17
+  surahName: AL-ANBIYAA' (1-112)
+  category: Ayat Surah
+  image: {fileID: 0}
+  question: '"""And don''t the disbelievers know that the heavens and the earth were
+    both one thing first, and then  We separated the two and from water We created
+    all living things, so why do they not believe?""  Why does God reprimand the
+    disbelievers in verse 30 of Surah Al-Anbiyaa''?"'
+  answers:
+  - Because they do not believe in Allah despite seeing His greatness in His creation
+  - Because they do not know that the heavens and the earth were originally united
+  - Because they say that they are gods other than Allah
+  - Because they do not take lessons from the events of the universe

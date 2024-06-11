@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3636c91986ba844a393c7edc6f6b7a, type: 3}
+  m_Name: 051702102
+  m_EditorClassIdentifier: 
+  questionCode: 051702102
+  juz: 17
+  surahName: AL-ANBIYAA' (1-112)
+  category: Story
+  image: {fileID: 0}
+  question: What was Prophet Ibrahim's answer to his people when they questioned
+    his preaching against idols?
+  answers:
+  - '"Do you come to us in earnest or are you one of those who play games?"'
+  - '"You and your father are in wrong path"'
+  - '"Indeed your Lord is the Lord of the heavens and the earth who has created them"'
+  - '"I will plan against your idols after you leave them"'
