@@ -2,17 +2,13 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 using UnityEngine.UI;
-using System.Collections.Generic;
 using System.Collections;
 
 public class timeController : MonoBehaviour
 {
     private AudioManager audioManager;
-
     private AdmobAdsScript admobAdsScript;
-
     public GameObject doublePanel;
-
     private questionSetup questionSetup;
 
     [SerializeField]
@@ -23,11 +19,17 @@ public class timeController : MonoBehaviour
 
     public Image fillBar;
     float timeRemaining;
+    private bool timerRunning = false; // New variable to track timer status
 
     public float maxTime;
+    public float maxRushTime;
     public float currTime;
 
     private bool audioPlayed = false; // New variable to track audio playing status
+
+    public GameObject blockPanel;
+
+    private bool isTransitioning = false; // New variable to track transition state
 
     private void Awake()
     {
@@ -39,27 +41,61 @@ public class timeController : MonoBehaviour
         }
 
         audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+
+        // Activate blockPanel
+        blockPanel.SetActive(true);
     }
 
     public void Start()
     {
         timeRemaining = PlayerPrefs.GetFloat("Timer", maxTime); // Load the timer value from PlayerPrefs
         ResetTimer();
+
+        // Ensure PUBlockPanel is active if in RushSurahSelect mode
+        if (PlayerPrefs.GetString("Level Type") == "RushSurahSelect")
+        {
+            blockPanel.SetActive(true);
+        }
     }
 
     // Method to reset the timer to its initial value
     public void ResetTimer()
     {
-        timeRemaining = maxTime;
+        if (PlayerPrefs.GetString("Level Type") == "RushSurahSelect")
+        {
+            timeRemaining = maxRushTime;
+        }
+        else
+        {
+            timeRemaining = maxTime;
+        }
         audioPlayed = false;
+        timerRunning = true; // Start the timer
+    }
+
+    // Method to stop the timer
+    public void StopTimer()
+    {
+        timerRunning = false;
+    }
+
+    // Method to start the timer
+    public void StartTimer()
+    {
+        timerRunning = true;
     }
 
     void Update()
     {
-        if (PlayerPrefs.GetString("Level Type") == "QuizSurahSelect")
+        if (timerRunning && (PlayerPrefs.GetString("Level Type") == "QuizSurahSelect" || PlayerPrefs.GetString("Level Type") == "RushSurahSelect"))
         {
             fillBar.gameObject.SetActive(true);
             practiceText.gameObject.SetActive(false);
+
+            if (PlayerPrefs.GetString("Level Type") == "RushSurahSelect" && !blockPanel.activeSelf)
+            {
+                blockPanel.SetActive(true);
+            }
 
             if (timeRemaining > 0)
             {
@@ -71,10 +107,10 @@ public class timeController : MonoBehaviour
 
                 PlayerPrefs.SetFloat("Timer", timeRemaining);
                 timeRemaining -= Time.deltaTime;
-                fillBar.fillAmount = timeRemaining / maxTime;
+                fillBar.fillAmount = timeRemaining / (PlayerPrefs.GetString("Level Type") == "RushSurahSelect" ? maxRushTime : maxTime);
 
                 // Calculate the normalized position along the gradient
-                float normalizedTime = 1 - (timeRemaining / maxTime);
+                float normalizedTime = 1 - (timeRemaining / (PlayerPrefs.GetString("Level Type") == "RushSurahSelect" ? maxRushTime : maxTime));
 
                 // Get the color corresponding to the normalized position from the gradient
                 Color targetColor = _barGradient.Evaluate(normalizedTime);
@@ -84,25 +120,46 @@ public class timeController : MonoBehaviour
             }
             else
             {
-                if (questionSetup.questions.Count > 0)
+                if (!isTransitioning)
                 {
-                    questionSetup.Start();
-                    Start();
-                    doublePanel.SetActive(false);
-                    Debug.Log("RAN OUT OF TIME");
-                }
-
-                if (questionSetup.questions.Count == 0)
-                {
-                    StartCoroutine(resultPage(1));
+                    HandleTimeOut();
                 }
             }
         }
-        else
+        else if (PlayerPrefs.GetString("Level Type") == "PracticeSurahSelect")
         {
             fillBar.gameObject.SetActive(false);
             practiceText.gameObject.SetActive(true);
         }
+    }
+
+    private void HandleTimeOut()
+    {
+        isTransitioning = true; // Set the transition state to true
+
+        // Check if there are remaining questions
+        if (questionSetup.questions.Count > 0)
+        {
+            // Reset the timer when time runs out
+            ResetTimer();
+
+            // Set deeds and scores to 0 for the current question
+            int i = questionSetup.counter;
+            PlayerPrefs.SetFloat("Deeds_" + i, 0);
+            PlayerPrefs.SetFloat("Scores_" + i, 0);
+
+            // Move to the next question
+            questionSetup.Start();
+            doublePanel.SetActive(false);
+            Debug.Log("RAN OUT OF TIME");
+        }
+        else
+        {
+            // Transition to the result page after a short delay
+            StartCoroutine(resultPage(1));
+        }
+
+        isTransitioning = false; // Reset the transition state
     }
 
     // Method to add time to the timer

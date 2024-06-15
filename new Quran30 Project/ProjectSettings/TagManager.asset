@@ -18,6 +18,7 @@ TagManager:
   - SelectedPowerUP
   - Claimed
   - AudioManager
+  - PUBlockPanel
   layers:
   - Default
   - TransparentFX

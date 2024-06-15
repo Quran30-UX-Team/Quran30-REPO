@@ -1,8 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
+using UnityEngine.SceneManagement;
 using TMPro;
+using System.Linq;
 
 public class resultPage : MonoBehaviour
 {
@@ -10,9 +11,6 @@ public class resultPage : MonoBehaviour
 
     public ParticleSystem VFX;
     private LeaderboardManager leaderboard;
-
-    [SerializeField]
-    private float deeds;
 
     public TextMeshProUGUI congratsPanel;
     public TextMeshProUGUI rewardPanel;
@@ -33,6 +31,8 @@ public class resultPage : MonoBehaviour
     public TextMeshProUGUI totalScore;
 
     public GameObject devPanel;
+
+    public TextMeshProUGUI totalScoreText;
 
     private void Awake()
     {
@@ -71,6 +71,15 @@ public class resultPage : MonoBehaviour
 
             totalDeeds += PlayerPrefs.GetFloat("Deeds_" + (i + 1));
             totalScores += PlayerPrefs.GetFloat("Scores_" + (i + 1));
+
+            // Debug log to show the calculation of total deeds
+            Debug.Log("Deeds for Question " + (i + 1) + ": " + PlayerPrefs.GetFloat("Deeds_" + (i + 1)));
+        }
+
+        // Double the total deeds for RushSurahSelect mode
+        if (PlayerPrefs.GetString("Level Type") == "RushSurahSelect")
+        {
+            totalDeeds *= 2;
         }
 
         totalDeed.text = "Total Deeds: " + totalDeeds.ToString();
@@ -132,22 +141,27 @@ public class resultPage : MonoBehaviour
             roundedDeed = 0 + "";
         }
 
-        deeds = PlayerPrefs.GetFloat("Deeds") + totalDeeds;
-
         congratsPanelText.text = "<b>" + roundedScore + "</b>";
         rewardPanelText.text = "RECEIVED " + "<b>" + roundedDeed + "</b>" + " DEEDS";
 
-        PlayerPrefs.SetFloat("Deeds", deeds);
+        PlayerPrefs.SetFloat("Deeds", totalDeeds);
         PlayerPrefs.SetFloat("Score", 0);
 
         if (totalDeeds > 0)
         {
-            PlayerPrefs.SetInt("totalDeed", PlayerPrefs.GetInt("totalDeed") + (int)deeds);
+            PlayerPrefs.SetInt("totalDeed", PlayerPrefs.GetInt("totalDeed") + (int)totalDeeds);
         }
 
-        PlayerPrefs.SetInt("totalScore", PlayerPrefs.GetInt("totalScore") + (int)totalScores);
-        leaderboard.SetEntry(PlayerPrefs.GetString("Profile Name"), PlayerPrefs.GetInt("totalScore"));
+        int totalScoreValue = PlayerPrefs.GetInt("totalScore");
+
+        if (totalScoreValue < 0)
+        {
+            totalScoreValue = 0;
+        }
+
+        totalScoreText.text = "Total Score: " + totalScoreValue;
     }
+
 
     IEnumerator Confetti(float seconds)
     {

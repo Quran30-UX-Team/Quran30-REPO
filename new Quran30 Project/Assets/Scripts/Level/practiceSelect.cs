@@ -5,8 +5,6 @@ using UnityEngine.UI;
 
 public class practiceSelect : MonoBehaviour
 {
-    public AudioManager audioManager;
-
     public Button button;
 
     public GameObject Button1;
@@ -15,80 +13,81 @@ public class practiceSelect : MonoBehaviour
     public GameObject Button2;
     public GameObject descPanel2;
 
+    public GameObject Button3;
+    public GameObject descPanel3;
+
     public RectTransform Button2Transform;
     public RectTransform descPanel2Transform;
 
-    static int BUTTON_DISTANCE = 120;
+    public RectTransform Button3Transform;
+    public RectTransform descPanel3Transform;
 
-    public bool isDrop;
+    private Vector2 originalButton1Position;
+    private Vector2 originalButton2Position;
+    private Vector2 originalButton3Position;
 
-    private void Awake()
-    {
-        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
-    }
     private void Start()
     {
         button.interactable = false;
-        Button2Transform = Button2.GetComponent<RectTransform>();
-        descPanel2Transform = descPanel2.GetComponent<RectTransform>();
+        originalButton1Position = Button1.GetComponent<RectTransform>().anchoredPosition;
+        originalButton2Position = Button2.GetComponent<RectTransform>().anchoredPosition;
+        originalButton3Position = Button3.GetComponent<RectTransform>().anchoredPosition;
     }
 
     public void descToggle()
     {
-        audioManager.PlaySFX(audioManager.changePageButtonSFX);
-
-        if (isDrop == false)
+        DeactivateAllPanels();
+        if (!descPanel1.activeSelf)
         {
-            descPanel1.SetActive(true);
-            button.interactable = true;
+            ActivatePanel(descPanel1, originalButton2Position, originalButton3Position, 0.5f);
             PlayerPrefs.SetString("Level Type", "PracticeSurahSelect");
-            Button2Transform.anchoredPosition -= new Vector2(0, BUTTON_DISTANCE);
-            descPanel2Transform.anchoredPosition -= new Vector2(0, BUTTON_DISTANCE);
-            isDrop = true;
-            descPanel2.SetActive(false);
-        }
-
-        else
-
-        {
-            descPanel1.SetActive(false);
-            button.interactable = false;
-            Button2Transform.anchoredPosition += new Vector2(0, BUTTON_DISTANCE);
-            descPanel2Transform.anchoredPosition += new Vector2(0, BUTTON_DISTANCE);
-            isDrop = false;
         }
     }
 
     public void quizDesc()
     {
-        audioManager.PlaySFX(audioManager.changePageButtonSFX);
-
-        if (isDrop == true)
+        DeactivateAllPanels();
+        if (!descPanel2.activeSelf)
         {
-            descPanel1.SetActive(false);
-            Button2Transform.anchoredPosition += new Vector2(0, BUTTON_DISTANCE);
-            descPanel2Transform.anchoredPosition += new Vector2(0, BUTTON_DISTANCE);
-            isDrop = false;
-
-            descPanel2.SetActive(true);
-            button.interactable = true;
+            ActivatePanel(descPanel2, originalButton3Position, originalButton1Position, 0.5f);
             PlayerPrefs.SetString("Level Type", "QuizSurahSelect");
         }
+    }
 
-        else
+    public void rushHourDesc()
+    {
+        DeactivateAllPanels();
+        if (!descPanel3.activeSelf)
         {
-            if (descPanel2.activeSelf == false)
-            {
-                descPanel2.SetActive(true);
-                button.interactable= true;
-                PlayerPrefs.SetString("Level Type", "QuizSurahSelect");
-            }
-            else
-            {
-                descPanel2.SetActive(false);
-                button.interactable= false;
-            }
+            ActivatePanel(descPanel3, Vector2.zero, Vector2.zero, 2);
+            PlayerPrefs.SetString("Level Type", "RushSurahSelect");
         }
+    }
 
+    void DeactivateAllPanels()
+    {
+        descPanel1.SetActive(false);
+        descPanel2.SetActive(false);
+        descPanel3.SetActive(false);
+
+        // Reset button positions
+        Button1.GetComponent<RectTransform>().anchoredPosition = originalButton1Position;
+        Button2.GetComponent<RectTransform>().anchoredPosition = originalButton2Position;
+        Button3.GetComponent<RectTransform>().anchoredPosition = originalButton3Position;
+    }
+
+    void ActivatePanel(GameObject panel, Vector2 button2Position, Vector2 button3Position, float yOffset)
+    {
+        panel.SetActive(true);
+        button.interactable = true;
+
+        if (button2Position != Vector2.zero && panel == descPanel1)
+        {
+            Button2.GetComponent<RectTransform>().anchoredPosition = button2Position - new Vector2(0, yOffset);
+        }
+        if (button3Position != Vector2.zero)
+        {
+            Button3.GetComponent<RectTransform>().anchoredPosition = originalButton3Position - new Vector2(0, yOffset);
+        }
     }
 }

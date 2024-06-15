@@ -87,6 +87,9 @@ public class answerButton : MonoBehaviour
 
     public void onClick()
     {
+        // Stop the timer when an answer button is clicked //baiki sini utk set wrong answer lead ke page reward
+        timeController.StopTimer();
+
         StartCoroutine(debounce(isCorrect ? 1 : 2));
 
         int i = questionSetup.counter;
@@ -195,8 +198,8 @@ public class answerButton : MonoBehaviour
         yield return new WaitForSeconds(seconds);
         buttonP1.color = defaultColor1;
         buttonP2.color = pickColor.GetComponent<Image>().color;
-        PlayerPrefs.SetInt("currentExp", PlayerPrefs.GetInt("currentExp") + 5);
-        PlayerPrefs.SetInt("totalExp", PlayerPrefs.GetInt("totalExp") + 5);
+        PlayerPrefs.SetInt("currentExp", Mathf.Max(0, PlayerPrefs.GetInt("currentExp") + 5));
+        PlayerPrefs.SetInt("totalExp", Mathf.Max(0, PlayerPrefs.GetInt("totalExp") + 5));
     }
 
     IEnumerator turnRed(float seconds)
@@ -206,20 +209,29 @@ public class answerButton : MonoBehaviour
         yield return new WaitForSeconds(seconds);
         buttonP1.color = defaultColor1;
         buttonP2.color = pickColor.GetComponent<Image>().color;
-        PlayerPrefs.SetInt("currentExp", PlayerPrefs.GetInt("currentExp") + 5);
-        PlayerPrefs.SetInt("totalExp", PlayerPrefs.GetInt("totalExp") + 5);
+        PlayerPrefs.SetInt("currentExp", Mathf.Max(0, PlayerPrefs.GetInt("currentExp") + 5));
+        PlayerPrefs.SetInt("totalExp", Mathf.Max(0, PlayerPrefs.GetInt("totalExp") + 5));
     }
 
     IEnumerator reload(int seconds)
     {
         yield return new WaitForSeconds(seconds);
         questionSetup.Start();
-        timeController.Start();
+        timeController.ResetTimer(); // Reset the timer for the next question
+        timeController.StartTimer(); // Start the timer for the next question
     }
 
     IEnumerator resultPage(int waitTime)
     {
         yield return new WaitForSeconds(waitTime);
+
+        // Ensure total score is not negative before displaying it
+        int totalScore = PlayerPrefs.GetInt("totalExp");
+        if (totalScore < 0)
+        {
+            PlayerPrefs.SetInt("totalExp", 0);
+        }
+
         SceneManager.LoadScene("Result");
     }
 
@@ -227,6 +239,14 @@ public class answerButton : MonoBehaviour
     {
         admobAdsScript.ShowInterstitialAd();
         yield return new WaitForSeconds(waitTime);
+
+        // Ensure total score is not negative before displaying it
+        int totalScore = PlayerPrefs.GetInt("totalExp");
+        if (totalScore < 0)
+        {
+            PlayerPrefs.SetInt("totalExp", 0);
+        }
+
         SceneManager.LoadScene("Result");
     }
 

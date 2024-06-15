@@ -215,6 +215,14 @@ MonoBehaviour:
     m_Localized: AUDIO
     m_Metadata:
       m_Items: []
+  - m_Id: 26197285032468480
+    m_Localized: WAKTU GENTING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26198202645520384
+    m_Localized: Tekan ini untuk masuk mod Waktu Genting
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

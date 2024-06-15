@@ -1408,7 +1408,9 @@ MonoBehaviour:
   practiceText: {fileID: 1976094746}
   fillBar: {fileID: 306091393}
   maxTime: 10
+  maxRushTime: 5
   currTime: 0
+  blockPanel: {fileID: 1099774241}
 --- !u!1 &363675683 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8501703884439056387, guid: 583156c0e186a8f4e86e2687a8033b90, type: 3}
@@ -3249,7 +3251,7 @@ GameObject:
   - component: {fileID: 1099774243}
   m_Layer: 5
   m_Name: PUBlockPanel
-  m_TagString: Untagged
+  m_TagString: PUBlockPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

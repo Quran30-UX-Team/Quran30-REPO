@@ -171,7 +171,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 39
-    m_Localized: Click this button to start Quiz. Timer Mode, Deeds Reward.
+    m_Localized: 'Click this button to start Rush Hour. '
     m_Metadata:
       m_Items: []
   - m_Id: 40
@@ -212,6 +212,14 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 49
     m_Localized: AUDIO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26197285032468480
+    m_Localized: RUSH HOUR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26198202645520384
+    m_Localized: Click this to enter Rush Hour mode.
     m_Metadata:
       m_Items: []
   references:
