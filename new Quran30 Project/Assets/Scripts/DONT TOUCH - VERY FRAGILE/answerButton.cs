@@ -87,13 +87,28 @@ public class answerButton : MonoBehaviour
 
     public void onClick()
     {
-        // Stop the timer when an answer button is clicked //baiki sini utk set wrong answer lead ke page reward
+        // Stop the timer when an answer button is clicked
         timeController.StopTimer();
 
         StartCoroutine(debounce(isCorrect ? 1 : 2));
 
         int i = questionSetup.counter;
         doublePanel.SetActive(false);
+
+        if (PlayerPrefs.GetString("Level Type") == "RushSurahSelect" && !isCorrect)
+        {
+            // Find the correct answer button and turn it green
+            //answerButton[] answerButtons = FindObjectsOfType<answerButton>();
+           // answerButton correctButton = answerButtons.First(button => button.isCorrect);
+            //correctButton.StartCoroutine(correctButton.turnGreen(2f));
+
+            // Turn the clicked wrong answer button red
+            StartCoroutine(turnRed(2f));
+
+            // Load the Result scene after showing the correct and wrong answers
+            StartCoroutine(resultPage(0)); // Delay to show both answers
+            return; // Exit the method to prevent further execution
+        }
 
         if (isCorrect)
         {
@@ -291,3 +306,6 @@ public class answerButton : MonoBehaviour
         }
     }
 }
+
+
+

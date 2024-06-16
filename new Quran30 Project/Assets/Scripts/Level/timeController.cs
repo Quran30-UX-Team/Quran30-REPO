@@ -137,26 +137,35 @@ public class timeController : MonoBehaviour
     {
         isTransitioning = true; // Set the transition state to true
 
-        // Check if there are remaining questions
-        if (questionSetup.questions.Count > 0)
+        // Check if the current level type is RushSurahSelect
+        if (PlayerPrefs.GetString("Level Type") == "RushSurahSelect")
         {
-            // Reset the timer when time runs out
-            ResetTimer();
-
-            // Set deeds and scores to 0 for the current question
-            int i = questionSetup.counter;
-            PlayerPrefs.SetFloat("Deeds_" + i, 0);
-            PlayerPrefs.SetFloat("Scores_" + i, 0);
-
-            // Move to the next question
-            questionSetup.Start();
-            doublePanel.SetActive(false);
-            Debug.Log("RAN OUT OF TIME");
+            // Transition to the Result scene immediately
+            StartCoroutine(resultPage(0));
         }
         else
         {
-            // Transition to the result page after a short delay
-            StartCoroutine(resultPage(1));
+            // Check if there are remaining questions
+            if (questionSetup.questions.Count > 0)
+            {
+                // Reset the timer when time runs out
+                ResetTimer();
+
+                // Set deeds and scores to 0 for the current question
+                int i = questionSetup.counter;
+                PlayerPrefs.SetFloat("Deeds_" + i, 0);
+                PlayerPrefs.SetFloat("Scores_" + i, 0);
+
+                // Move to the next question
+                questionSetup.Start();
+                doublePanel.SetActive(false);
+                Debug.Log("RAN OUT OF TIME");
+            }
+            else
+            {
+                // Transition to the result page after a short delay
+                StartCoroutine(resultPage(1));
+            }
         }
 
         isTransitioning = false; // Reset the transition state
@@ -174,3 +183,6 @@ public class timeController : MonoBehaviour
         SceneManager.LoadScene("Result");
     }
 }
+
+
+
