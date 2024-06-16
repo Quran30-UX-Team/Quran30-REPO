@@ -12,8 +12,8 @@ public class resultPage : MonoBehaviour
     public ParticleSystem VFX;
     private LeaderboardManager leaderboard;
 
-    public TextMeshProUGUI congratsPanel;
-    public TextMeshProUGUI rewardPanel;
+    public TextMeshProUGUI congratsPanel;  //kena tukar kpd image
+    public TextMeshProUGUI rewardPanel;   //reward panel kena buang. tukar jd image
 
     private TextMeshProUGUI congratsPanelText;
     private TextMeshProUGUI rewardPanelText;
@@ -91,7 +91,7 @@ public class resultPage : MonoBehaviour
             Star1.SetActive(false);
             Star2.SetActive(false);
             Star3.SetActive(false);
-            Title.text = "TRY AGAIN!";
+            Title.text = "TRY AGAIN!"; //image banner try again or congratulation
         }
         else if (totalScores < 15)
         {
@@ -142,7 +142,7 @@ public class resultPage : MonoBehaviour
         }
 
         congratsPanelText.text = "<b>" + roundedScore + "</b>";
-        rewardPanelText.text = "RECEIVED " + "<b>" + roundedDeed + "</b>" + " DEEDS";
+        rewardPanelText.text = "RECEIVED " + "<b>" + roundedDeed + "</b>" + " DEEDS"; //kena buang panel reward
 
         PlayerPrefs.SetFloat("Deeds", totalDeeds);
         PlayerPrefs.SetFloat("Score", 0);
