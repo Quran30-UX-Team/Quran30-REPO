@@ -12,17 +12,20 @@ public class resultPage : MonoBehaviour
     public ParticleSystem VFX;
     private LeaderboardManager leaderboard;
 
-    public TextMeshProUGUI congratsPanel;  //kena tukar kpd image
-    public TextMeshProUGUI rewardPanel;   //reward panel kena buang. tukar jd image
+    public GameObject congratsPanel; // This should be an Image or GameObject with an Image component
+    public GameObject deedsImage; // DeedsImage as parent
 
     private TextMeshProUGUI congratsPanelText;
-    private TextMeshProUGUI rewardPanelText;
+    private TextMeshProUGUI rewardPanelText; // Text as child under DeedsImage
 
     public GameObject Star1;
     public GameObject Star2;
     public GameObject Star3;
 
-    public TextMeshProUGUI Title;
+    // public TextMeshProUGUI Title; // Remove this
+
+    public GameObject tryAgainBanner; // New GameObject for TRY AGAIN banner
+    public GameObject congratulationsBanner; // New GameObject for CONGRATULATIONS banner
 
     public TextMeshProUGUI[] deedTexts;
     public TextMeshProUGUI[] scoreTexts;
@@ -52,8 +55,8 @@ public class resultPage : MonoBehaviour
         Debug.Log(PlayerPrefs.GetString("Slot1") + " " + PlayerPrefs.GetString("Slot2") + " " + PlayerPrefs.GetString("Slot3"));
 
         leaderboard = FindObjectOfType<LeaderboardManager>();
-        congratsPanelText = congratsPanel.GetComponent<TextMeshProUGUI>();
-        rewardPanelText = rewardPanel.GetComponent<TextMeshProUGUI>();
+        congratsPanelText = congratsPanel.GetComponentInChildren<TextMeshProUGUI>();
+        rewardPanelText = deedsImage.GetComponentInChildren<TextMeshProUGUI>();
 
         float totalDeeds = 0;
         float totalScores = 0;
@@ -91,14 +94,16 @@ public class resultPage : MonoBehaviour
             Star1.SetActive(false);
             Star2.SetActive(false);
             Star3.SetActive(false);
-            Title.text = "TRY AGAIN!"; //image banner try again or congratulation
+            tryAgainBanner.SetActive(true); // Activate TRY AGAIN banner
+            congratulationsBanner.SetActive(false); // Deactivate CONGRATULATIONS banner
         }
         else if (totalScores < 15)
         {
             Star1.SetActive(true);
             Star2.SetActive(false);
             Star3.SetActive(false);
-            Title.text = "CONGRATULATION!";
+            tryAgainBanner.SetActive(false); // Deactivate TRY AGAIN banner
+            congratulationsBanner.SetActive(true); // Activate CONGRATULATIONS banner
 
             audioManager.PlaySFX(audioManager.resultPageSFX);
         }
@@ -107,7 +112,8 @@ public class resultPage : MonoBehaviour
             Star1.SetActive(true);
             Star2.SetActive(true);
             Star3.SetActive(false);
-            Title.text = "CONGRATULATION!";
+            tryAgainBanner.SetActive(false); // Deactivate TRY AGAIN banner
+            congratulationsBanner.SetActive(true); // Activate CONGRATULATIONS banner
 
             audioManager.PlaySFX(audioManager.resultPageSFX);
         }
@@ -116,7 +122,8 @@ public class resultPage : MonoBehaviour
             Star1.SetActive(true);
             Star2.SetActive(true);
             Star3.SetActive(true);
-            Title.text = "CONGRATULATION!";
+            tryAgainBanner.SetActive(false); // Deactivate TRY AGAIN banner
+            congratulationsBanner.SetActive(true); // Activate CONGRATULATIONS banner
 
             audioManager.PlaySFX(audioManager.resultPageSFX);
         }
@@ -142,7 +149,7 @@ public class resultPage : MonoBehaviour
         }
 
         congratsPanelText.text = "<b>" + roundedScore + "</b>";
-        rewardPanelText.text = "RECEIVED " + "<b>" + roundedDeed + "</b>" + " DEEDS"; //kena buang panel reward
+        rewardPanelText.text =  roundedDeed + "</b>" + " DEEDS"; // kena buang panel reward
 
         PlayerPrefs.SetFloat("Deeds", totalDeeds);
         PlayerPrefs.SetFloat("Score", 0);
@@ -162,12 +169,9 @@ public class resultPage : MonoBehaviour
         totalScoreText.text = "Total Score: " + totalScoreValue;
     }
 
-
     IEnumerator Confetti(float seconds)
     {
         yield return new WaitForSeconds(seconds);
         VFX.Play();
     }
 }
-
-
