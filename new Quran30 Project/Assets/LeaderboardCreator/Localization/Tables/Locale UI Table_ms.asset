@@ -223,6 +223,10 @@ MonoBehaviour:
     m_Localized: Tekan ini untuk masuk mod Waktu Genting
     m_Metadata:
       m_Items: []
+  - m_Id: 27842464499933184
+    m_Localized: AVATAR
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

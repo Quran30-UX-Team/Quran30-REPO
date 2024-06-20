@@ -223,6 +223,10 @@ MonoBehaviour:
     m_Key: Key_Tutorisl10
     m_Metadata:
       m_Items: []
+  - m_Id: 27842464499933184
+    m_Key: Key_AVATAR
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

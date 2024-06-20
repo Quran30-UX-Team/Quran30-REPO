@@ -222,6 +222,10 @@ MonoBehaviour:
     m_Localized: Click this to enter Rush Hour mode.
     m_Metadata:
       m_Items: []
+  - m_Id: 27842464499933184
+    m_Localized: AVATAR
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
