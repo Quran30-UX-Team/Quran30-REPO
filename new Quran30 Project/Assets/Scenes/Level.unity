@@ -2236,6 +2236,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 584878661}
     - target: {fileID: 937071373472103728, guid: f333908aad8cfce4d94cf50c61faa1af, type: 3}
+      propertyPath: blockPanel
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 937071373472103728, guid: f333908aad8cfce4d94cf50c61faa1af, type: 3}
       propertyPath: doublePanel
       value: 
       objectReference: {fileID: 554686059}
@@ -2482,6 +2486,10 @@ PrefabInstance:
       propertyPath: pickColor
       value: 
       objectReference: {fileID: 584878661}
+    - target: {fileID: 937071373472103728, guid: f333908aad8cfce4d94cf50c61faa1af, type: 3}
+      propertyPath: blockPanel
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 937071373472103728, guid: f333908aad8cfce4d94cf50c61faa1af, type: 3}
       propertyPath: doublePanel
       value: 
@@ -3039,6 +3047,10 @@ PrefabInstance:
       propertyPath: pickColor
       value: 
       objectReference: {fileID: 584878661}
+    - target: {fileID: 937071373472103728, guid: f333908aad8cfce4d94cf50c61faa1af, type: 3}
+      propertyPath: blockPanel
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 937071373472103728, guid: f333908aad8cfce4d94cf50c61faa1af, type: 3}
       propertyPath: doublePanel
       value: 

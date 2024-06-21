@@ -9,7 +9,8 @@ public class displayCoin : MonoBehaviour
 
     void Update()
     {
-        scoreText.text = Mathf.RoundToInt(PlayerPrefs.GetFloat("Deeds")).ToString();
+        // Get the updated deeds value from PlayerPrefs
+        float updatedDeeds = PlayerPrefs.GetFloat("Deeds", 0);
+        scoreText.text = Mathf.RoundToInt(updatedDeeds).ToString(); // Update the displayed text
     }
-
 }

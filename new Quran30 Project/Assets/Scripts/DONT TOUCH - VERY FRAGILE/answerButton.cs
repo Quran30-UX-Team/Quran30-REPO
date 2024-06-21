@@ -97,15 +97,15 @@ public class answerButton : MonoBehaviour
 
         if (PlayerPrefs.GetString("Level Type") == "RushSurahSelect" && !isCorrect)
         {
-            // Find the correct answer button and turn it green
-            //answerButton[] answerButtons = FindObjectsOfType<answerButton>();
-           // answerButton correctButton = answerButtons.First(button => button.isCorrect);
-            //correctButton.StartCoroutine(correctButton.turnGreen(2f));
+            // Save the deeds and scores for the current question even if the answer is wrong
+            wrongDeeds = PlayerPrefs.GetFloat("Timer") * 0.05f;
+            wrongScores = (11f - PlayerPrefs.GetFloat("Timer")) * -0.75f;
 
-            // Turn the clicked wrong answer button red
-            StartCoroutine(turnRed(2f));
+            PlayerPrefs.SetFloat("Deeds_" + i, Mathf.Round(wrongDeeds * 100f) / 100f);
+            PlayerPrefs.SetFloat("Scores_" + i, Mathf.Round(wrongScores * 100f) / 100f);
 
-            // Load the Result scene after showing the correct and wrong answers
+            StartCoroutine(turnRed(0.75f)); // Change the button's color to red
+            // Load the Result scene immediately
             StartCoroutine(resultPage(0)); // Delay to show both answers
             return; // Exit the method to prevent further execution
         }
@@ -238,6 +238,13 @@ public class answerButton : MonoBehaviour
 
     IEnumerator resultPage(int waitTime)
     {
+        // Ensure deeds and scores for unanswered questions are set to 0
+        for (int i = questionSetup.counter + 1; i < questionSetup.questions.Count; i++)
+        {
+            PlayerPrefs.SetFloat("Deeds_" + i, 0);
+            PlayerPrefs.SetFloat("Scores_" + i, 0);
+        }
+
         yield return new WaitForSeconds(waitTime);
 
         // Ensure total score is not negative before displaying it
@@ -253,6 +260,14 @@ public class answerButton : MonoBehaviour
     IEnumerator resultPageAD(int waitTime)
     {
         admobAdsScript.ShowInterstitialAd();
+        yield return new WaitForSeconds(waitTime);
+
+        // Ensure deeds and scores for unanswered questions are set to 0
+        for (int i = questionSetup.counter + 1; i < questionSetup.questions.Count; i++)
+        {
+            PlayerPrefs.SetFloat("Deeds_" + i, 0);
+            PlayerPrefs.SetFloat("Scores_" + i, 0);
+        }
         yield return new WaitForSeconds(waitTime);
 
         // Ensure total score is not negative before displaying it
@@ -306,6 +321,3 @@ public class answerButton : MonoBehaviour
         }
     }
 }
-
-
-

@@ -22,8 +22,6 @@ public class resultPage : MonoBehaviour
     public GameObject Star2;
     public GameObject Star3;
 
-    // public TextMeshProUGUI Title; // Remove this
-
     public GameObject tryAgainBanner; // New GameObject for TRY AGAIN banner
     public GameObject congratulationsBanner; // New GameObject for CONGRATULATIONS banner
 
@@ -69,26 +67,35 @@ public class resultPage : MonoBehaviour
         // Set deed and score texts dynamically
         for (int i = 0; i < deedTexts.Length; i++)
         {
-            deedTexts[i].text = "Q" + (i + 1) + " Deeds: " + PlayerPrefs.GetFloat("Deeds_" + (i + 1));
-            scoreTexts[i].text = "Q" + (i + 1) + " Scores: " + PlayerPrefs.GetFloat("Scores_" + (i + 1));
+            float deeds = PlayerPrefs.GetFloat("Deeds_" + (i + 1));
+            float scores = PlayerPrefs.GetFloat("Scores_" + (i + 1));
 
-            totalDeeds += PlayerPrefs.GetFloat("Deeds_" + (i + 1));
-            totalScores += PlayerPrefs.GetFloat("Scores_" + (i + 1));
+            deedTexts[i].text = "Q" + (i + 1) + " Deeds: " + deeds;
+            scoreTexts[i].text = "Q" + (i + 1) + " Scores: " + scores;
 
-            // Debug log to show the calculation of total deeds
-            Debug.Log("Deeds for Question " + (i + 1) + ": " + PlayerPrefs.GetFloat("Deeds_" + (i + 1)));
+            totalDeeds += deeds;
+            totalScores += scores;
+
+            // Debug log to show the deeds and scores for each question
+            Debug.Log("Question " + (i + 1) + " - Deeds: " + deeds + ", Scores: " + scores);
         }
 
         // Double the total deeds for RushSurahSelect mode
         if (PlayerPrefs.GetString("Level Type") == "RushSurahSelect")
         {
             totalDeeds *= 2;
+            totalScores *= 2;
         }
 
         totalDeed.text = "Total Deeds: " + totalDeeds.ToString();
         totalScore.text = "Total Scores: " + totalScores.ToString();
 
         // Check the score and activate stars accordingly
+        if (totalScores < 0)
+        {
+            totalScores = 0;
+        }
+
         if (totalScores < 0.04)
         {
             Star1.SetActive(false);
@@ -149,15 +156,14 @@ public class resultPage : MonoBehaviour
         }
 
         congratsPanelText.text = "<b>" + roundedScore + "</b>";
-        rewardPanelText.text =  roundedDeed ; // kena buang panel reward
+        rewardPanelText.text = roundedDeed ; // kena buang panel reward
 
-        PlayerPrefs.SetFloat("Deeds", totalDeeds);
-        PlayerPrefs.SetFloat("Score", 0);
+        // Update the deeds value in PlayerPrefs
+        float oldDeeds = PlayerPrefs.GetFloat("Deeds", 0); // Get the old deeds value, default to 0 if not set
+        float newDeeds = totalDeeds; // Calculate the new deeds obtained
+        PlayerPrefs.SetFloat("Deeds", oldDeeds + newDeeds);
+        PlayerPrefs.Save(); // Save changes to PlayerPrefs
 
-        if (totalDeeds > 0)
-        {
-            PlayerPrefs.SetInt("totalDeed", PlayerPrefs.GetInt("totalDeed") + (int)totalDeeds);
-        }
 
         int totalScoreValue = PlayerPrefs.GetInt("totalScore");
 
@@ -173,5 +179,29 @@ public class resultPage : MonoBehaviour
     {
         yield return new WaitForSeconds(seconds);
         VFX.Play();
+    }
+
+    // Method to reset deeds and scores
+    private void ResetDeedsAndScores()
+    {
+        for (int i = 0; i < deedTexts.Length; i++)
+        {
+            PlayerPrefs.SetFloat("Deeds_" + (i + 1), 0);
+            PlayerPrefs.SetFloat("Scores_" + (i + 1), 0);
+        }
+    }
+
+    // Method to handle retry button click
+    public void OnRetryButtonClick()
+    {
+        ResetDeedsAndScores();
+        SceneManager.LoadScene("Level");
+    }
+
+    // Method to handle back to main menu button click
+    public void OnBackToMainMenuButtonClick()
+    {
+        ResetDeedsAndScores();
+        SceneManager.LoadScene("MainMenu");
     }
 }
