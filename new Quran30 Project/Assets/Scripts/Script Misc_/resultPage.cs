@@ -149,7 +149,7 @@ public class resultPage : MonoBehaviour
         }
 
         congratsPanelText.text = "<b>" + roundedScore + "</b>";
-        rewardPanelText.text =  roundedDeed + "</b>" + " DEEDS"; // kena buang panel reward
+        rewardPanelText.text =  roundedDeed ; // kena buang panel reward
 
         PlayerPrefs.SetFloat("Deeds", totalDeeds);
         PlayerPrefs.SetFloat("Score", 0);
