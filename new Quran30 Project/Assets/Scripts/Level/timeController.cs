@@ -140,6 +140,13 @@ public class timeController : MonoBehaviour
         // Check if the current level type is RushSurahSelect
         if (PlayerPrefs.GetString("Level Type") == "RushSurahSelect")
         {
+            // Reset deeds and scores to 0 for remaining questions
+            for (int i = questionSetup.counter; i < questionSetup.questions.Count; i++)
+            {
+                PlayerPrefs.SetFloat("Deeds_" + i, 0);
+                PlayerPrefs.SetFloat("Scores_" + i, 0);
+            }
+
             // Transition to the Result scene immediately
             StartCoroutine(resultPage(0));
         }
@@ -160,6 +167,10 @@ public class timeController : MonoBehaviour
                 questionSetup.Start();
                 doublePanel.SetActive(false);
                 Debug.Log("RAN OUT OF TIME");
+
+                // Debug log wrong deeds and scores
+                Debug.Log("Wrong Deeds: " + PlayerPrefs.GetFloat("Deeds_" + i));
+                Debug.Log("Wrong Scores: " + PlayerPrefs.GetFloat("Scores_" + i));
             }
             else
             {
@@ -183,6 +194,3 @@ public class timeController : MonoBehaviour
         SceneManager.LoadScene("Result");
     }
 }
-
-
-
