@@ -39,7 +39,7 @@ public class practiceSelect : MonoBehaviour
         DeactivateAllPanels();
         if (!descPanel1.activeSelf)
         {
-            ActivatePanel(descPanel1, originalButton2Position, originalButton3Position, 0.5f);
+            ActivatePanel(descPanel1, originalButton2Position, originalButton3Position, 106);
             PlayerPrefs.SetString("Level Type", "PracticeSurahSelect");
         }
     }
@@ -49,7 +49,7 @@ public class practiceSelect : MonoBehaviour
         DeactivateAllPanels();
         if (!descPanel2.activeSelf)
         {
-            ActivatePanel(descPanel2, originalButton3Position, originalButton1Position, 0.5f);
+            ActivatePanel(descPanel2, originalButton3Position, originalButton1Position, 106);
             PlayerPrefs.SetString("Level Type", "QuizSurahSelect");
         }
     }
