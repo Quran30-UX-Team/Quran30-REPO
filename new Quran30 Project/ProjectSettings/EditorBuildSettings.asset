@@ -50,6 +50,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UserFeedBack.unity
     guid: cf052878e7f02674ebe38ed1caab6578
+  - enabled: 1
+    path: Assets/Scenes/Report.unity
+    guid: c2717251dc417bf4f960bef76615c6ca
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 60071c242d2e7b648b63149602229b69, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 13baf3e80106e71409dcadf2a72d4e5e, type: 2}
