@@ -32,7 +32,7 @@ public class Report : MonoBehaviour
     {
         WWWForm form = new WWWForm();
         form.AddField("entry.811636940", _feedback);
-        form.AddField("entry.1318039022", string.Join(" , ", _checkboxAnswers)); // Replace with your checkbox field entry ID
+        form.AddField("entry.1318039022", _checkboxAnswers);
 
         Debug.Log("Request data:");
         Debug.Log("Feedback: " + _feedback);
@@ -52,10 +52,6 @@ public class Report : MonoBehaviour
         {
             Debug.Log("Error sending report: " + www.error);
         }
-
-        // Check the response data
-        string responseData = www.downloadHandler.text;
-        Debug.Log("Response data: " + responseData);
     }
 
     string GetCheckboxAnswers()
