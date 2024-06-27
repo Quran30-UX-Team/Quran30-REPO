@@ -1,18 +1,25 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections.Generic;
 
 public class OutfitSlot : MonoBehaviour
 {
     public SpriteRenderer bodyPart;
     public List<Sprite> options = new List<Sprite>();
 
-    private int currentOption = 0;
+    private string saveKey;
 
-    // void Start()
-    //  {
-    // LoadOption();//
-    // }//
+    public OutfitSlot(string saveKey)
+    {
+        this.saveKey = saveKey;
+    }
+
+  
+
+    public int currentOption
+    {
+        get { return PlayerPrefs.GetInt(saveKey, 0); }
+        set { PlayerPrefs.SetInt(saveKey, value); }
+    }
 
     public void SelectOption(int optionIndex)
     {
@@ -20,23 +27,11 @@ public class OutfitSlot : MonoBehaviour
         {
             currentOption = optionIndex;
             bodyPart.sprite = options[currentOption];
-            SaveOption();
         }
-    }
-
-    public void SaveCurrentOption()
-    {
-        SaveOption();
-    }
-
-    private void SaveOption()
-    {
-        PlayerPrefs.SetInt("SelectedOption", currentOption);
     }
 
     public void LoadOption()
     {
-        currentOption = PlayerPrefs.GetInt("SelectedOption", 0);
         if (currentOption >= 0 && currentOption < options.Count)
         {
             bodyPart.sprite = options[currentOption];
