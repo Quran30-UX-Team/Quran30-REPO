@@ -28,11 +28,14 @@ public class Report : MonoBehaviour
         thankYouPanel.SetActive(true);
     }
 
-    IEnumerator Post(string _feedback, string _checkboxAnswers)
+    IEnumerator Post(string _feedback, List<string> _checkboxAnswers)
     {
         WWWForm form = new WWWForm();
         form.AddField("entry.811636940", _feedback);
-        form.AddField("entry.1318039022", _checkboxAnswers);
+        for (int i = 0; i < _checkboxAnswers.Count; i++)
+        {
+            form.AddField("entry.1318039022", _checkboxAnswers[i]);
+        }
 
         Debug.Log("Request data:");
         Debug.Log("Feedback: " + _feedback);
@@ -54,7 +57,7 @@ public class Report : MonoBehaviour
         }
     }
 
-    string GetCheckboxAnswers()
+    List<string> GetCheckboxAnswers()
     {
         List<string> checkboxAnswers = new List<string>();
 
@@ -66,8 +69,7 @@ public class Report : MonoBehaviour
             }
         }
 
-        // Return a comma-separated string
-        return string.Join(" , ", checkboxAnswers);
+        return checkboxAnswers;
     }
 
     string GetCheckboxAnswer(Toggle checkbox)

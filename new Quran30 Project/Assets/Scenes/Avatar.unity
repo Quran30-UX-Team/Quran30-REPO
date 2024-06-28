@@ -2477,8 +2477,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98c24e918a7ac234ba23ab00378851cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hairSlots:
-  - {fileID: 50466263}
   outfitSlots:
   - {fileID: 1104295044}
 --- !u!4 &666211246
@@ -6189,7 +6187,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2105453419
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6222,7 +6220,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98c24e918a7ac234ba23ab00378851cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hairSlots: []
   outfitSlots:
   - {fileID: 1104295044}
   - {fileID: 50466263}
