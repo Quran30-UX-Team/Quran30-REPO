@@ -8,7 +8,7 @@ public class RateUsPopup : MonoBehaviour
     public Button rateButton;
     public Button notNowButton;
     public GameObject rateUsPanel;
-    private string playStoreUrl = "https://play.google.com/store/apps/details?id=com.example.yourgame";
+    private string playStoreUrl = "https://play.google.com/store/apps/details?id=com.aqwise.quranirab&hl=en_US";
 
     private int selectedStarIndex = -1; // Keep track of the highest selected star index
 
