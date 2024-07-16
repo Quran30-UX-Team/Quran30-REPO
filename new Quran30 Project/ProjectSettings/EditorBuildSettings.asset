@@ -9,10 +9,16 @@ EditorBuildSettings:
     path: Assets/Scenes/Startup.unity
     guid: b77c0d79653307846b44a8110c664d9c
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 6043b2ed38074af489274bbda56ba0bb
+  - enabled: 1
+    path: Assets/Scenes/Play.unity
+    guid: d17f6cd7268b3d74ba3ee279e20d0e17
+  - enabled: 1
     path: Assets/Scenes/Achievements.unity
     guid: 975995be31bf89246904a2b957a5fc0c
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/Scenes/MainMenu1.unity
     guid: d9d62c3046e425447b537ecc8012c8bb
   - enabled: 1
     path: Assets/Scenes/AboutUs.unity
@@ -27,7 +33,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Leaderboard.unity
     guid: 9aca3ef382364b941a6c919b09cc7716
   - enabled: 1
-    path: Assets/Scenes/Play.unity
+    path: Assets/Scenes/Play1.unity
     guid: dbd898e43a0355f419c41e560a58c6ff
   - enabled: 1
     path: Assets/Scenes/SurahSelect.unity

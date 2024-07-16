@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class tutorialHandler : MonoBehaviour
@@ -53,50 +52,77 @@ public class tutorialHandler : MonoBehaviour
     }
 
     void Update()
-{
-    // Ensure only the current panel is active
-    for (int i = 0; i < tutorialPanels.Length; i++)
     {
-        tutorialPanels[i].SetActive(i == currentPanelIndex);
-    }
-
-    // Activate current animation and set boolean parameters
-    for (int j = 0; j < boolParameterValues.Length; j++)
-    {
-        tutorAnimation[j].SetActive(j == currentPanelIndex);
-        Animator animator = tutorAnimation[j].GetComponent<Animator>();
-
-        for (int k = 0; k < boolParameterValues.Length; k++)
+        // Ensure only the current panel is active
+        for (int i = 0; i < tutorialPanels.Length; i++)
         {
-            animator.SetBool(boolParameterNames[k], boolParameterValues[k] = false);
+            tutorialPanels[i].SetActive(i == currentPanelIndex);
         }
 
-        animator.SetBool(boolParameterNames[j], boolParameterValues[j] = true);
+        // Activate current animation and set boolean parameters
+        for (int j = 0; j < tutorAnimation.Length; j++)
+        {
+            tutorAnimation[j].SetActive(j == currentPanelIndex);
+            Animator animator = tutorAnimation[j].GetComponent<Animator>();
+
+            for (int k = 0; k < boolParameterValues.Length; k++)
+            {
+                animator.SetBool(boolParameterNames[k], boolParameterValues[k] = false);
+            }
+
+            if (j == currentPanelIndex)
+            {
+                animator.SetBool(boolParameterNames[j], true);
+                boolParameterValues[j] = true;
+            }
+        }
     }
-}
+
     public void OnContinueButtonClick()
     {
-        // Increment the current panel index
-        currentPanelIndex++;
-
-        // If all panels have been shown, reset to the first panel and load the scene
-        if (currentPanelIndex >= tutorialPanels.Length)
+        // If all panels have been shown, keep the last panel and animation active and load the scene
+        if (currentPanelIndex >= tutorialPanels.Length - 1)
         {
-            tutorMenu.SetActive(false);
-            tutorialBG.SetActive(false);
-            SceneManager.LoadScene("Play");
-            if (SceneManager.GetActiveScene().name == "Play")
-            {
-                PlayerPrefs.SetInt("hasSkip", 1);
-                SceneManager.LoadScene("MainMenu");
-            }
+            tutorMenu.SetActive(true);
+            tutorialBG.SetActive(true);
+
+            // Ensure the last panel and animation remain active
+            tutorialPanels[tutorialPanels.Length - 1].SetActive(true);
+            tutorAnimation[tutorAnimation.Length - 1].SetActive(true);
+
+            // Start coroutine to load the scene
+            StartCoroutine(ShowLastPanelAndLoadScene());
+        }
+        else
+        {
+            // Increment the current panel index
+            currentPanelIndex++;
+        }
+    }
+
+    IEnumerator ShowLastPanelAndLoadScene()
+    {
+        // Ensure the last panel and animation remain active
+        tutorialPanels[tutorialPanels.Length - 1].SetActive(true);
+        tutorAnimation[tutorAnimation.Length - 1].SetActive(true);
+        tutorialBG.SetActive(true);
+
+        // Wait for a short duration to ensure visibility
+        yield return new WaitForSeconds(0.1f); // Adjust the duration as needed
+
+        SceneManager.LoadScene("Play");
+
+        if (SceneManager.GetActiveScene().name == "Play")
+        {
+            PlayerPrefs.SetInt("hasSkip", 1);
+            SceneManager.LoadScene("MainMenu");
         }
     }
 
     public void OnSkipButtonClick()
     {
-        tutorMenu.SetActive(false);
-        tutorialBG.SetActive(false);
+        tutorMenu.SetActive(true);
+        tutorialBG.SetActive(true);
         PlayerPrefs.SetInt("hasSkip", 1);
         SceneManager.LoadScene("MainMenu");
     }

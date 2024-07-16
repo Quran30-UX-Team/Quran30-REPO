@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
@@ -18,8 +17,8 @@ public class panelArranger : MonoBehaviour
     // Reference to the TextMeshProUGUI component to display the count
     public TextMeshProUGUI countText;
 
-    // Function to reorder the panels and update count text
-    void ReorderPanels()
+    // Call this method to reorder the panels and update the count text
+    public void ReorderPanels()
     {
         // Get all panels under the parent transform
         List<Transform> panels = new List<Transform>();
@@ -71,8 +70,6 @@ public class panelArranger : MonoBehaviour
             }
         });
 
-
-
         // Reposition the panels according to the sorted order
         for (int i = 0; i < panels.Count; i++)
         {
@@ -92,8 +89,8 @@ public class panelArranger : MonoBehaviour
         }
     }
 
-    // Call this function to reorder panels whenever needed
-    public void Update()
+    // Call this method from other scripts or events to trigger reordering
+    public void OnSomeEvent()
     {
         ReorderPanels();
     }

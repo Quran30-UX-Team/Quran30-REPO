@@ -5,7 +5,15 @@ public class OutfitSlot : MonoBehaviour
 {
     public SpriteRenderer bodyPart;
     public List<Sprite> options = new List<Sprite>();
-    public string saveKey;
+
+    private string saveKey;
+
+    public OutfitSlot(string saveKey)
+    {
+        this.saveKey = saveKey;
+    }
+
+  
 
     public int currentOption
     {
@@ -27,11 +35,11 @@ public class OutfitSlot : MonoBehaviour
         if (currentOption >= 0 && currentOption < options.Count)
         {
             bodyPart.sprite = options[currentOption];
-            Debug.Log("Loaded option: " + currentOption + " for " + saveKey);
+            Debug.Log("Loaded option: " + currentOption);
         }
         else
         {
-            Debug.LogWarning("Loaded option index is out of range: " + currentOption + " for " + saveKey);
+            Debug.LogWarning("Loaded option index is out of range: " + currentOption);
         }
     }
 }
